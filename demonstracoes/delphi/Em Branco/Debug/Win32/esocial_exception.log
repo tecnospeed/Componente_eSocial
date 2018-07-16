@@ -1,10 +1,0 @@
-[08/02/2018 11:07:48:063] 8900 - EspdESocialCheckParams : As propriedades do Certificado estão vazias. 
-Utilizar a propriedade NomeCertificado ou as propriedades CaminhoCertificado e SenhaCertificado.
-[08/02/2018 13:56:01:147] 3124 - EspdCertStoreException : Não foi possível carregar o certificado "Selecione o certificado digital
-" devido ao seguinte problema: "Certificado não encontrado."
-[08/02/2018 13:57:17:293] 3124 - EspdESocialDataSetTX2ConteudoInvalidoException : TX2 inválido
-[08/02/2018 13:58:02:997] 1872 - EspdESocialDataSetTX2ConteudoInvalidoException : TX2 inválido
-[08/02/2018 13:58:09:961] 2752 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador está vazia.
-[08/02/2018 15:10:47:159] 8488 - EspdESocialDataSetTX2ConteudoInvalidoException : Comando inválido: "tpAmb_42"Linha 2
-[08/02/2018 15:12:29:085] 10724 - EspdCertStoreException : Não foi possível carregar o certificado "Selecione o certificado digital
-" devido ao seguinte problema: "Certificado não encontrado."
