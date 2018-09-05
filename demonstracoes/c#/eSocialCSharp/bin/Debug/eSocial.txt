@@ -1,0 +1,22 @@
+INCLUIRS1000
+tpAmb_4=2
+procEmi_5=1
+verProc_6=1.0
+tpInsc_8=1
+nrInsc_9=08187168
+iniValid_13=2017-07
+nmRazao_15=TECNOSPEED TECNOLOGIA DA INFORMACAO
+classTrib_16=99
+natJurid_17=2054
+indCoop_18=0
+indConstr_19=0
+indDesFolha_20=0
+multTabRubricas_22=S
+indOptRegEletron_21=0
+indEntEd_23=N
+indEtt_24=N
+nmCtt_36=Erike Almeida
+cpfCtt_37=17041392730
+foneFixo_38=4430379500
+indSitPJ_63=0
+SALVARS1000

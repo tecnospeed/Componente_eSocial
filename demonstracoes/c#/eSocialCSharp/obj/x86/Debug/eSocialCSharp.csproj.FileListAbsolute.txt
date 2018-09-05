@@ -1,0 +1,10 @@
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\bin\x86\Debug\eSocialCSharp.exe.config
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\obj\x86\Debug\Interop.ESocialClientX.dll
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\obj\x86\Debug\eSocialCSharp.csproj.ResolveComReference.cache
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\bin\x86\Debug\eSocialCSharp.exe
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\bin\x86\Debug\eSocialCSharp.pdb
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\obj\x86\Debug\eSocialCSharp.Form1.resources
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\obj\x86\Debug\eSocialCSharp.Properties.Resources.resources
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\obj\x86\Debug\eSocialCSharp.csproj.GenerateResource.Cache
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\obj\x86\Debug\eSocialCSharp.exe
+C:\Users\guilherme.ganassin\Desktop\eSocialCSharp\eSocialCSharp\obj\x86\Debug\eSocialCSharp.pdb

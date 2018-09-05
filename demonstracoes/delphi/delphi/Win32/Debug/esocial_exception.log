@@ -1,0 +1,47 @@
+[13/07/2018 13:20:55:016] 1696 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador deve ser preenchida com 11 ou 14 dígitos. 
+[18/07/2018 09:02:59:504] 9036 - EspdESocialDataSetTX2ConteudoInvalidoException : Comando inválido: "Medições:"Linha 10
+[18/07/2018 09:03:28:340] 9036 - EspdESocialDataSetTX2ConteudoInvalidoException : Comando inválido: "Medições:"Linha 10
+[18/07/2018 16:45:50:986] 1448 - EspdESocialInvalidXMLException : O XML não é valido.
+[18/07/2018 16:45:51:002] 1448 - EspdESocialException : O XML não é valido.
+[18/07/2018 16:46:15:517] 1448 - EspdESocialInvalidXMLException : O XML não é valido.
+[18/07/2018 16:46:15:560] 1448 - EspdESocialException : O XML não é valido.
+[23/07/2018 15:50:31:807] 1236 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador está vazia.
+[31/07/2018 09:48:22:216] 3536 - EspdESocialCheckParams : As propriedades do Certificado estão vazias. 
+Utilizar a propriedade NomeCertificado ou as propriedades CaminhoCertificado e SenhaCertificado.
+[31/07/2018 09:48:22:258] 3536 - EspdESocialException : As propriedades do Certificado estão vazias. 
+Utilizar a propriedade NomeCertificado ou as propriedades CaminhoCertificado e SenhaCertificado.
+[10/08/2018 17:29:21:213] 8776 - EspdESocialDataSetTX2ConteudoInvalidoException : TX2 inválido
+[16/08/2018 11:25:06:269] 220 - EspdESocialDataSetCampoNaoEncontradoException : Campo "matricula_15" não encontrado
+[16/08/2018 11:38:41:736] 220 - EspdESocialDataSetCampoNaoEncontradoException : Campo "codCateg_16" não encontrado
+[16/08/2018 16:16:27:251] 13388 - EspdESocialSignatureException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Win32 error: -2146434964))
+[16/08/2018 16:16:27:293] 13388 - EspdESocialException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Win32 error: -2146434964))
+[16/08/2018 16:16:35:478] 13388 - EspdESocialSignatureException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Win32 error: -2146434964))
+[16/08/2018 16:16:35:483] 13388 - EspdESocialException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Win32 error: -2146434964))
+[16/08/2018 16:16:40:947] 13388 - EspdESocialSignatureException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Win32 error: -2146434964))
+[16/08/2018 16:16:40:951] 13388 - EspdESocialException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Win32 error: -2146434964))
+[17/08/2018 12:10:47:207] 11460 - EspdCertStoreException : Certificado vencido em: 25/09/2015 08:00:00
+[17/08/2018 12:12:08:104] 2232 - EspdESocialDataSetTX2ConteudoInvalidoException : TX2 inválido
+[20/08/2018 11:00:46:454] 7044 - EspdESocialSignatureException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:00:46:474] 7044 - EspdESocialException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:00:55:305] 7044 - EspdESocialSignatureException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:00:55:408] 7044 - EspdESocialException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:00:58:048] 7044 - EspdESocialSignatureException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:00:58:233] 7044 - EspdESocialException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:01:02:012] 7044 - EspdESocialSignatureException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:01:02:017] 7044 - EspdESocialException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:01:04:368] 7044 - EspdESocialSignatureException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[20/08/2018 11:01:04:372] 7044 - EspdESocialException : Falha durante o processo de assinatura. (Exception: Falha ao salvar os dados da assinatura. (EElWin32CryptoProviderError: Signing failed: Failed to acquire key context))
+[21/08/2018 10:31:08:919] 3224 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador está vazia.
+[21/08/2018 10:31:14:092] 3224 - EspdESocialDataSetTX2ConteudoInvalidoException : TX2 inválido
+[21/08/2018 10:31:18:512] 3224 - EspdESocialXMLEventoInvalidoException : O XML não contem a tag <evento Id=""> para ser assinado.
+[21/08/2018 10:31:18:524] 3224 - EspdESocialException : O XML não contem a tag <evento Id=""> para ser assinado.
+[21/08/2018 10:37:53:074] 3224 - EspdESocialCheckParams : Diretório de Templates inválido ou inexistente. C:\Program Files\TecnoSp
+[21/08/2018 10:38:03:924] 3224 - EspdESocialCheckParams : Diretório de Templates inválido ou inexistente. C:\Program Files\TecnoSpeed\eSocial\Arquivos\z
+[21/08/2018 10:38:47:810] 3224 - EspdESocialXMLEventoInvalidoException : O XML não contem a tag <evento Id=""> para ser assinado.
+[21/08/2018 10:38:47:814] 3224 - EspdESocialException : O XML não contem a tag <evento Id=""> para ser assinado.
+[21/08/2018 10:42:49:630] 2240 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador deve ser preenchida com 11 ou 14 dígitos. 
+[23/08/2018 15:26:01:258] 8128 - EspdESocialDataSetCampoNaoEncontradoException : Campo "subrteto_51" não encontrado
+[23/08/2018 15:27:19:743] 8128 - EspdESocialDataSetTX2ConteudoInvalidoException : Comando inválido: "SALVARSOFTUAREHOUSE_61"Linha 40
+[23/08/2018 15:30:13:574] 3668 - EspdESocialDataSetTX2ConteudoInvalidoException : Comando inválido: "SALVARSOFTUAREHOUSE_55"Linha 40
+[23/08/2018 15:32:24:179] 10368 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador está vazia.
+[23/08/2018 17:37:44:361] 10952 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador está vazia.

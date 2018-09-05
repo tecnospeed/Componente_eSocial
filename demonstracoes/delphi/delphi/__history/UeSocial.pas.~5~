@@ -1,0 +1,111 @@
+unit UeSocial;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, ESocialClientX_TLB;
+
+type
+  TfrmeSocial = class(TForm)
+    edtCnpjSH: TLabeledEdit;
+    edtTokenSH: TLabeledEdit;
+    cbAmbiente: TComboBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    cbVersaoManual: TComboBox;
+    edtCnpjTransmissor: TLabeledEdit;
+    edtCnpjEmpregador: TLabeledEdit;
+    Label3: TLabel;
+    cbCertificado: TComboBox;
+    edtTemplates: TLabeledEdit;
+    edtEsquemas: TLabeledEdit;
+    btnConfigurar: TButton;
+    btnTx2: TButton;
+    btnXML: TButton;
+    btnAssinar: TButton;
+    btnEnviar: TButton;
+    btnConsultar: TButton;
+    edtIdLote: TLabeledEdit;
+    cbGrupo: TComboBox;
+    lbl1: TLabel;
+    mmoXML: TMemo;
+    procedure FormCreate(Sender: TObject);
+    procedure btnConfigurarClick(Sender: TObject);
+    procedure btnTx2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+  eSocial : TspdESocialClientX;
+    { Public declarations }
+  end;
+
+var
+  frmeSocial: TfrmeSocial;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmeSocial.btnConfigurarClick(Sender: TObject);
+begin
+  eSocial.VersaoManual := cbVersaoManual.Text;
+  eSocial.NomeCertificado := cbCertificado.Text;
+//  eSocial.CaminhoCertificado := 'Caminho do Certificado' Utilizado para passar o Caminho do .pfx do certificado.
+//  eSocial.SenhaCertificado := 'Senha do certificado' Utilizado caso o Caminho Certificado seja preenchido.
+//  eSocial.Pincode := 'Senha do certificado A3'; Senha do certificado A3 quando utilizado.
+//  eSocial.ProxyServidor := 'Servidor com porta';  Utilizado quando existe proxy na rede a ser utilizada
+//  eSocial.ProxyUsuario := 'Usuario do Proxy'; Utilizado quando existe proxy na rede a ser utilizada
+//  eSocial.ProxySenha := 'Senha do Proxy';  Utilizado quando existe proxy na rede a ser utilizada
+  eSocial.DiretorioTemplates := edtTemplates.Text;
+  eSocial.DiretorioEsquemas := edtEsquemas.Text;
+  eSocial.ConfigurarSoftwareHouse(edtCnpjSH.Text, edtTokenSH.Text);
+  eSocial.CpfCnpjTransmissor := edtCnpjTransmissor.Text;
+  eSocial.CpfCnpjEmpregador := edtCnpjEmpregador.Text;
+  if cbAmbiente.Text = '1 - Produção' then
+    eSocial.Ambiente := akProducao;
+  if cbAmbiente.Text = '2 - Homologação' then
+    eSocial.Ambiente := akPreProducaoReais;
+end;
+
+procedure TfrmeSocial.btnTx2Click(Sender: TObject);
+begin
+  mmoXML.Clear;
+  mmoXML.Lines.Add('INCLUIRS1000');
+  if cbAmbiente.Text = '1 - Produção' then
+   mmoXML.Lines.Add('tpAmb_4=1');
+  if cbAmbiente.Text = '2 - Homologação' then
+    mmoXML.Lines.Add('tpAmb_4=2');
+  mmoXML.Lines.Add('procEmi_5=1');
+  mmoXML.Lines.Add('verProc_6=1.0');
+  mmoXML.Lines.Add('tpInsc_8=1');
+  mmoXML.Lines.Add('nrInsc_9=08187168');
+  mmoXML.Lines.Add('iniValid_13=2017-07');
+  mmoXML.Lines.Add('nmRazao_15=TECNOSPEED TECNOLOGIA DA INFORMACAO');
+  mmoXML.Lines.Add('classTrib_16=99');
+  mmoXML.Lines.Add('natJurid_17=2054');
+  mmoXML.Lines.Add('indCoop_18=0');
+  mmoXML.Lines.Add('indConstr_19=0');
+  mmoXML.Lines.Add('indDesFolha_20=0');
+  mmoXML.Lines.Add('indOptRegEletron_21=0');
+  mmoXML.Lines.Add('indEntEd_23=N');
+  mmoXML.Lines.Add('indEtt_24=N');
+  mmoXML.Lines.Add('nmCtt_36=Erike Almeida');
+  mmoXML.Lines.Add('cpfCtt_37=17041392730');
+  mmoXML.Lines.Add('foneCel_39=7867834687');
+  mmoXML.Lines.Add('foneFixo_38=4430379500');
+  mmoXML.Lines.Add('indSitPJ_63=0');
+  mmoXML.Lines.Add('SALVARS1000');
+end;
+
+procedure TfrmeSocial.FormCreate(Sender: TObject);
+begin
+  eSocial := TspdESocialClientX.Create(nil);
+  frmeSocial.Caption := 'eSocial - TecnoSpeed - ' + eSocial.Versao;
+  cbVersaoManual.Items.Text := eSocial.ListarVersaoManual(#13#10);
+  cbCertificado.Items.Text := eSocial.ListarCertificados(#13#10);
+  cbVersaoManual.ItemIndex := 0;
+  cbCertificado.ItemIndex := 3;
+end;
+
+end.
