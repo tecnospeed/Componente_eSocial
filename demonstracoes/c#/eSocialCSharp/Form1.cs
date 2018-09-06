@@ -28,7 +28,7 @@ namespace eSocialCSharp
             {
                 cbCertificado.Items.Add(vetor[i]);
             }
-            cbCertificado.SelectedIndex = 3;
+            cbCertificado.SelectedIndex = 0;
 
             vetor2 = eSocial.ListarVersaoManual("|").Split('|');
             cbVersaoManual.Items.Clear();
@@ -38,12 +38,9 @@ namespace eSocialCSharp
             }
             cbVersaoManual.SelectedIndex = 0;
             cbAmbiente.SelectedIndex = 1;
-            txtTransmissor.Text = "08187168000160";
-            txtCpfCnpjSH.Text = "86837822000147";
-            txtTokenSH.Text = "Hmf3xiDgPP6nC90MO7Yy64NhEytKoOVA7AkELTZI";
-            txtEmpregador.Text = "08187168000160";
             txtEsquemas.Text = @"C:\Program Files\TecnoSpeed\eSocial\Arquivos\Esquemas\";
             txtTemplates.Text = @"C:\Program Files\TecnoSpeed\eSocial\Arquivos\Templates\";
+            rbIdLote.Checked = true;
         }
 
         private void btnCarregaTX2_Click(object sender, EventArgs e)
@@ -139,14 +136,24 @@ namespace eSocialCSharp
             IspdRetConsultarLoteItem _RetConsultaItem;
             IspdRetConsultarLoteOcorrencia _RetConsultaOcorrencia;
             IspdRetConsultarLoteOcorrenciaEnvio _RetConsultaOcorrenciaEnvio;
-
-            _RetConsulta = eSocial.ConsultarLoteEventos(txtIdentificadorLote.Text);
+            _RetConsulta = null;
+            if (rbIdLote.Checked)
+            {
+                _RetConsulta = eSocial.ConsultarLoteEventos(txtIdentificadorLote.Text);
+            }else if (rbIdEvento.Checked)
+            {
+                _RetConsulta = eSocial.ConsultarIdEvento(txtIdentificadorLote.Text);
+            } else if (rbNrRecibo.Checked)
+            {
+                _RetConsulta = eSocial.ConsultarEventoPorRecibo(txtIdentificadorLote.Text);
+            }
 
             tbRetorno.Clear();
             tbRetorno.Text += "### CONSULTAR LOTE EVENTOS ###" + Environment.NewLine;
             tbRetorno.Text += "Protocolo Sefaz: " + _RetConsulta.NumeroProtocolo + Environment.NewLine;
             tbRetorno.Text += "Mensagem: " + _RetConsulta.Mensagem + Environment.NewLine;
             tbRetorno.Text += "Status: " + _RetConsulta.Status + Environment.NewLine;
+            tbRetorno.Text += "Id de lote: " + _RetConsulta.IdLote + Environment.NewLine;
 
             tbRetorno.Text += Environment.NewLine;
 
@@ -179,6 +186,8 @@ namespace eSocialCSharp
                 tbRetorno.Text += "        Localização: " + _RetConsultaOcorrenciaEnvio.Localizacao + Environment.NewLine;
                 tbRetorno.Text += "        Tipo: " + _RetConsultaOcorrenciaEnvio.Tipo + Environment.NewLine;
             }
+            tbXmlEnvio.Text = _RetConsulta.XmlEnviado;
+            tbXmlRetorno.Text = _RetConsulta.XmlRetorno;
         }
 
         private void btnConfigurarSH_Click(object sender, EventArgs e)

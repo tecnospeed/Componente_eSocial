@@ -1,8 +1,8 @@
 object frmESocial: TfrmESocial
   Left = 192
   Top = 107
-  Width = 537
-  Height = 652
+  Width = 1081
+  Height = 459
   Caption = 'frmESocial'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -37,7 +37,7 @@ object frmESocial: TfrmESocial
   end
   object lbl1: TLabel
     Left = 376
-    Top = 272
+    Top = 384
     Width = 32
     Height = 13
     Caption = 'Grupo:'
@@ -144,43 +144,43 @@ object frmESocial: TfrmESocial
   object btnTx2: TButton
     Left = 8
     Top = 248
-    Width = 90
+    Width = 123
     Height = 25
     Caption = 'Carregar Tx2'
     TabOrder = 10
     OnClick = btnTx2Click
   end
   object btnXML: TButton
-    Left = 110
+    Left = 141
     Top = 248
-    Width = 90
+    Width = 115
     Height = 25
     Caption = 'Gerar XML'
     TabOrder = 11
     OnClick = btnXMLClick
   end
   object btnAssinar: TButton
-    Left = 215
+    Left = 263
     Top = 248
-    Width = 90
+    Width = 122
     Height = 25
     Caption = 'Assinar'
     TabOrder = 12
     OnClick = btnAssinarClick
   end
   object btnEnviar: TButton
-    Left = 322
+    Left = 394
     Top = 248
-    Width = 90
+    Width = 127
     Height = 25
     Caption = 'Enviar'
     TabOrder = 13
     OnClick = btnEnviarClick
   end
   object btnConsultar: TButton
-    Left = 431
-    Top = 248
-    Width = 90
+    Left = 7
+    Top = 352
+    Width = 514
     Height = 25
     Caption = 'Consultar'
     TabOrder = 14
@@ -188,7 +188,7 @@ object frmESocial: TfrmESocial
   end
   object edtIdLote: TLabeledEdit
     Left = 8
-    Top = 288
+    Top = 400
     Width = 362
     Height = 21
     EditLabel.Width = 100
@@ -198,7 +198,7 @@ object frmESocial: TfrmESocial
   end
   object cbGrupo: TComboBox
     Left = 376
-    Top = 288
+    Top = 400
     Width = 145
     Height = 21
     ItemHeight = 13
@@ -209,12 +209,60 @@ object frmESocial: TfrmESocial
       '2'
       '3')
   end
-  object mmoXML: TMemo
-    Left = 8
-    Top = 320
-    Width = 513
-    Height = 295
-    ScrollBars = ssVertical
+  object PageControl1: TPageControl
+    Left = 528
+    Top = 8
+    Width = 537
+    Height = 417
+    ActivePage = TabSheet1
     TabOrder = 17
+    object TabSheet1: TTabSheet
+      Caption = 'Retorno'
+      object mmoXML: TMemo
+        Left = 8
+        Top = 6
+        Width = 513
+        Height = 379
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Xml de Envio'
+      ImageIndex = 1
+      object mmoXmlEnvio: TMemo
+        Left = 8
+        Top = 6
+        Width = 513
+        Height = 379
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Xml de Retorno'
+      ImageIndex = 2
+      object mmoXmlRetorno: TMemo
+        Left = 8
+        Top = 6
+        Width = 513
+        Height = 379
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+    end
+  end
+  object rgTipoEnvio: TRadioGroup
+    Left = 8
+    Top = 288
+    Width = 505
+    Height = 57
+    Caption = 'Tipo de Consulta:'
+    Columns = 3
+    Items.Strings = (
+      'Id de Lote'
+      'Id de Evento'
+      'Nr. Recibo')
+    TabOrder = 18
   end
 end

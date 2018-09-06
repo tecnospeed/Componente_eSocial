@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, ESocialClientX_TLB;
+  Dialogs, StdCtrls, ExtCtrls, ESocialClientX_TLB, ComCtrls;
 
 type
   TfrmESocial = class(TForm)
@@ -29,7 +29,14 @@ type
     btnConsultar: TButton;
     edtIdLote: TLabeledEdit;
     cbGrupo: TComboBox;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
+    TabSheet3: TTabSheet;
     mmoXML: TMemo;
+    mmoXmlEnvio: TMemo;
+    mmoXmlRetorno: TMemo;
+    rgTipoEnvio: TRadioGroup;
     procedure FormCreate(Sender: TObject);
     procedure btnConfigurarClick(Sender: TObject);
     procedure btnTx2Click(Sender: TObject);
@@ -59,10 +66,7 @@ begin
   cbCertificado.Items.Text := eSocial.ListarCertificados(#13#10);
   cbVersaoManual.ItemIndex := 0;
   cbCertificado.ItemIndex := 0;
-  edtCnpjSH.Text := '86837822000147';
-  edtTokenSH.Text := 'Hmf3xiDgPP6nC90MO7Yy64NhEytKoOVA7AkELTZI';
-  edtCnpjTransmissor.Text := '08187168000160';
-  edtCnpjEmpregador.Text := '08187168000160';
+  rgTipoEnvio.ItemIndex := 0;
 end;
 
 procedure TfrmESocial.btnConfigurarClick(Sender: TObject);
@@ -147,14 +151,19 @@ var
   RetConsultaOcorrenciaEnvio: IspdRetConsultarLoteOcorrenciaEnvio;
   _i, _j, _k, _a, _b, _c: integer;
 begin
-  RetConsulta := eSocial.ConsultarLoteEventos(edtIdLote.Text);
-
+  if rgTipoEnvio.ItemIndex = 0 then
+  RetConsulta := eSocial.ConsultarLoteEventos(edtIdLote.Text)
+  else if rgTipoEnvio.ItemIndex = 1 then
+  RetConsulta := eSocial.ConsultarIdEvento(edtIdLote.Text)
+  else if rgTipoEnvio.ItemIndex = 2 then
+  RetConsulta := eSocial.ConsultarEventoPorRecibo(edtIdLote.Text);
   mmoXML.Lines.Clear;
   mmoXML.Lines.Add('### CONSULTA PROTOCOLO ###');
   mmoXML.Lines.Add('Número do Protocolo: ' + RetConsulta.NumeroProtocolo);
   mmoXML.Lines.Add('Mensagem de Retorno: ' + RetConsulta.Mensagem);
   mmoXML.Lines.Add('Status do Lote: ' + RetConsulta.Status);
   mmoXML.Lines.Add('Tempo estimado para conclusão do processamento: ' + RetConsulta.TempoEstimadoConclusao);
+  mmoXML.Lines.Add('Id do Lote: ' + RetConsulta.IdLote);
   for _i := 0 to RetConsulta.Count - 1 do
   begin
     RetConsultaItem := RetConsulta.Eventos[_i];
@@ -438,8 +447,8 @@ begin
     mmoXML.Lines.Add('    Localização: ' + RetConsultaOcorrenciaEnvio.Localizacao);
     mmoXML.Lines.Add('    Descrição: ' + RetConsultaOcorrenciaEnvio.Descricao);
   end;
-
-  mmoXML.Lines.Add('            XML: ' + #13#10 + RetConsulta.XmlRetorno);
+  mmoXmlEnvio.Text := RetConsulta.XmlEnviado;
+  mmoXmlRetorno.Text := RetConsulta.XmlRetorno;
 end;
 
 end.
