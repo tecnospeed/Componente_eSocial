@@ -1,6 +1,6 @@
 Type=Exe
 Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{197412DD-00C5-4A63-BD37-9ABBB449CA27}#1.0#0#..\..\..\..\WINDOWS\SysWow64\ESocialClientX.ocx#ESocialClientX
+Reference=*\G{197412DD-00C5-4A63-BD37-9ABBB449CA27}#1.0#0#..\..\..\..\Windows\SysWOW64\ESocialClientX.ocx#ESocialClientX
 Form=frmProjeto.frm
 Startup="frmProjeto"
 ExeName32="prjeSocial.exe"

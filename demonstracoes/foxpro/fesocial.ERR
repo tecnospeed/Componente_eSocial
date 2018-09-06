@@ -1,0 +1,2104 @@
+Left = 0
+Error in line 54: Statement is not in a procedure.
+Top = 24
+Error in line 55: Statement is not in a procedure.
+Width = 144
+Error in line 56: Statement is not in a procedure.
+Name = "edtCnpjSH"
+Error in line 57: Statement is not in a procedure.
+Left = 156
+Error in line 59: Statement is not in a procedure.
+Top = 72
+Error in line 60: Statement is not in a procedure.
+Width = 180
+Error in line 61: Statement is not in a procedure.
+Name = "edtCnpjEmpregador"
+Error in line 62: Statement is not in a procedure.
+edtTokenSh
+Error in line 64: Unrecognized command verb.
+Left = 156
+Error in line 65: Statement is not in a procedure.
+Top = 24
+Error in line 66: Statement is not in a procedure.
+Width = 180
+Error in line 67: Statement is not in a procedure.
+Name = "edtTokenSh"
+Error in line 68: Statement is not in a procedure.
+Left = 0
+Error in line 70: Statement is not in a procedure.
+Top = 72
+Error in line 71: Statement is not in a procedure.
+Width = 144
+Error in line 72: Statement is not in a procedure.
+Name = "edtCnpjTransmissor"
+Error in line 73: Statement is not in a procedure.
+Left = 0
+Error in line 75: Statement is not in a procedure.
+Top = 168
+Error in line 76: Statement is not in a procedure.
+Width = 504
+Error in line 77: Statement is not in a procedure.
+Name = "edtTemplates"
+Error in line 78: Statement is not in a procedure.
+Left = 0
+Error in line 80: Statement is not in a procedure.
+Top = 216
+Error in line 81: Statement is not in a procedure.
+Width = 504
+Error in line 82: Statement is not in a procedure.
+Name = "edtEsquemas"
+Error in line 83: Statement is not in a procedure.
+Left = 0
+Error in line 85: Statement is not in a procedure.
+Top = 420
+Error in line 86: Statement is not in a procedure.
+Width = 504
+Error in line 87: Statement is not in a procedure.
+Name = "edtIdLote"
+Error in line 88: Statement is not in a procedure.
+Pageframe1
+Error in line 90: Unrecognized command verb.
+PageCount = 3
+Error in line 91: Statement is not in a procedure.
+Top = 0
+Error in line 92: Statement is not in a procedure.
+Left = 516
+Error in line 93: Statement is not in a procedure.
+Width = 564
+Error in line 94: Statement is not in a procedure.
+Height = 444
+Error in line 95: Statement is not in a procedure.
+Name = "Pageframe1"
+Error in line 96: Statement is not in a procedure.
+Page1.Caption = "Retorno"
+Error in line 97: Statement is not in a procedure.
+Page1.Name = "Page1"
+Error in line 98: Statement is not in a procedure.
+Page2.Caption = "Xml de Envio"
+Error in line 99: Statement is not in a procedure.
+Page2.Name = "Page2"
+Error in line 100: Statement is not in a procedure.
+Page3.Caption = "Xml de Retorno"
+Error in line 101: Statement is not in a procedure.
+Page3.Name = "Page3"
+Error in line 102: Statement is not in a procedure.
+mmoRetorno
+Error in line 104: Unrecognized command verb.
+Left = 11
+Error in line 105: Statement is not in a procedure.
+Top = 8
+Error in line 106: Statement is not in a procedure.
+Width = 541
+Error in line 107: Statement is not in a procedure.
+Name = "mmoRetorno"
+Error in line 108: Statement is not in a procedure.
+Left = 11
+Error in line 110: Statement is not in a procedure.
+Top = 8
+Error in line 111: Statement is not in a procedure.
+Width = 541
+Error in line 112: Statement is not in a procedure.
+Name = "mmoXmlEnvio"
+Error in line 113: Statement is not in a procedure.
+mmoXmlRetorno
+Error in line 115: Unrecognized command verb.
+Left = 11
+Error in line 116: Statement is not in a procedure.
+Top = 8
+Error in line 117: Statement is not in a procedure.
+Width = 540
+Error in line 118: Statement is not in a procedure.
+Name = "mmoXmlRetorno"
+Error in line 119: Statement is not in a procedure.
+cbAmbiente
+Error in line 121: Unrecognized command verb.
+Left = 348
+Error in line 122: Statement is not in a procedure.
+Top = 24
+Error in line 123: Statement is not in a procedure.
+Width = 157
+Error in line 124: Statement is not in a procedure.
+Name = "cbAmbiente"
+Error in line 125: Statement is not in a procedure.
+Left = 348
+Error in line 127: Statement is not in a procedure.
+Top = 72
+Error in line 128: Statement is not in a procedure.
+Width = 157
+Error in line 129: Statement is not in a procedure.
+Name = "cbVersaoManual"
+Error in line 130: Statement is not in a procedure.
+Left = 348
+Error in line 132: Statement is not in a procedure.
+Top = 120
+Error in line 133: Statement is not in a procedure.
+Width = 157
+Error in line 134: Statement is not in a procedure.
+Name = "cbGrupo"
+Error in line 135: Statement is not in a procedure.
+Left = 0
+Error in line 137: Statement is not in a procedure.
+Top = 120
+Error in line 138: Statement is not in a procedure.
+Width = 336
+Error in line 139: Statement is not in a procedure.
+Name = "cbCertificados"
+Error in line 140: Statement is not in a procedure.
+Height = 13
+Error in line 142: Statement is not in a procedure.
+Left = 1
+Error in line 143: Statement is not in a procedure.
+Top = 12
+Error in line 144: Statement is not in a procedure.
+Width = 156
+Error in line 145: Statement is not in a procedure.
+Name = "Label1"
+Error in line 146: Statement is not in a procedure.
+Height = 13
+Error in line 148: Statement is not in a procedure.
+Left = 161
+Error in line 149: Statement is not in a procedure.
+Top = 12
+Error in line 150: Statement is not in a procedure.
+Width = 156
+Error in line 151: Statement is not in a procedure.
+Name = "Label2"
+Error in line 152: Statement is not in a procedure.
+Height = 13
+Error in line 154: Statement is not in a procedure.
+Left = 348
+Error in line 155: Statement is not in a procedure.
+Top = 12
+Error in line 156: Statement is not in a procedure.
+Width = 156
+Error in line 157: Statement is not in a procedure.
+Name = "Label3"
+Error in line 158: Statement is not in a procedure.
+Height = 13
+Error in line 160: Statement is not in a procedure.
+Left = 348
+Error in line 161: Statement is not in a procedure.
+Top = 60
+Error in line 162: Statement is not in a procedure.
+Width = 156
+Error in line 163: Statement is not in a procedure.
+Name = "Label4"
+Error in line 164: Statement is not in a procedure.
+Height = 13
+Error in line 166: Statement is not in a procedure.
+Left = 348
+Error in line 167: Statement is not in a procedure.
+Top = 108
+Error in line 168: Statement is not in a procedure.
+Width = 156
+Error in line 169: Statement is not in a procedure.
+Name = "Label5"
+Error in line 170: Statement is not in a procedure.
+Height = 13
+Error in line 172: Statement is not in a procedure.
+Left = 0
+Error in line 173: Statement is not in a procedure.
+Top = 60
+Error in line 174: Statement is not in a procedure.
+Width = 156
+Error in line 175: Statement is not in a procedure.
+Name = "Label6"
+Error in line 176: Statement is not in a procedure.
+Height = 13
+Error in line 178: Statement is not in a procedure.
+Left = 156
+Error in line 179: Statement is not in a procedure.
+Top = 60
+Error in line 180: Statement is not in a procedure.
+Width = 156
+Error in line 181: Statement is not in a procedure.
+Name = "Label7"
+Error in line 182: Statement is not in a procedure.
+Height = 13
+Error in line 184: Statement is not in a procedure.
+Left = 0
+Error in line 185: Statement is not in a procedure.
+Top = 108
+Error in line 186: Statement is not in a procedure.
+Width = 156
+Error in line 187: Statement is not in a procedure.
+Name = "Label8"
+Error in line 188: Statement is not in a procedure.
+Height = 13
+Error in line 190: Statement is not in a procedure.
+Left = 0
+Error in line 191: Statement is not in a procedure.
+Top = 156
+Error in line 192: Statement is not in a procedure.
+Width = 156
+Error in line 193: Statement is not in a procedure.
+Name = "Label9"
+Error in line 194: Statement is not in a procedure.
+Height = 13
+Error in line 196: Statement is not in a procedure.
+Left = 0
+Error in line 197: Statement is not in a procedure.
+Top = 204
+Error in line 198: Statement is not in a procedure.
+Width = 156
+Error in line 199: Statement is not in a procedure.
+Name = "Label10"
+Error in line 200: Statement is not in a procedure.
+Height = 13
+Error in line 202: Statement is not in a procedure.
+Left = 0
+Error in line 203: Statement is not in a procedure.
+Top = 408
+Error in line 204: Statement is not in a procedure.
+Width = 156
+Error in line 205: Statement is not in a procedure.
+Name = "Label11"
+Error in line 206: Statement is not in a procedure.
+commandbutton
+Error in line 208: Unrecognized command verb.
+commandbutton
+Error in line 209: Unrecognized command verb.
+btnConfigurar
+Error in line 210: Unrecognized command verb.
+Left = 0
+Error in line 211: Statement is not in a procedure.
+Height = 25
+Error in line 212: Statement is not in a procedure.
+Width = 505
+Error in line 213: Statement is not in a procedure.
+Caption = "Configurar"
+Error in line 214: Statement is not in a procedure.
+Name = "btnConfigurar"
+Error in line 215: Statement is not in a procedure.
+eSocial.ConfigurarSoftwareHouse(ALLTRIM(thisform.edtCnpjSH.Value),ALLTRIM(thisform.edtTokenSh.Value))
+Error in line 217: Statement is not in a procedure.
+eSocial.CpfCnpjEmpregador = ALLTRIM(thisform.edtCnpjEmpregador.Value)
+Error in line 218: Statement is not in a procedure.
+eSocial.CpfCnpjTransmissor = ALLTRIM(thisform.edtCnpjTransmissor.Value)
+Error in line 219: Statement is not in a procedure.
+eSocial.DiretorioTemplates = ALLTRIM(thisform.edtTemplates.Value)
+Error in line 220: Statement is not in a procedure.
+eSocial.DiretorioEsquemas = ALLTRIM(thisform.edtesquemas.Value)
+Error in line 221: Statement is not in a procedure.
+eSocial.VersaoManual = ALLTRIM(thisform.cbversaoManual.Value)
+Error in line 222: Statement is not in a procedure.
+eSocial.NomeCertificado = ALLTRIM(thisform.cbcertificados.Value)
+Error in line 223: Statement is not in a procedure.
+IF thisform.cbAmbiente.Value = "1 - Produção" then
+Error in line 224: Statement is not in a procedure.
+eSocial.Ambiente = 1
+Error in line 225: Statement is not in a procedure.
+ENDIF
+Error in line 226: Statement is not in a procedure.
+IF thisform.cbAmbiente.Value = "2 - Homologação" then
+Error in line 227: Statement is not in a procedure.
+eSocial.Ambiente = 2
+Error in line 228: Statement is not in a procedure.
+ENDIF
+Error in line 229: Statement is not in a procedure.
+ENDPROC
+Error in line 231: Nesting error.
+commandbutton
+Error in line 237: Unrecognized command verb.
+commandbutton
+Error in line 238: Unrecognized command verb.
+Left = 0
+Error in line 239: Statement is not in a procedure.
+Height = 25
+Error in line 240: Statement is not in a procedure.
+Width = 505
+Error in line 241: Statement is not in a procedure.
+Caption = "Consultar"
+Error in line 242: Statement is not in a procedure.
+Name = "btnConsultar"
+Error in line 243: Statement is not in a procedure.
+PUBLIC _i as Integer
+Error in line 245: Statement is not in a procedure.
+PUBLIC _j as Integer
+Error in line 246: Statement is not in a procedure.
+PUBLIC _k as Integer
+Error in line 247: Statement is not in a procedure.
+PUBLIC _a as Integer
+Error in line 248: Statement is not in a procedure.
+PUBLIC _b as Integer
+Error in line 249: Statement is not in a procedure.
+PUBLIC _c as Integer
+Error in line 250: Statement is not in a procedure.
+PUBLIC RetConsulta As IspdRetConsultarLote
+Error in line 251: Statement is not in a procedure.
+PUBLIC RetConsultaItem As IspdRetConsultarLoteItem
+Error in line 252: Statement is not in a procedure.
+PUBLIC RetConsultaOcorrencia As IspdRetConsultarLoteOcorrencia
+Error in line 253: Statement is not in a procedure.
+PUBLIC RetConsultaOcorrenciaEnvio As IspdRetConsultarLoteOcorrenciaEnvio
+Error in line 254: Statement is not in a procedure.
+WITH THISFORM
+Error in line 255: Statement is not in a procedure.
+IF .optiongroup1.Value = 1 then
+Error in line 256: Statement is not in a procedure.
+RetConsulta  = eSocial.ConsultarLoteEventos(ALLTRIM(.edtIdLote.value))
+Error in line 257: Statement is not in a procedure.
+ENDIF
+Error in line 258: Statement is not in a procedure.
+IF .optiongroup1.Value = 2 then
+Error in line 259: Statement is not in a procedure.
+RetConsulta  = eSocial.ConsultarIdEvento(ALLTRIM(.edtIdLote.value))
+Error in line 260: Statement is not in a procedure.
+ENDIF
+Error in line 261: Statement is not in a procedure.
+IF .optiongroup1.Value = 3 then
+Error in line 262: Statement is not in a procedure.
+RetConsulta  = eSocial.ConsultarEventoPorRecibo(ALLTRIM(.edtIdLote.value))
+Error in line 263: Statement is not in a procedure.
+ENDIF
+Error in line 264: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = "### CONSULTA PROTOCOLO ###"
+Error in line 265: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "Número do Protocolo: " + RetConsulta.NumeroProtocolo
+Error in line 266: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "Mensagem de Retorno: " + RetConsulta.Mensagem
+Error in line 267: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "Status do Lote: " + RetConsulta.Status
+Error in line 268: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "Tempo estimado para conclusão do processamento: " + RetConsulta.TempoEstimadoConclusao
+Error in line 269: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "Id do Lote: " + RetConsulta.IdLote
+Error in line 270: Statement is not in a procedure.
+FOR _i = 0 to RetConsulta.Count -1
+Error in line 271: Statement is not in a procedure.
+RetConsultaItem = RetConsulta.Eventos[_i]
+Error in line 272: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Evento: "  + STR(_i + 1)
+Error in line 273: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Id Evento: " + RetConsultaItem.IdEvento
+Error in line 274: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Número Recibo: " + RetConsultaItem.NumeroRecibo
+Error in line 275: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Código de Status: " + RetConsultaItem.cStat
+Error in line 276: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Mensagem: " + RetConsultaItem.Mensagem
+Error in line 277: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Status do Evento: " + RetConsultaItem.Status
+Error in line 278: Statement is not in a procedure.
+oRetorno = json_decode(RetConsulta.JsonRetorno)
+Error in line 279: Statement is not in a procedure.
+if not RetConsultaItem.S5001.IsEmpty then
+Error in line 280: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        ### S5001 ###"
+Error in line 281: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Id: " + RetConsultaItem.S5001.Id
+Error in line 282: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5001._IdeEvento, [_NrRecArqBase] , 5 ) = .T. then
+Error in line 283: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrRecArqBase: " + oRetorno.array(_i+1)._S5001._IdeEvento._NrRecArqBase
+Error in line 284: Statement is not in a procedure.
+ENDIF
+Error in line 285: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indApuracao: " + oRetorno.array(_i+1)._S5001._IdeEvento._indApuracao
+Error in line 286: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        perApur: " + oRetorno.array(_i+1)._S5001._IdeEvento._perApur
+Error in line 287: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpInsc: " + oRetorno.array(_i+1)._S5001._IdeEmpregador._tpInsc
+Error in line 288: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrInsc: " + oRetorno.array(_i+1)._S5001._IdeEmpregador._nrInsc
+Error in line 289: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        cpfTrab: " + oRetorno.array(_i+1)._S5001._IdeTrabalhador._cpfTrab
+Error in line 290: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5001._IdeTrabalhador, [_ProcJudTrab] , 5 ) = .T. then
+Error in line 291: Statement is not in a procedure.
+for _a = 1 to oRetorno.array(_i+1)._S5001._IdeTrabalhador._ProcJudTrab.nsize
+Error in line 292: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        NrProcJud: " + oRetorno.array(_i+1)._S5001._IdeTrabalhador._ProcJudTrab.array(_a)._NrProcJud
+Error in line 293: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codSusp: " + oRetorno.array(_i+1)._S5001._IdeTrabalhador._ProcJudTrab.array(_a)._codSusp
+Error in line 294: Statement is not in a procedure.
+NEXT
+Error in line 295: Statement is not in a procedure.
+ENDIF	  
+Error in line 296: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5001, [_InfoCpCalc] , 5 ) = .T. then
+Error in line 297: Statement is not in a procedure.
+for _a = 1 to oRetorno.array(_i+1)._S5001._InfoCpCalc.nsize
+Error in line 298: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpCR: " + oRetorno.array(_i+1)._S5001._InfoCpCalc.array(_a)._tpCR
+Error in line 299: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCpSeg: " + oRetorno.array(_i+1)._S5001._InfoCpCalc.array(_a)._vrCpSeg
+Error in line 300: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDescSeg: " + oRetorno.array(_i+1)._S5001._InfoCpCalc.array(_a)._vrDescSeg
+Error in line 301: Statement is not in a procedure.
+NEXT
+Error in line 302: Statement is not in a procedure.
+ENDIF
+Error in line 303: Statement is not in a procedure.
+for _a = 1 to oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.nsize
+Error in line 304: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDescSeg: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._TpInsc
+Error in line 305: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrInsc: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._nrInsc
+Error in line 306: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codLotacao: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._codLotacao
+Error in line 307: Statement is not in a procedure.
+for _b = 1 to oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.nsize
+Error in line 308: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b), [_Matricula] , 5 ) = .T. then
+Error in line 309: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDescSeg: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._Matricula
+Error in line 310: Statement is not in a procedure.
+ENDIF
+Error in line 311: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codCateg: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._codCateg
+Error in line 312: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b), [_indSimples] , 5 ) = .T. then
+Error in line 313: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indSimples: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._indSimples
+Error in line 314: Statement is not in a procedure.
+ENDIF
+Error in line 315: Statement is not in a procedure.
+for _c = 1 to oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._InfoBaseCS.nsize
+Error in line 316: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Ind13: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._InfoBaseCS.array(_c)._Ind13
+Error in line 317: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpValor: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._InfoBaseCS.array(_c)._tpValor
+Error in line 318: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        valor: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._InfoBaseCS.array(_c)._valor
+Error in line 319: Statement is not in a procedure.
+NEXT
+Error in line 320: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b), [_CalcTerc] , 5 ) = .T. then
+Error in line 321: Statement is not in a procedure.
+for _c = 1 to oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._CalcTerc.nsize
+Error in line 322: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpCR: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._CalcTerc.array(_c)._tpCR
+Error in line 323: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCsSegTerc: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._CalcTerc.array(_c)._vrCsSegTerc
+Error in line 324: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDescTerc: " + oRetorno.array(_i+1)._S5001._InfoCp._IdeEstabLot.array(_a)._InfoCategIncid.array(_b)._CalcTerc.array(_c)._vrDescTerc
+Error in line 325: Statement is not in a procedure.
+NEXT
+Error in line 326: Statement is not in a procedure.
+ENDIF
+Error in line 327: Statement is not in a procedure.
+NEXT
+Error in line 328: Statement is not in a procedure.
+NEXT
+Error in line 329: Statement is not in a procedure.
+ENDIF
+Error in line 330: Statement is not in a procedure.
+if not RetConsultaItem.S5002.IsEmpty then
+Error in line 331: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        ### S5002 ###"
+Error in line 332: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Id: " + oRetorno.array(_i+1)._S5002._Id
+Error in line 333: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._IdeEvento, [_NrRecArqBase] , 5 ) = .T. then
+Error in line 334: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrRecArqBase: " + oRetorno.array(_i+1)._S5002._IdeEvento._nrRecArqBase
+Error in line 335: Statement is not in a procedure.
+ENDIF
+Error in line 336: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        perApur: " + oRetorno.array(_i+1)._S5002._IdeEvento._perApur
+Error in line 337: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpInsc: " + oRetorno.array(_i+1)._S5002._IdeEmpregador._tpInsc
+Error in line 339: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrInsc: " + oRetorno.array(_i+1)._S5002._IdeEmpregador._nrInsc
+Error in line 340: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        cpfTrab: " + oRetorno.array(_i+1)._S5002._IdeTrabalhador._cpfTrab
+Error in line 341: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002, [_InfoDep] , 5 ) = .T. then
+Error in line 342: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDedDep: " + oRetorno.array(_i+1)._S5002._InfoDep._vrDedDep
+Error in line 343: Statement is not in a procedure.
+ENDIF      
+Error in line 344: Statement is not in a procedure.
+for _a = 1 to oRetorno.array(_i+1)._S5002._InfoIrrf.nsize
+Error in line 345: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a), [_codCateg] , 5 ) = .T. then
+Error in line 346: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codCateg: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._codCateg
+Error in line 347: Statement is not in a procedure.
+ENDIF
+Error in line 348: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indResBr: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._indResBr
+Error in line 349: Statement is not in a procedure.
+for _b = 1 to oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._BasesIrrf.nsize
+Error in line 351: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpValor: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._BasesIrrf.array(_b)._tpValor
+Error in line 352: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Valor: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._BasesIrrf.array(_b)._Valor
+Error in line 353: Statement is not in a procedure.
+NEXT
+Error in line 354: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a), [_Irrf ] , 5 ) = .T. then
+Error in line 355: Statement is not in a procedure.
+for _b = 1 to oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._Irrf.nsize
+Error in line 356: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpCR: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._Irrf.array(_b)._tpCR
+Error in line 357: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrIrrfDesc: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._Irrf.array(_b)._vrIrrfDesc
+Error in line 358: Statement is not in a procedure.
+NEXT
+Error in line 359: Statement is not in a procedure.
+ENDIF
+Error in line 360: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a), [_IdePgtoExt] , 5 ) = .T. then
+Error in line 361: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codPais: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._IdePais._codPais
+Error in line 362: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indNIF: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._IdePais._indNIF
+Error in line 363: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._IdePais, [_nifBenef] , 5 ) = .T. then
+Error in line 364: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nifBenef: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._IdePais._nifBenef
+Error in line 365: Statement is not in a procedure.
+ENDIF
+Error in line 366: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        dscLograd: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt._dscLograd
+Error in line 367: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt, [_nrLograd] , 5 ) = .T. then
+Error in line 368: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrLograd: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt._nrLograd
+Error in line 369: Statement is not in a procedure.
+ENDIF
+Error in line 370: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt, [_complem] , 5 ) = .T. then
+Error in line 371: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        complem: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt._complem
+Error in line 372: Statement is not in a procedure.
+ENDIF
+Error in line 373: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt, [_bairro] , 5 ) = .T. then
+Error in line 374: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        bairro: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt._bairro
+Error in line 375: Statement is not in a procedure.
+ENDIF
+Error in line 376: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nmCid: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt._nmCid
+Error in line 377: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt, [_codPostal] , 5 ) = .T. then
+Error in line 378: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codPostal: " + oRetorno.array(_i+1)._S5002._InfoIrrf.array(_a)._IdePgtoExt._EndExt._codPostal
+Error in line 379: Statement is not in a procedure.
+ENDIF
+Error in line 380: Statement is not in a procedure.
+ENDIF
+Error in line 381: Statement is not in a procedure.
+NEXT
+Error in line 382: Statement is not in a procedure.
+ENDIF
+Error in line 383: Statement is not in a procedure.
+if not RetCOnsultaItem.S5011.IsEmpty then
+Error in line 384: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        ### S5011 ###"
+Error in line 385: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Id: " + oRetorno.array(_i+1)._S5011._Id
+Error in line 386: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._IdeEvento, [_indApuracao] , 5 ) = .T. then
+Error in line 387: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indApuracao: " + oRetorno.array(_i+1)._S5011._IdeEvento._indApuracao
+Error in line 388: Statement is not in a procedure.
+ENDIF
+Error in line 389: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        perApur: " + oRetorno.array(_i+1)._S5011._IdeEvento._perApur
+Error in line 390: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpInsc: " + oRetorno.array(_i+1)._S5011._IdeEmpregador._tpInsc
+Error in line 392: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrInsc: " + oRetorno.array(_i+1)._S5011._IdeEmpregador._nrInsc
+Error in line 393: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS, [_nrRecArqBase] , 5 ) = .T. then
+Error in line 394: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrRecArqBase: " + oRetorno.array(_i+1)._S5011._InfoCS._nrRecArqBase
+Error in line 395: Statement is not in a procedure.
+ENDIF
+Error in line 396: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indExistInfo: " + oRetorno.array(_i+1)._S5011._InfoCS._indExistInfo
+Error in line 397: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS, [_InfoCPSeg] , 5 ) = .T. then
+Error in line 398: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDescCP: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoCPSeg._vrDescCP
+Error in line 399: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCpSeg: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoCPSeg._vrCpSeg
+Error in line 400: Statement is not in a procedure.
+ENDIF
+Error in line 401: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        classTrib: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._classTrib
+Error in line 402: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib, [_InfoPJ] , 5 ) = .T. then
+Error in line 403: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ, [_indCoop] , 5 ) = .T. then
+Error in line 404: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indCoop: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ._indCoop
+Error in line 405: Statement is not in a procedure.
+ENDIF
+Error in line 406: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indConstr: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ._indConstr
+Error in line 407: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ, [_indSubstPatr] , 5 ) = .T. then
+Error in line 408: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indSubstPatr: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ._indSubstPatr
+Error in line 409: Statement is not in a procedure.
+ENDIF
+Error in line 410: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ, [_percRedContrib] , 5 ) = .T. then
+Error in line 411: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        percRedContrib: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ._percRedContrib
+Error in line 412: Statement is not in a procedure.
+ENDIF
+Error in line 413: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ, [InfoAtConc] , 5 ) = .T. then
+Error in line 414: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        fatorMes: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ.InfoAtConc._fatorMes
+Error in line 415: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        fator13: " + oRetorno.array(_i+1)._S5011._InfoCS._InfoContrib._InfoPJ.InfoAtConc._fator13
+Error in line 416: Statement is not in a procedure.
+ENDIF
+Error in line 417: Statement is not in a procedure.
+ENDIF
+Error in line 418: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS, [_IdeEstab] , 5 ) = .T. then
+Error in line 419: Statement is not in a procedure.
+for _a = 1 to oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.nsize
+Error in line 420: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpInsc: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._tpInsc
+Error in line 421: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrInsc: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._nrInsc
+Error in line 422: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab, [_InfoEstab] , 5 ) = .T. then
+Error in line 423: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        cnaePrep: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoEstab._cnaePrep
+Error in line 424: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        aliqRat: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoEstab._aliqRat
+Error in line 425: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        fap: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoEstab._fap
+Error in line 426: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        aliqRatAjust: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoEstab._aliqRatAjust
+Error in line 427: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab._InfoEstab, [_InfoComplObra] , 5 ) = .T. then
+Error in line 428: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indSubstPatrObra: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoEstab._InfoComplObra._indSubstPatrObra
+Error in line 429: Statement is not in a procedure.
+ENDIF
+Error in line 430: Statement is not in a procedure.
+ENDIF
+Error in line 431: Statement is not in a procedure.
+for _b = 1 to oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.nsize
+Error in line 432: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codLotacao: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._codLotacao
+Error in line 433: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        fpas: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._fpas
+Error in line 434: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codTercs: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._codTercs
+Error in line 435: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b), [_codTercsSusp] , 5 ) = .T. then
+Error in line 436: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codTercsSusp: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._codTercsSusp
+Error in line 437: Statement is not in a procedure.
+ENDIF
+Error in line 438: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b), [_InfoTercSusp] , 5 ) = .T. then
+Error in line 439: Statement is not in a procedure.
+for _c = 1 to oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._InfoTercSusp.nsize
+Error in line 440: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codTerc: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._InfoTercSusp.array(_c)._codTerc
+Error in line 441: Statement is not in a procedure.
+NEXT
+Error in line 442: Statement is not in a procedure.
+ENDIF
+Error in line 443: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b), [_InfoEmprParcial] , 5 ) = .T. then
+Error in line 444: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpInscContrat: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._InfoEmprParcial._tpInscContrat
+Error in line 445: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrInscContrat: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._InfoEmprParcial._nrInscContrat
+Error in line 446: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpInscProp: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._InfoEmprParcial._tpInscProp
+Error in line 447: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrInscProp: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._InfoEmprParcial._nrInscProp
+Error in line 448: Statement is not in a procedure.
+ENDIF
+Error in line 449: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b), [_DadosOpPort] , 5 ) = .T. then
+Error in line 450: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        cnpjOpPortuario: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._DadosOpPort._cnpjOpPortuario
+Error in line 451: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        aliqRat: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._DadosOpPort._aliqRat
+Error in line 452: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        fap: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._DadosOpPort._fap
+Error in line 453: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        aliqRatAjust: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._DadosOpPort._aliqRatAjust
+Error in line 454: Statement is not in a procedure.
+ENDIF
+Error in line 455: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b), [_BasesRemun] , 5 ) = .T. then
+Error in line 456: Statement is not in a procedure.
+for _c = 1 to oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.nsize
+Error in line 457: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indIncid: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._indIncid
+Error in line 458: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        codCateg: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._codCateg
+Error in line 459: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp00: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrBcCp00
+Error in line 460: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp15: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrBcCp15
+Error in line 461: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp20: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrBcCp20
+Error in line 462: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp25: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrBcCp25
+Error in line 463: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSuspBcCp00: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrSuspBcCp00
+Error in line 464: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSuspBcCp15: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrSuspBcCp15
+Error in line 465: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSuspBcCp20: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrSuspBcCp20
+Error in line 466: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSuspBcCp25: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrSuspBcCp25
+Error in line 467: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDescSest: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrDescSest
+Error in line 468: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCalcSest: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrCalcSest
+Error in line 469: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDescSenat: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrDescSenat
+Error in line 470: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCalcSenat: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrCalcSenat
+Error in line 471: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSalFam: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrSalFam
+Error in line 472: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSalMat: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesRemun.array(_c)._BasesCp._vrSalMat
+Error in line 473: Statement is not in a procedure.
+NEXT
+Error in line 474: Statement is not in a procedure.
+ENDIF
+Error in line 475: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b), [_BasesAvNPort] , 5 ) = .T. then
+Error in line 476: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp00: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesAvNPort._vrBcCp00
+Error in line 477: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp15: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesAvNPort._vrBcCp15
+Error in line 478: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp20: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesAvNPort._vrBcCp20
+Error in line 479: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp25: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesAvNPort._vrBcCp25
+Error in line 480: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcCp13: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesAvNPort._vrBcCp13
+Error in line 481: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcFgts: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesAvNPort._vrBcFgts
+Error in line 482: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrDescCP: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._BasesAvNPort._vrDescCP
+Error in line 483: Statement is not in a procedure.
+ENDIF
+Error in line 484: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b), [_InfoSubstPatrOpOrt] , 5 ) = .T. then
+Error in line 485: Statement is not in a procedure.
+for _c = 1 to oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._InfoSubstPatrOpOrt.nsize
+Error in line 486: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        cnpjOpPortuario: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._IdeLotacao.array(_b)._InfoSubstPatrOpPort.array(_c)._cnpjOpPortuario
+Error in line 487: Statement is not in a procedure.
+NEXT
+Error in line 488: Statement is not in a procedure.
+ENDIF
+Error in line 489: Statement is not in a procedure.
+NEXT
+Error in line 490: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a), [_BasesAquis] , 5 ) = .T. then
+Error in line 491: Statement is not in a procedure.
+for _b = 1 to oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.nsize
+Error in line 492: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indAquis: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._indAquis
+Error in line 493: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vlrAquis: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vlrAquis
+Error in line 494: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCPDescPR: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrCPDescPR
+Error in line 495: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCPNRet: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrCPNRet
+Error in line 496: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrRatNRet: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrRatNRet
+Error in line 497: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSenarNRet: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrSenarNRet
+Error in line 498: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCPCalcPR: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrCPCalcPR
+Error in line 499: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrRatDescPR: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrRatDescPR
+Error in line 500: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrRatCalcPR: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrRatCalcPR
+Error in line 501: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSenarDesc: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrSenarDesc
+Error in line 502: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSenarCalc: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesAquis.array(_b)._vrSenarCalc
+Error in line 503: Statement is not in a procedure.
+NEXT
+Error in line 504: Statement is not in a procedure.
+ENDIF
+Error in line 505: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a), [_BasesComerc] , 5 ) = .T. then
+Error in line 506: Statement is not in a procedure.
+for _b = 1 to oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc.nsize
+Error in line 507: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indComerc: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc.array(_b)._indComerc
+Error in line 508: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrBcComPR: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc.array(_b)._vrBcComPR
+Error in line 509: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc, [_vrCPSusp] , 5 ) = .T. then
+Error in line 510: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCPSusp: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc.array(_b)._vrCPSusp
+Error in line 511: Statement is not in a procedure.
+ENDIF
+Error in line 512: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc, [_vrRatSusp] , 5 ) = .T. then
+Error in line 513: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrRatSusp: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc.array(_b)._vrRatSusp
+Error in line 514: Statement is not in a procedure.
+ENDIF
+Error in line 515: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc, [_vrSenarSusp] , 5 ) = .T. then
+Error in line 516: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSenarSusp: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._BasesComerc.array(_b)._vrSenarSusp
+Error in line 517: Statement is not in a procedure.
+ENDIF
+Error in line 518: Statement is not in a procedure.
+NEXT
+Error in line 519: Statement is not in a procedure.
+ENDIF
+Error in line 520: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a), [_InfoCREstab] , 5 ) = .T. then
+Error in line 521: Statement is not in a procedure.
+for _b = 1 to oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoCREstabnsize
+Error in line 522: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpCR: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoCREstab.array(_b)._tpCR
+Error in line 523: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCR: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoCREstab.array(_b)._vrCR
+Error in line 524: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrSuspCR: " + oRetorno.array(_i+1)._S5011._InfoCS._IdeEstab.array(_a)._InfoCREstab.array(_b)._vrSuspCR
+Error in line 525: Statement is not in a procedure.
+NEXT
+Error in line 526: Statement is not in a procedure.
+ENDIF
+Error in line 527: Statement is not in a procedure.
+NEXT
+Error in line 528: Statement is not in a procedure.
+ENDIF
+Error in line 529: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5011._InfoCS, [_InfoCRContrib] , 5 ) = .T. then
+Error in line 530: Statement is not in a procedure.
+for _a = 1 to oRetorno.array(_i+1)._S5011._InfoCS._InfoCRContrib.nsize
+Error in line 531: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpCR: " + oRetorno.array(_i+1)._S5011._InfoCS._infoCRContrib.array(_a)._tpCR
+Error in line 532: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCR: " + oRetorno.array(_i+1)._S5011._InfoCS._infoCRContrib.array(_a)._vrCR
+Error in line 533: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCRSusp: " + oRetorno.array(_i+1)._S5011._InfoCS._infoCRContrib.array(_a)._vrCRSusp
+Error in line 534: Statement is not in a procedure.
+NEXT
+Error in line 535: Statement is not in a procedure.
+ENDIF
+Error in line 536: Statement is not in a procedure.
+ENDIF
+Error in line 537: Statement is not in a procedure.
+if not RetConsultaItem.S5012.IsEmpty then
+Error in line 538: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        ### S5012 ###"
+Error in line 539: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Id: " + oRetorno.array(_i+1)._S5012._Id
+Error in line 540: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        perApur: " + oRetorno.array(_i+1)._S5012._IdeEvento._perApur
+Error in line 541: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpInsc: " + oRetorno.array(_i+1)._S5012._IdeEmpregador._tpInsc
+Error in line 542: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrInsc: " + oRetorno.array(_i+1)._S5012._IdeEmpregador._nrInsc
+Error in line 543: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5012._InfoIrrf, [_nrRecArqBase] , 5 ) = .T. then
+Error in line 544: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        nrRecArqBase: " + oRetorno.array(_i+1)._S5012._InfoIrrf._nrRecArqBase
+Error in line 545: Statement is not in a procedure.
+ENDIF
+Error in line 546: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        indExistInfo: " + oRetorno.array(_i+1)._S5012._InfoIrrf._indExistInfo
+Error in line 547: Statement is not in a procedure.
+IF PEMSTATUS( oRetorno.array(_i+1)._S5012._InfoIrrf, [_InfoCRContrib] , 5 ) = .T. then
+Error in line 548: Statement is not in a procedure.
+for _a = 1 to oRetorno.array(_i+1)._S5012._InfoIrrf._InfoCRContrib.nsize
+Error in line 549: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        tpCR: " + oRetorno.array(_i+1)._S5012._InfoIrrf._InfoCRContrib.array(_a)._tpCR
+Error in line 550: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        vrCR: " + oRetorno.array(_i+1)._S5012._InfoIrrf._InfoCRContrib.array(_a)._vrCR
+Error in line 551: Statement is not in a procedure.
+NEXT
+Error in line 552: Statement is not in a procedure.
+ENDIF
+Error in line 553: Statement is not in a procedure.
+ENDIF
+Error in line 554: Statement is not in a procedure.
+FOR _j = 0 to RetConsultaItem.Count -1
+Error in line 555: Statement is not in a procedure.
+RetConsultaOcorrencia = RetConsultaItem.Ocorrencias[_j]
+Error in line 556: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Ocorrencia: " + STR(_j + 1)
+Error in line 557: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Código: " + RetConsultaOcorrencia.Codigo
+Error in line 558: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Descrição: " + RetConsultaOcorrencia.Descricao
+Error in line 559: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Tipo: " + RetConsultaOcorrencia.Tipo
+Error in line 560: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "        Localização: " + RetConsultaOcorrencia.Localizacao
+Error in line 561: Statement is not in a procedure.
+NEXT
+Error in line 562: Statement is not in a procedure.
+NEXT
+Error in line 563: Statement is not in a procedure.
+FOR _k = 0 to RetConsulta.CountOcorrencias -1
+Error in line 564: Statement is not in a procedure.
+RetConsultaOcorrenciaEnvio = RetConsulta.Ocorrencias[_k]
+Error in line 565: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Codigo: " + RetConsultaOcorrenciaEnvio.Codigo
+Error in line 566: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Tipo: " + RetConsultaOcorrenciaEnvio.Tipo
+Error in line 567: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Localização: " + RetConsultaOcorrenciaEnvio.Localizacao
+Error in line 568: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "    Descrição: " + RetConsultaOcorrenciaEnvio.Descricao
+Error in line 569: Statement is not in a procedure.
+NEXT
+Error in line 570: Statement is not in a procedure.
+.Pageframe1.page2.mmoXmlEnvio.value = RetConsulta.XmlEnviado
+Error in line 571: Statement is not in a procedure.
+.Pageframe1.page3.mmoXmlRetorno.value = RetConsulta.XmlEnviado
+Error in line 572: Statement is not in a procedure.
+ENDWITH
+Error in line 573: Statement is not in a procedure.
+ENDPROC
+Error in line 574: Nesting error.
+Cø
+Error in line 585: Unrecognized command verb.
+Ù
+Error in line 586: Unrecognized command verb.
+Cø
+Error in line 587: Unrecognized command verb.
+Ù
+Error in line 588: Unrecognized command verb.
+Cø
+Error in line 589: Unrecognized command verb.
+Ù
+Error in line 590: Unrecognized command verb.
+Cø
+Error in line 591: Unrecognized command verb.
+Ù0
+Error in line 592: Unrecognized command verb.
+Cø
+Error in line 593: Unrecognized command verb.
+Ù
+Error in line 594: Unrecognized command verb.
+Cø
+Error in line 596: Unrecognized command verb.
+Ù
+Error in line 597: Unrecognized command verb.
+Cø
+Error in line 598: Unrecognized command verb.
+Ù
+Error in line 599: Unrecognized command verb.
+Cø
+Error in line 600: Unrecognized command verb.
+Ù
+Error in line 601: Unrecognized command verb.
+Cø
+Error in line 602: Unrecognized command verb.
+Ù
+Error in line 603: Unrecognized command verb.
+Cø
+Error in line 604: Unrecognized command verb.
+Ù
+Error in line 605: Unrecognized command verb.
+Cø
+Error in line 606: Unrecognized command verb.
+Ù
+Error in line 607: Unrecognized command verb.
+ýù{þF
+Error in line 608: Unrecognized command verb.
+Cø
+Error in line 609: Unrecognized command verb.
+Ù
+Error in line 610: Unrecognized command verb.
+Cø
+Error in line 611: Unrecognized command verb.
+Ù
+Error in line 612: Unrecognized command verb.
+Cø
+Error in line 614: Unrecognized command verb.
+Ù
+Error in line 615: Unrecognized command verb.
+Cø
+Error in line 616: Unrecognized command verb.
+Ù
+Error in line 617: Unrecognized command verb.
+Cø
+Error in line 618: Unrecognized command verb.
+Ù
+Error in line 619: Unrecognized command verb.
+Cø
+Error in line 620: Unrecognized command verb.
+Ù
+Error in line 621: Unrecognized command verb.
+Cø
+Error in line 622: Unrecognized command verb.
+Ù
+Error in line 623: Unrecognized command verb.
+Cø
+Error in line 624: Unrecognized command verb.
+Ù
+Error in line 625: Unrecognized command verb.
+Cø
+Error in line 626: Unrecognized command verb.
+Ù
+Error in line 627: Unrecognized command verb.
+Cø
+Error in line 628: Unrecognized command verb.
+Ù
+Error in line 629: Unrecognized command verb.
+Cø
+Error in line 630: Unrecognized command verb.
+Ù
+Error in line 631: Unrecognized command verb.
+Cø
+Error in line 632: Unrecognized command verb.
+Ù
+Error in line 633: Unrecognized command verb.
+Cø
+Error in line 634: Unrecognized command verb.
+Ù
+Error in line 635: Unrecognized command verb.
+Cø
+Error in line 636: Unrecognized command verb.
+Ù
+Error in line 637: Unrecognized command verb.
+Cø
+Error in line 638: Unrecognized command verb.
+Ù
+Error in line 639: Unrecognized command verb.
+Cø
+Error in line 640: Unrecognized command verb.
+Ù
+Error in line 641: Unrecognized command verb.
+þr
+Error in line 643: Unrecognized command verb.
+Cø
+Error in line 644: Unrecognized command verb.
+Ù
+Error in line 645: Unrecognized command verb.
+Cø
+Error in line 646: Unrecognized command verb.
+Ù
+Error in line 647: Unrecognized command verb.
+Cø
+Error in line 648: Unrecognized command verb.
+Ù
+Error in line 649: Unrecognized command verb.
+Cø
+Error in line 650: Unrecognized command verb.
+Ù
+Error in line 651: Unrecognized command verb.
+Cø
+Error in line 652: Unrecognized command verb.
+Ù
+Error in line 653: Unrecognized command verb.
+Cø
+Error in line 654: Unrecognized command verb.
+Ù
+Error in line 655: Unrecognized command verb.
+Cø
+Error in line 656: Unrecognized command verb.
+Ù
+Error in line 657: Unrecognized command verb.
+Cø
+Error in line 658: Unrecognized command verb.
+Ù
+Error in line 659: Unrecognized command verb.
+Cø
+Error in line 660: Unrecognized command verb.
+Ù
+Error in line 661: Unrecognized command verb.
+ýù‡þF
+Error in line 662: Unrecognized command verb.
+Cø
+Error in line 663: Unrecognized command verb.
+Ù
+Error in line 664: Unrecognized command verb.
+Cø
+Error in line 665: Unrecognized command verb.
+Ù
+Error in line 666: Unrecognized command verb.
+Cø
+Error in line 668: Unrecognized command verb.
+Ù
+Error in line 669: Unrecognized command verb.
+Cø
+Error in line 670: Unrecognized command verb.
+Ù
+Error in line 671: Unrecognized command verb.
+Cø
+Error in line 672: Unrecognized command verb.
+Ù
+Error in line 673: Unrecognized command verb.
+Cø
+Error in line 674: Unrecognized command verb.
+Ù
+Error in line 675: Unrecognized command verb.
+Cø
+Error in line 676: Unrecognized command verb.
+Ù
+Error in line 677: Unrecognized command verb.
+Cø
+Error in line 678: Unrecognized command verb.
+Ù
+Error in line 679: Unrecognized command verb.
+Cø
+Error in line 680: Unrecognized command verb.
+Ù
+Error in line 681: Unrecognized command verb.
+Cø
+Error in line 682: Unrecognized command verb.
+Ù
+Error in line 683: Unrecognized command verb.
+Cø
+Error in line 684: Unrecognized command verb.
+Ù
+Error in line 685: Unrecognized command verb.
+Cø
+Error in line 686: Unrecognized command verb.
+Ù
+Error in line 687: Unrecognized command verb.
+Cø
+Error in line 688: Unrecognized command verb.
+Ù
+Error in line 689: Unrecognized command verb.
+Cø
+Error in line 690: Unrecognized command verb.
+Ù
+Error in line 691: Unrecognized command verb.
+Cø
+Error in line 692: Unrecognized command verb.
+Ù
+Error in line 693: Unrecognized command verb.
+Cø
+Error in line 694: Unrecognized command verb.
+Ù
+Error in line 695: Unrecognized command verb.
+þi
+Error in line 696: Unrecognized command verb.
+Cø
+Error in line 697: Unrecognized command verb.
+Ù
+Error in line 698: Unrecognized command verb.
+Cø
+Error in line 699: Unrecognized command verb.
+Ù
+Error in line 700: Unrecognized command verb.
+Cø
+Error in line 701: Unrecognized command verb.
+Ù
+Error in line 702: Unrecognized command verb.
+Cø
+Error in line 703: Unrecognized command verb.
+Ù
+Error in line 704: Unrecognized command verb.
+Cø
+Error in line 705: Unrecognized command verb.
+Ù
+Error in line 706: Unrecognized command verb.
+Cø
+Error in line 707: Unrecognized command verb.
+Ù
+Error in line 708: Unrecognized command verb.
+Cø
+Error in line 710: Unrecognized command verb.
+Ù
+Error in line 711: Unrecognized command verb.
+ýù·KþF
+Error in line 712: Unrecognized command verb.
+Cø
+Error in line 713: Unrecognized command verb.
+Ù
+Error in line 714: Unrecognized command verb.
+Cø
+Error in line 715: Unrecognized command verb.
+Ù
+Error in line 716: Unrecognized command verb.
+Cø
+Error in line 717: Unrecognized command verb.
+Ù
+Error in line 718: Unrecognized command verb.
+Cø
+Error in line 719: Unrecognized command verb.
+Ù
+Error in line 720: Unrecognized command verb.
+Cø
+Error in line 721: Unrecognized command verb.
+Ù
+Error in line 722: Unrecognized command verb.
+Cø
+Error in line 723: Unrecognized command verb.
+Ù
+Error in line 724: Unrecognized command verb.
+Cø
+Error in line 726: Unrecognized command verb.
+Ù
+Error in line 727: Unrecognized command verb.
+Cø
+Error in line 728: Unrecognized command verb.
+Ù
+Error in line 729: Unrecognized command verb.
+Cø
+Error in line 731: Unrecognized command verb.
+Ù
+Error in line 732: Unrecognized command verb.
+Cø
+Error in line 733: Unrecognized command verb.
+Ù
+Error in line 734: Unrecognized command verb.
+Cø
+Error in line 735: Unrecognized command verb.
+Ù
+Error in line 736: Unrecognized command verb.
+Cø
+Error in line 737: Unrecognized command verb.
+Ù
+Error in line 738: Unrecognized command verb.
+Cø
+Error in line 739: Unrecognized command verb.
+Ù
+Error in line 740: Unrecognized command verb.
+Cø
+Error in line 742: Unrecognized command verb.
+Ù
+Error in line 743: Unrecognized command verb.
+Cø
+Error in line 744: Unrecognized command verb.
+Ù
+Error in line 745: Unrecognized command verb.
+Cø
+Error in line 747: Unrecognized command verb.
+Ù
+Error in line 748: Unrecognized command verb.
+Cø
+Error in line 749: Unrecognized command verb.
+Ù
+Error in line 750: Unrecognized command verb.
+Cø
+Error in line 751: Unrecognized command verb.
+Ù
+Error in line 752: Unrecognized command verb.
+Cø
+Error in line 753: Unrecognized command verb.
+Ù
+Error in line 754: Unrecognized command verb.
+Cø
+Error in line 756: Unrecognized command verb.
+Ù
+Error in line 757: Unrecognized command verb.
+Cø
+Error in line 758: Unrecognized command verb.
+Ù
+Error in line 759: Unrecognized command verb.
+Cø
+Error in line 760: Unrecognized command verb.
+Ù
+Error in line 761: Unrecognized command verb.
+Cø
+Error in line 763: Unrecognized command verb.
+Ù
+Error in line 764: Unrecognized command verb.
+Cø
+Error in line 765: Unrecognized command verb.
+Ù
+Error in line 766: Unrecognized command verb.
+Cø
+Error in line 768: Unrecognized command verb.
+Ù
+Error in line 769: Unrecognized command verb.
+Cø
+Error in line 770: Unrecognized command verb.
+Ù
+Error in line 771: Unrecognized command verb.
+Cø
+Error in line 772: Unrecognized command verb.
+Ù
+Error in line 773: Unrecognized command verb.
+Cø
+Error in line 775: Unrecognized command verb.
+Ù
+Error in line 776: Unrecognized command verb.
+Cø
+Error in line 778: Unrecognized command verb.
+Ù
+Error in line 779: Unrecognized command verb.
+Cø
+Error in line 780: Unrecognized command verb.
+Ù
+Error in line 781: Unrecognized command verb.
+Cø
+Error in line 782: Unrecognized command verb.
+Ù
+Error in line 783: Unrecognized command verb.
+Cø
+Error in line 784: Unrecognized command verb.
+Ù
+Error in line 785: Unrecognized command verb.
+Cø
+Error in line 786: Unrecognized command verb.
+Ù
+Error in line 787: Unrecognized command verb.
+Cø
+Error in line 788: Unrecognized command verb.
+Ù
+Error in line 789: Unrecognized command verb.
+Cø
+Error in line 790: Unrecognized command verb.
+Ù
+Error in line 791: Unrecognized command verb.
+Cø
+Error in line 792: Unrecognized command verb.
+Ù
+Error in line 793: Unrecognized command verb.
+Cø
+Error in line 795: Unrecognized command verb.
+Ù
+Error in line 796: Unrecognized command verb.
+Cø
+Error in line 797: Unrecognized command verb.
+Ù
+Error in line 798: Unrecognized command verb.
+Cø
+Error in line 799: Unrecognized command verb.
+Ù
+Error in line 800: Unrecognized command verb.
+Cø
+Error in line 801: Unrecognized command verb.
+Ù
+Error in line 802: Unrecognized command verb.
+Cø
+Error in line 803: Unrecognized command verb.
+Ù
+Error in line 804: Unrecognized command verb.
+Cø
+Error in line 805: Unrecognized command verb.
+Ù
+Error in line 806: Unrecognized command verb.
+Cø
+Error in line 807: Unrecognized command verb.
+Ù
+Error in line 808: Unrecognized command verb.
+Cø
+Error in line 809: Unrecognized command verb.
+Ù
+Error in line 810: Unrecognized command verb.
+Cø
+Error in line 811: Unrecognized command verb.
+Ù
+Error in line 812: Unrecognized command verb.
+Cø
+Error in line 813: Unrecognized command verb.
+Ù
+Error in line 814: Unrecognized command verb.
+Cø
+Error in line 815: Unrecognized command verb.
+Ù
+Error in line 816: Unrecognized command verb.
+Cø
+Error in line 817: Unrecognized command verb.
+Ù
+Error in line 818: Unrecognized command verb.
+Cø
+Error in line 819: Unrecognized command verb.
+Ù
+Error in line 820: Unrecognized command verb.
+Cø
+Error in line 821: Unrecognized command verb.
+Ù
+Error in line 822: Unrecognized command verb.
+Cø
+Error in line 823: Unrecognized command verb.
+Ù
+Error in line 824: Unrecognized command verb.
+Cø
+Error in line 825: Unrecognized command verb.
+Ù
+Error in line 826: Unrecognized command verb.
+Cø
+Error in line 827: Unrecognized command verb.
+Ù
+Error in line 828: Unrecognized command verb.
+Cø
+Error in line 830: Unrecognized command verb.
+Ù
+Error in line 831: Unrecognized command verb.
+Cø
+Error in line 832: Unrecognized command verb.
+Ù
+Error in line 833: Unrecognized command verb.
+Cø
+Error in line 834: Unrecognized command verb.
+Ù
+Error in line 835: Unrecognized command verb.
+Cø
+Error in line 836: Unrecognized command verb.
+Ù
+Error in line 837: Unrecognized command verb.
+Cø
+Error in line 838: Unrecognized command verb.
+Ù
+Error in line 839: Unrecognized command verb.
+Cø
+Error in line 840: Unrecognized command verb.
+Ù
+Error in line 841: Unrecognized command verb.
+Cø
+Error in line 842: Unrecognized command verb.
+Ù
+Error in line 843: Unrecognized command verb.
+Cø
+Error in line 844: Unrecognized command verb.
+Ù
+Error in line 845: Unrecognized command verb.
+Cø
+Error in line 846: Unrecognized command verb.
+Ù
+Error in line 847: Unrecognized command verb.
+Cø
+Error in line 848: Unrecognized command verb.
+Ù
+Error in line 849: Unrecognized command verb.
+Cø
+Error in line 850: Unrecognized command verb.
+Ù
+Error in line 851: Unrecognized command verb.
+Cø
+Error in line 852: Unrecognized command verb.
+Ù
+Error in line 853: Unrecognized command verb.
+Cø
+Error in line 854: Unrecognized command verb.
+Ù
+Error in line 855: Unrecognized command verb.
+Cø
+Error in line 856: Unrecognized command verb.
+Ù
+Error in line 857: Unrecognized command verb.
+Cø
+Error in line 858: Unrecognized command verb.
+Ù
+Error in line 859: Unrecognized command verb.
+Cø
+Error in line 860: Unrecognized command verb.
+Ù
+Error in line 861: Unrecognized command verb.
+Cø
+Error in line 862: Unrecognized command verb.
+Ù
+Error in line 863: Unrecognized command verb.
+Cø
+Error in line 864: Unrecognized command verb.
+Ù
+Error in line 865: Unrecognized command verb.
+Cø
+Error in line 866: Unrecognized command verb.
+Ù
+Error in line 867: Unrecognized command verb.
+Cø
+Error in line 868: Unrecognized command verb.
+Ù
+Error in line 869: Unrecognized command verb.
+Cø
+Error in line 870: Unrecognized command verb.
+Ù
+Error in line 871: Unrecognized command verb.
+Cø
+Error in line 872: Unrecognized command verb.
+Ù
+Error in line 873: Unrecognized command verb.
+Cø
+Error in line 875: Unrecognized command verb.
+Ù
+Error in line 876: Unrecognized command verb.
+Cø
+Error in line 877: Unrecognized command verb.
+Ù
+Error in line 878: Unrecognized command verb.
+Cø
+Error in line 879: Unrecognized command verb.
+Ù
+Error in line 880: Unrecognized command verb.
+Cø
+Error in line 881: Unrecognized command verb.
+Ù
+Error in line 882: Unrecognized command verb.
+Cø
+Error in line 883: Unrecognized command verb.
+Ù
+Error in line 884: Unrecognized command verb.
+Cø
+Error in line 885: Unrecognized command verb.
+Ù
+Error in line 886: Unrecognized command verb.
+Cø
+Error in line 887: Unrecognized command verb.
+Ù
+Error in line 888: Unrecognized command verb.
+Cø
+Error in line 889: Unrecognized command verb.
+Ù
+Error in line 890: Unrecognized command verb.
+ýùœOþF
+Error in line 891: Unrecognized command verb.
+Cø
+Error in line 892: Unrecognized command verb.
+Ù
+Error in line 893: Unrecognized command verb.
+Cø
+Error in line 894: Unrecognized command verb.
+Ù
+Error in line 895: Unrecognized command verb.
+Cø
+Error in line 896: Unrecognized command verb.
+Ù
+Error in line 897: Unrecognized command verb.
+Cø
+Error in line 898: Unrecognized command verb.
+Ù
+Error in line 899: Unrecognized command verb.
+Cø
+Error in line 900: Unrecognized command verb.
+Ù
+Error in line 901: Unrecognized command verb.
+Cø
+Error in line 903: Unrecognized command verb.
+Ù
+Error in line 904: Unrecognized command verb.
+Cø
+Error in line 905: Unrecognized command verb.
+Ù
+Error in line 906: Unrecognized command verb.
+Cø
+Error in line 907: Unrecognized command verb.
+Ù
+Error in line 908: Unrecognized command verb.
+Cø
+Error in line 909: Unrecognized command verb.
+Ù
+Error in line 910: Unrecognized command verb.
+Cø
+Error in line 912: Unrecognized command verb.
+Ù
+Error in line 913: Unrecognized command verb.
+Cø
+Error in line 914: Unrecognized command verb.
+Ù
+Error in line 915: Unrecognized command verb.
+Cø
+Error in line 916: Unrecognized command verb.
+Ù
+Error in line 917: Unrecognized command verb.
+Cø
+Error in line 918: Unrecognized command verb.
+Ù
+Error in line 919: Unrecognized command verb.
+Cø
+Error in line 920: Unrecognized command verb.
+Ù
+Error in line 921: Unrecognized command verb.
+Cø
+Error in line 922: Unrecognized command verb.
+Ù
+Error in line 923: Unrecognized command verb.
+Cø
+Error in line 924: Unrecognized command verb.
+Ù
+Error in line 925: Unrecognized command verb.
+Cø
+Error in line 927: Unrecognized command verb.
+Ù
+Error in line 928: Unrecognized command verb.
+Cø
+Error in line 929: Unrecognized command verb.
+Ù
+Error in line 930: Unrecognized command verb.
+commandbutton
+Error in line 965: Unrecognized command verb.
+commandbutton
+Error in line 966: Unrecognized command verb.
+Left = 0
+Error in line 967: Statement is not in a procedure.
+Height = 25
+Error in line 968: Statement is not in a procedure.
+Width = 108
+Error in line 969: Statement is not in a procedure.
+Caption = "Carregar Tx2"
+Error in line 970: Statement is not in a procedure.
+Name = "btnTx2"
+Error in line 971: Statement is not in a procedure.
+WITH THISFORM
+Error in line 973: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = ""
+Error in line 974: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + "INCLUIRS1000"
+Error in line 975: Statement is not in a procedure.
+IF thisform.cbAmbiente.Value = "1 - Produção" then
+Error in line 976: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "tpAmb_4=1"
+Error in line 977: Statement is not in a procedure.
+ENDIF
+Error in line 978: Statement is not in a procedure.
+IF thisform.cbAmbiente.Value = "2 - Homologação" then
+Error in line 979: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "tpAmb_4=2"
+Error in line 980: Statement is not in a procedure.
+ENDIF
+Error in line 981: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "procEmi_5=1"
+Error in line 982: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "verProc_6=1.0"
+Error in line 983: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "tpInsc_8=1"
+Error in line 984: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nrInsc_9=13930441"
+Error in line 985: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "iniValid_13=2017-07"
+Error in line 986: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "fimValid_14="
+Error in line 987: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nmRazao_15=TECNOSPEED TECNOLOGIA DA INFORMACAO"
+Error in line 988: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "classTrib_16=99"
+Error in line 989: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "natJurid_17=2054"
+Error in line 990: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indCoop_18=0"
+Error in line 991: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indConstr_19=0"
+Error in line 992: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indDesFolha_20=0"
+Error in line 993: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indOptRegEletron_21=0"
+Error in line 994: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indEntEd_23=N"
+Error in line 995: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indEtt_24=N"
+Error in line 996: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nrRegEtt_25="
+Error in line 997: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "ideMinLei_27="
+Error in line 998: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nrCertif_28="
+Error in line 999: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "dtEmisCertif_29="
+Error in line 1000: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "dtVencCertif_30="
+Error in line 1001: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nrProtRenov_31="
+Error in line 1002: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "dtProtRenov_32="
+Error in line 1003: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "dtDou_33="
+Error in line 1004: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "pagDou_34="
+Error in line 1005: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nmCtt_36=João da Silva"
+Error in line 1006: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "cpfCtt_37=52406715167"
+Error in line 1007: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "foneFixo_38=4430379500"
+Error in line 1008: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "foneCel_39=7867834687"
+Error in line 1009: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "email_40="
+Error in line 1010: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nrSiafi_42="
+Error in line 1011: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "ideEFR_44="
+Error in line 1012: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "cnpjEFR_45="
+Error in line 1013: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nmEnte_47="
+Error in line 1014: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "uf_48="
+Error in line 1015: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "codMunic_49="
+Error in line 1016: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indRPPS_50="
+Error in line 1017: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "subteto_51="
+Error in line 1018: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "vrSubteto_52="
+Error in line 1019: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indAcordoIsenMulta_54="
+Error in line 1020: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "INCLUIRSOFTWAREHOUSE_55"
+Error in line 1021: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "cnpjSoftHouse_56=13930441000134"
+Error in line 1022: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nmRazao_57=Empresa de Teste"
+Error in line 1023: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "nmCont_58=Nome do Contato"
+Error in line 1024: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "telefone_59=4430303030"
+Error in line 1025: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "email_60="
+Error in line 1026: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "SALVARSOFTWAREHOUSE_55"
+Error in line 1027: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indSitPJ_63=0"
+Error in line 1028: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "indSitPF_65="
+Error in line 1029: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.value = .Pageframe1.page1.mmoRetorno.value + chr(13)+chr(10) + "SALVARS1000"
+Error in line 1030: Statement is not in a procedure.
+ENDWITH
+Error in line 1031: Statement is not in a procedure.
+ENDPROC
+Error in line 1032: Nesting error.
+þ
+Error in line 1037: Unrecognized command verb.
+Cø
+Error in line 1038: Unrecognized command verb.
+Ù	
+Error in line 1039: Unrecognized command verb.
+Cø
+Error in line 1040: Unrecognized command verb.
+Ù	
+Error in line 1041: Unrecognized command verb.
+Cø
+Error in line 1042: Unrecognized command verb.
+Ù
+Error in line 1043: Unrecognized command verb.
+Cø
+Error in line 1044: Unrecognized command verb.
+Ù
+Error in line 1045: Unrecognized command verb.
+Cø
+Error in line 1047: Unrecognized command verb.
+Ù
+Error in line 1048: Unrecognized command verb.
+Cø
+Error in line 1050: Unrecognized command verb.
+Ù
+Error in line 1051: Unrecognized command verb.
+Cø
+Error in line 1052: Unrecognized command verb.
+Ù
+Error in line 1053: Unrecognized command verb.
+Cø
+Error in line 1054: Unrecognized command verb.
+Ù
+Error in line 1055: Unrecognized command verb.
+Cø
+Error in line 1056: Unrecognized command verb.
+Ù.
+Error in line 1057: Unrecognized command verb.
+Cø
+Error in line 1058: Unrecognized command verb.
+Ù
+Error in line 1059: Unrecognized command verb.
+Cø
+Error in line 1060: Unrecognized command verb.
+Ù
+Error in line 1061: Unrecognized command verb.
+Cø
+Error in line 1062: Unrecognized command verb.
+Ù
+Error in line 1063: Unrecognized command verb.
+Cø
+Error in line 1064: Unrecognized command verb.
+Ù
+Error in line 1065: Unrecognized command verb.
+Cø
+Error in line 1066: Unrecognized command verb.
+Ù
+Error in line 1067: Unrecognized command verb.
+Cø
+Error in line 1068: Unrecognized command verb.
+Ù
+Error in line 1069: Unrecognized command verb.
+Cø
+Error in line 1070: Unrecognized command verb.
+Ù
+Error in line 1071: Unrecognized command verb.
+Cø
+Error in line 1073: Unrecognized command verb.
+Ù
+Error in line 1074: Unrecognized command verb.
+Cø
+Error in line 1075: Unrecognized command verb.
+Ù
+Error in line 1076: Unrecognized command verb.
+Cø
+Error in line 1077: Unrecognized command verb.
+Ù
+Error in line 1078: Unrecognized command verb.
+Cø
+Error in line 1080: Unrecognized command verb.
+Ù
+Error in line 1081: Unrecognized command verb.
+Cø
+Error in line 1082: Unrecognized command verb.
+Ù
+Error in line 1083: Unrecognized command verb.
+Cø
+Error in line 1084: Unrecognized command verb.
+Ù
+Error in line 1085: Unrecognized command verb.
+Cø
+Error in line 1086: Unrecognized command verb.
+Ù
+Error in line 1087: Unrecognized command verb.
+Cø
+Error in line 1088: Unrecognized command verb.
+Ù
+Error in line 1089: Unrecognized command verb.
+Cø
+Error in line 1090: Unrecognized command verb.
+Ù	
+Error in line 1091: Unrecognized command verb.
+Cø
+Error in line 1092: Unrecognized command verb.
+Ù
+Error in line 1093: Unrecognized command verb.
+Cø
+Error in line 1095: Unrecognized command verb.
+Ù
+Error in line 1096: Unrecognized command verb.
+Cø
+Error in line 1097: Unrecognized command verb.
+Ù
+Error in line 1098: Unrecognized command verb.
+Cø
+Error in line 1099: Unrecognized command verb.
+Ù
+Error in line 1100: Unrecognized command verb.
+Cø
+Error in line 1101: Unrecognized command verb.
+Ù
+Error in line 1102: Unrecognized command verb.
+Cø
+Error in line 1103: Unrecognized command verb.
+Ù	
+Error in line 1104: Unrecognized command verb.
+Cø
+Error in line 1105: Unrecognized command verb.
+Ù
+Error in line 1106: Unrecognized command verb.
+Cø
+Error in line 1107: Unrecognized command verb.
+Ù
+Error in line 1108: Unrecognized command verb.
+Cø
+Error in line 1110: Unrecognized command verb.
+Ù
+Error in line 1111: Unrecognized command verb.
+Cø
+Error in line 1112: Unrecognized command verb.
+Ù
+Error in line 1113: Unrecognized command verb.
+Cø
+Error in line 1115: Unrecognized command verb.
+Ù
+Error in line 1116: Unrecognized command verb.
+Cø
+Error in line 1117: Unrecognized command verb.
+Ù
+Error in line 1118: Unrecognized command verb.
+Cø
+Error in line 1119: Unrecognized command verb.
+Ù
+Error in line 1120: Unrecognized command verb.
+Cø
+Error in line 1121: Unrecognized command verb.
+Ù
+Error in line 1122: Unrecognized command verb.
+Cø
+Error in line 1123: Unrecognized command verb.
+Ù
+Error in line 1124: Unrecognized command verb.
+Cø
+Error in line 1126: Unrecognized command verb.
+Ù
+Error in line 1127: Unrecognized command verb.
+Cø
+Error in line 1128: Unrecognized command verb.
+Ù
+Error in line 1129: Unrecognized command verb.
+Cø
+Error in line 1130: Unrecognized command verb.
+Ù
+Error in line 1131: Unrecognized command verb.
+Cø
+Error in line 1132: Unrecognized command verb.
+Ù
+Error in line 1133: Unrecognized command verb.
+Cø
+Error in line 1134: Unrecognized command verb.
+Ù
+Error in line 1135: Unrecognized command verb.
+Cø
+Error in line 1136: Unrecognized command verb.
+Ù
+Error in line 1137: Unrecognized command verb.
+Cø
+Error in line 1138: Unrecognized command verb.
+Ù	
+Error in line 1139: Unrecognized command verb.
+Cø
+Error in line 1140: Unrecognized command verb.
+Ù
+Error in line 1141: Unrecognized command verb.
+Cø
+Error in line 1142: Unrecognized command verb.
+Ù
+Error in line 1143: Unrecognized command verb.
+Cø
+Error in line 1145: Unrecognized command verb.
+Ù
+Error in line 1146: Unrecognized command verb.
+Cø
+Error in line 1147: Unrecognized command verb.
+Ù
+Error in line 1148: Unrecognized command verb.
+commandbutton
+Error in line 1152: Unrecognized command verb.
+commandbutton
+Error in line 1153: Unrecognized command verb.
+Left = 396
+Error in line 1154: Statement is not in a procedure.
+Height = 25
+Error in line 1155: Statement is not in a procedure.
+Width = 108
+Error in line 1156: Statement is not in a procedure.
+Caption = "Enviar"
+Error in line 1157: Statement is not in a procedure.
+Name = "btnEnviar"
+Error in line 1158: Statement is not in a procedure.
+PUBLIC RetEnvio As IspdRetEnviarLoteEventos
+Error in line 1160: Statement is not in a procedure.
+WITH THISFORM  
+Error in line 1162: Statement is not in a procedure.
+RetEnvio= eSocial.EnviarLoteEventos(.Pageframe1.page1.mmoRetorno.VALUE, VAL(.cbGrupo.value))
+Error in line 1163: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = "### ENVIO DE EVENTO ###" 
+Error in line 1164: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "Identificador do Lote: " + RetEnvio.IdLote
+Error in line 1165: Statement is not in a procedure.
+.Pageframe1.page1.mmoRetorno.VALUE = .Pageframe1.page1.mmoRetorno.VALUE +  chr(13)+chr(10) + "Mensagem: " + RetEnvio.Mensagem
+Error in line 1166: Statement is not in a procedure.
+.edtIdLote.VALUE = RetEnvio.IdLote 
+Error in line 1167: Statement is not in a procedure.
+ENDWITH
+Error in line 1168: Statement is not in a procedure.
+ENDPROC
+Error in line 1169: Nesting error.
+Cø
+Error in line 1173: Unrecognized command verb.
+Ù
+Error in line 1174: Unrecognized command verb.
+Cø
+Error in line 1175: Unrecognized command verb.
+Ù
+Error in line 1176: Unrecognized command verb.
+commandbutton
+Error in line 1181: Unrecognized command verb.
+commandbutton
+Error in line 1182: Unrecognized command verb.
+btnGeraXML
+Error in line 1183: Unrecognized command verb.
+Left = 132
+Error in line 1184: Statement is not in a procedure.
+Height = 25
+Error in line 1185: Statement is not in a procedure.
+Width = 108
+Error in line 1186: Statement is not in a procedure.
+Caption = "Gerar XML"
+Error in line 1187: Statement is not in a procedure.
+Name = "btnGeraXML"
+Error in line 1188: Statement is not in a procedure.
+thisform.pageframe1.page1.mmoRetorno.Value = eSocial.GerarXMLporTx2(thisform.Pageframe1.page1.mmoRetorno.value)
+Error in line 1190: Statement is not in a procedure.
+ENDPROC
+Error in line 1191: Nesting error.
+commandbutton
+Error in line 1195: Unrecognized command verb.
+commandbutton
+Error in line 1196: Unrecognized command verb.
+btnAssinar
+Error in line 1197: Unrecognized command verb.
+Left = 264
+Error in line 1198: Statement is not in a procedure.
+Height = 25
+Error in line 1199: Statement is not in a procedure.
+Width = 108
+Error in line 1200: Statement is not in a procedure.
+Caption = "Assinar"
+Error in line 1201: Statement is not in a procedure.
+Name = "btnAssinar"
+Error in line 1202: Statement is not in a procedure.
+thisform.pageframe1.page1.mmoRetorno.Value = eSocial.AssinarEvento(thisform.Pageframe1.page1.mmoRetorno.value)
+Error in line 1204: Statement is not in a procedure.
+ENDPROC
+Error in line 1205: Nesting error.
+Value = 1
+Error in line 1210: Statement is not in a procedure.
+ControlSource = ""
+Error in line 1211: Statement is not in a procedure.
+Height = 24
+Error in line 1212: Statement is not in a procedure.
+Left = 0
+Error in line 1213: Statement is not in a procedure.
+Top = 336
+Error in line 1214: Statement is not in a procedure.
+Width = 504
+Error in line 1215: Statement is not in a procedure.
+Name = "Optiongroup1"
+Error in line 1216: Statement is not in a procedure.
+Option1.Caption = "Id de Lote"
+Error in line 1217: Statement is not in a procedure.
+Option1.Value = 1
+Error in line 1218: Statement is not in a procedure.
+Option1.Height = 17
+Error in line 1219: Statement is not in a procedure.
+Option1.Left = 5
+Error in line 1220: Statement is not in a procedure.
+Option1.Top = 5
+Error in line 1221: Statement is not in a procedure.
+Option1.Width = 91
+Error in line 1222: Statement is not in a procedure.
+Option1.Name = "opLote"
+Error in line 1223: Statement is not in a procedure.
+Option2.Alignment = 0
+Error in line 1224: Statement is not in a procedure.
+Option2.Caption = "Id de Evento"
+Error in line 1225: Statement is not in a procedure.
+Option2.Height = 17
+Error in line 1226: Statement is not in a procedure.
+Option2.Left = 204
+Error in line 1227: Statement is not in a procedure.
+Option2.Top = 4
+Error in line 1228: Statement is not in a procedure.
+Option2.Width = 91
+Error in line 1229: Statement is not in a procedure.
+Option2.Name = "opEvento"
+Error in line 1230: Statement is not in a procedure.
+Option3.Caption = "Nr do Recibo"
+Error in line 1231: Statement is not in a procedure.
+Option3.Height = 17
+Error in line 1232: Statement is not in a procedure.
+Option3.Left = 396
+Error in line 1233: Statement is not in a procedure.
+Option3.Top = 4
+Error in line 1234: Statement is not in a procedure.
+Option3.Width = 91
+Error in line 1235: Statement is not in a procedure.
+Option3.Name = "opRecibo"
+Error in line 1236: Statement is not in a procedure.
+Height = 13
+Error in line 1238: Statement is not in a procedure.
+Left = 0
+Error in line 1239: Statement is not in a procedure.
+Top = 324
+Error in line 1240: Statement is not in a procedure.
+Width = 156
+Error in line 1241: Statement is not in a procedure.
+Name = "Label12"
+Error in line 1242: Statement is not in a procedure.
