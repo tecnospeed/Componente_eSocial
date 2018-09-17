@@ -176,6 +176,7 @@ namespace eSocialCSharp
                     tbRetorno.Text += "        Código: " + _RetConsultaOcorrencia.Codigo + Environment.NewLine;
                     tbRetorno.Text += "        Descrição: " + _RetConsultaOcorrencia.Descricao + Environment.NewLine;
                 }
+                PopulaTotalizadores(_RetConsultaItem);
             }
             for (int i = 0; i < _RetConsulta.CountOcorrencias(); i++)
             {
