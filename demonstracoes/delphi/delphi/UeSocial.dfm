@@ -13,6 +13,7 @@ object frmeSocial: TfrmeSocial
   OldCreateOrder = False
   Position = poDesigned
   OnCreate = FormCreate
+  OnDestroy = FormDestroy
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
