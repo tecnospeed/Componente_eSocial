@@ -149,7 +149,7 @@ var
   RetConsultaItem: IspdRetConsultarLoteItem;
   RetConsultaOcorrencia: IspdRetConsultarLoteOcorrencia;
   RetConsultaOcorrenciaEnvio: IspdRetConsultarLoteOcorrenciaEnvio;
-  _i, _j, _k, _a, _b, _c: integer;
+  _i, _j, _k, _a, _b, _c, _d, _e: integer;
 begin
   if rgTipoEnvio.ItemIndex = 0 then
   RetConsulta := eSocial.ConsultarLoteEventos(edtIdLote.Text)
@@ -273,6 +273,172 @@ begin
         mmoXML.Lines.Add('        bairro: ' + RetConsultaItem.S5002.InfoIrrf[_a].IdePgtoExt.EndExt.bairro);
         mmoXML.Lines.Add('        nmCid: ' + RetConsultaItem.S5002.InfoIrrf[_a].IdePgtoExt.EndExt.nmCid);
         mmoXML.Lines.Add('        codPostal: ' + RetConsultaItem.S5002.InfoIrrf[_a].IdePgtoExt.EndExt.codPostal);
+      end;
+    end;
+    if not RetConsultaItem.S5003.IsEmpty then
+    begin
+      mmoXML.Lines.Add('        ### S5003 ###');
+      mmoXML.Lines.Add('        Id: ' + RetConsultaItem.S5003.Id);
+      // IdeEvento
+      mmoXML.Lines.Add('        NrRecArqBase: ' +
+        RetConsultaItem.S5003.IdeEvento.NrRecArqBase);
+      mmoXML.Lines.Add('        perApur: ' +
+        RetConsultaItem.S5003.IdeEvento.perApur);
+
+      // IdeEmpregador
+      mmoXML.Lines.Add('        tpInsc: ' +
+        RetConsultaItem.S5003.IdeEmpregador.tpInsc);
+      mmoXML.Lines.Add('        nrInsc: ' +
+        RetConsultaItem.S5003.IdeEmpregador.nrInsc);
+
+      // ideTrabalhador
+
+      mmoXML.Lines.Add('        CpfTrab: ' +
+        RetConsultaItem.S5003.IdeTrabalador.cpfTrab);
+      mmoXML.Lines.Add('        NisTrab: ' +
+        RetConsultaItem.S5003.IdeTrabalador.NisTrab);
+
+      // InfoFGTS
+      mmoXML.Lines.Add('        InfoFGTS: ' +
+        RetConsultaItem.S5003.InfoFGTS.DtVenc);
+      mmoXML.Lines.Add('           CpfTrab: ' +
+        RetConsultaItem.S5003.InfoFGTS.DtVenc);
+
+      for _a := 0 to RetConsultaItem.S5003.InfoFGTS.CountIdeEstabLot - 1 do
+      begin
+        mmoXML.Lines.Add('           IdeEstabLot: ');
+        mmoXML.Lines.Add('            TpInsc: ' +
+          RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].tpInsc);
+        mmoXML.Lines.Add('            NrInsc: ' +
+          RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].nrInsc);
+        mmoXML.Lines.Add('            CodLotacao: ' +
+          RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].codLotacao);
+        for _b := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+          .CountInfoTrabFGTS - 1 do
+        begin
+          mmoXML.Lines.Add('            IdeEstabLot: ');
+          mmoXML.Lines.Add('              Matricula: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+            .Matricula);
+          mmoXML.Lines.Add('              CodCateg: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+            .codCateg);
+          mmoXML.Lines.Add('              DtAdm: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS
+            [_b].DtAdm);
+          mmoXML.Lines.Add('              DtDeslig: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+            .DtDeslig);
+          mmoXML.Lines.Add('              DtInicio: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+            .DtInicio);
+          mmoXML.Lines.Add('              MtvDeslig: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+            .MtvDeslig);
+          mmoXML.Lines.Add('              DtTerm: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS
+            [_b].DtTerm);
+          mmoXML.Lines.Add('              MtvDesligTSV: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+            .MtvDesligTSV);
+
+          for _c := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+            .InfoTrabFGTS[_b].CountInfoBaseFGTS - 1 do
+          begin
+            mmoXML.Lines.Add('               InfoBaseFGTS: ');
+            for _d := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+              .InfoTrabFGTS[_b].InfoBaseFGTS[_c].CountBasePerApur - 1 do
+            begin
+              mmoXML.Lines.Add('                BasePerApur: ');
+              mmoXML.Lines.Add('                 tpValor: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .InfoBaseFGTS[_c].BasePerApur[_d].tpValor);
+              mmoXML.Lines.Add('                 RemFGTS: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .InfoBaseFGTS[_c].BasePerApur[_d].RemFGTS);
+
+            end;
+            for _d := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+              .InfoTrabFGTS[_b].InfoBaseFGTS[_c].CountInfoBasePerAntE - 1 do
+            begin
+              mmoXML.Lines.Add('                InfoBasePerAntE: ');
+              mmoXML.Lines.Add('                 PerRef: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .InfoBaseFGTS[_c].InfoBasePerAntE[_d].PerRef);
+
+              for _e := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+                .InfoTrabFGTS[_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d]
+                .CountBasePerAntE - 1 do
+              begin
+                mmoXML.Lines.Add('                 BasePerAntE: ');
+                mmoXML.Lines.Add('                  TpValorE: ' +
+                  RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS
+                  [_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d].BasePerAntE[_e]
+                  .TpValorE);
+
+                mmoXML.Lines.Add('                  RemFGTSE: ' +
+                  RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS
+                  [_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d].BasePerAntE[_e]
+                  .RemFGTSE);
+
+              end;
+
+            end;
+
+          end;
+
+        end;
+
+      end;
+
+      for _a := 0 to RetConsultaItem.S5003.InfoFGTS.CountInfoDpsFGTS - 1 do
+      begin
+        mmoXML.Lines.Add('           InfoDpsFGTS: ');
+        for _b := 0 to RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a]
+          .CountInfoTrabDps - 1 do
+        begin
+          mmoXML.Lines.Add('            InfoTrabDps: ');
+          mmoXML.Lines.Add('             Matricula: ' +
+            RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+            .Matricula);
+          mmoXML.Lines.Add('             codCateg: ' +
+            RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+            .codCateg);
+          for _c := 0 to RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a]
+            .InfoTrabDps[_b].CountDpsPerApur - 1 do
+          begin
+            mmoXML.Lines.Add('            DpsPerApur: ');
+            mmoXML.Lines.Add('             TpDps: ' +
+              RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+              .DpsPerApur[_c].TpDps);
+            mmoXML.Lines.Add('             DpsFGTS: ' +
+              RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+              .DpsPerApur[_c].DpsFGTS);
+          end;
+          for _c := 0 to RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a]
+            .InfoTrabDps[_b].CountInfoDpsPerAntE - 1 do
+          begin
+            mmoXML.Lines.Add('            InfoDpsPerAntE: ');
+            mmoXML.Lines.Add('             PerRef: ' +
+              RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+              .InfoDpsPerAntE[_c].PerRef);
+
+            for _d := 0 to RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a]
+              .InfoTrabDps[_b].InfoDpsPerAntE[_c].CountDpsPerAntE - 1 do
+            begin
+              mmoXML.Lines.Add('             DpsPerAntE: ');
+              mmoXML.Lines.Add('              TpDpsE: ' +
+                RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                .InfoDpsPerAntE[_c].DpsPerAntE[_d].TpDpsE);
+              mmoXML.Lines.Add('              DpsFGTSE: ' +
+                RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                .InfoDpsPerAntE[_c].DpsPerAntE[_d].DpsFGTSE);
+            end;
+
+          end;
+
+        end;
+
       end;
     end;
     if not RetConsultaItem.S5011.IsEmpty then
@@ -427,6 +593,92 @@ begin
       begin
         mmoXML.Lines.Add('        tpCR: ' + RetConsultaItem.S5012.InfoIrrf.InfoCRContrib[_a].tpCR);
         mmoXML.Lines.Add('        vrCR: ' + RetConsultaItem.S5012.InfoIrrf.InfoCRContrib[_a].vrCR);
+      end;
+    end;
+    if not RetConsultaItem.S5013.IsEmpty then
+    begin
+      mmoXML.Lines.Add('        ### S5013 ###');
+      mmoXML.Lines.Add('        Id: ' + RetConsultaItem.S5013.Id);
+      // IdeEvento
+      mmoXML.Lines.Add('        perApur: ' +
+        RetConsultaItem.S5013.IdeEvento.perApur);
+      // IdeEmpregador
+      mmoXML.Lines.Add('        tpInsc: ' +
+        RetConsultaItem.S5013.IdeEmpregador.tpInsc);
+      mmoXML.Lines.Add('        nrInsc: ' +
+        RetConsultaItem.S5013.IdeEmpregador.nrInsc);
+      // infoFGTS
+      mmoXML.Lines.Add('        nrRecArqBase: ' +
+        RetConsultaItem.S5013.InfoFGTS.NrRecArqBase);
+      mmoXML.Lines.Add('        indExistInfo: ' +
+        RetConsultaItem.S5013.InfoFGTS.indExistInfo);
+      // infoBaseFGTS
+      mmoXML.Lines.Add('        infoBaseFGTS: ');
+      // basePerApur
+      mmoXML.Lines.Add('          basePerApur: <List>');
+      for _a := 0 to RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.
+        CountBasePerApur - 1 do
+      begin
+        mmoXML.Lines.Add('            tpValor: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.BasePerApur[_a].tpValor);
+        mmoXML.Lines.Add('            baseFGTS: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.BasePerApur[_a].baseFGTS);
+        mmoXML.Lines.Add('            --');
+      end;
+      // infoBaseFGTS
+      mmoXML.Lines.Add('          infoBaseFGTS: <List>');
+      for _a := 0 to RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.
+        CountInfoBasePerAntE - 1 do
+      begin
+        // InfoBasePerAntE
+        mmoXML.Lines.Add('            perRef: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE
+          [_a].PerRef);
+        mmoXML.Lines.Add('            basePerAntE: <List>');
+        for _b := 0 to RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.
+          InfoBasePerAntE[_a].CountBasePerAntE - 1 do
+        begin
+          mmoXML.Lines.Add('              tpValorE: ' +
+            RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE[_a]
+            .BasePerAntE[_b].TpValorE);
+          mmoXML.Lines.Add('              baseFGTSE: ' +
+            RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE[_a]
+            .BasePerAntE[_b].baseFGTSE);
+          mmoXML.Lines.Add('              --');
+        end;
+      end;
+      // infoDpsFGTS
+      mmoXML.Lines.Add('          infoDpsFGTS:');
+      // dpsPerApur
+      for _a := 0 to RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.
+        CountDpsPerApur - 1 do
+      begin
+        mmoXML.Lines.Add('            TpDps: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.DpsPerApur[_a].TpDps);
+        mmoXML.Lines.Add('            VrFGTS: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.DpsPerApur[_a].VrFGTS);
+        mmoXML.Lines.Add('            --');
+      end;
+      // infoDpsPerAntE
+      mmoXML.Lines.Add('          infoDpsPerAntE: <List>');
+      for _a := 0 to RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.
+        CountInfoDpsPerAntE - 1 do
+      begin
+        mmoXML.Lines.Add('            perRef: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a].PerRef);
+        // basePerAntE
+        mmoXML.Lines.Add('            basePerAntE: <List>');
+        for _b := 0 to RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE
+          [_a].CountDpsPerAntE - 1 do
+        begin
+          mmoXML.Lines.Add('              TpDpsE: ' +
+            RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a]
+            .DpsPerAntE[_b].TpDpsE);
+          mmoXML.Lines.Add('              vrFGTSE: ' +
+            RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a]
+            .DpsPerAntE[_b].VrFGTSE);
+          mmoXML.Lines.Add('              --');
+        end;
       end;
     end;
     for _j := 0 to RetConsultaItem.Count - 1 do
