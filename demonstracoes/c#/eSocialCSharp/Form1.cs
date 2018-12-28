@@ -213,7 +213,7 @@ namespace eSocialCSharp
 
         public void PopulaTotalizadores(IspdRetConsultarLoteItem aObjeto)
         {
-            int _a, _b, _c;
+            int _a, _b, _c, _d, _e;
 
             //--------------------S5001--------------------//
             if (aObjeto.S5001.IsEmpty == false)
@@ -316,6 +316,99 @@ namespace eSocialCSharp
                     tbRetorno.AppendText("        bairro: " + aObjeto.S5002.InfoIrrf[_a].IdePgtoExt.EndExt.Bairro + Environment.NewLine);
                     tbRetorno.AppendText("        nmCid: " + aObjeto.S5002.InfoIrrf[_a].IdePgtoExt.EndExt.NmCid + Environment.NewLine);
                     tbRetorno.AppendText("        codPostal: " + aObjeto.S5002.InfoIrrf[_a].IdePgtoExt.EndExt.CodPostal + Environment.NewLine);
+                }
+            }
+            //--------------------S5003--------------------//
+            if (aObjeto.S5003.IsEmpty == false)
+            {
+                tbRetorno.AppendText("        ### S5003 ###" + Environment.NewLine);
+                tbRetorno.AppendText("        Id: " + aObjeto.S5003.Id + Environment.NewLine);
+                // IdeEvento
+                tbRetorno.AppendText("        NrRecArqBase: " + aObjeto.S5003.IdeEvento.NrRecArqBase + Environment.NewLine);
+                tbRetorno.AppendText("        perApur: " + aObjeto.S5003.IdeEvento.PerApur + Environment.NewLine);
+
+                // IdeEmpregador
+                tbRetorno.AppendText("        tpInsc: " + aObjeto.S5003.IdeEmpregador.TpInsc + Environment.NewLine);
+                tbRetorno.AppendText("        nrInsc: " + aObjeto.S5003.IdeEmpregador.NrInsc + Environment.NewLine);
+
+                // ideTrabalhador
+
+                tbRetorno.AppendText("        CpfTrab: " + aObjeto.S5003.IdeTrabalador.CpfTrab + Environment.NewLine);
+                tbRetorno.AppendText("        NisTrab: " + aObjeto.S5003.IdeTrabalador.NisTrab + Environment.NewLine);
+
+                // InfoFGTS
+                tbRetorno.AppendText("        InfoFGTS: " + aObjeto.S5003.InfoFGTS.DtVenc + Environment.NewLine);
+                tbRetorno.AppendText("           CpfTrab: " + aObjeto.S5003.InfoFGTS.DtVenc + Environment.NewLine);
+
+                for (_a = 0; _a < aObjeto.S5003.InfoFGTS.CountIdeEstabLot(); _a++)
+                {
+                    tbRetorno.AppendText("           IdeEstabLot: " + Environment.NewLine);
+                    tbRetorno.AppendText("            TpInsc: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].TpInsc + Environment.NewLine);
+                    tbRetorno.AppendText("            NrInsc: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].NrInsc + Environment.NewLine);
+                    tbRetorno.AppendText("            CodLotacao: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].CodLotacao + Environment.NewLine);
+                    for (_b = 0; _b < aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].CountInfoTrabFGTS(); _b++)
+                    {
+                        tbRetorno.AppendText("            IdeEstabLot: " + Environment.NewLine);
+                        tbRetorno.AppendText("              Matricula: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].Matricula + Environment.NewLine);
+                        tbRetorno.AppendText("              CodCateg: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].CodCateg + Environment.NewLine);
+                        tbRetorno.AppendText("              DtAdm: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].DtAdm + Environment.NewLine);
+                        tbRetorno.AppendText("              DtDeslig: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].DtDeslig + Environment.NewLine);
+                        tbRetorno.AppendText("              DtInicio: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].DtInicio + Environment.NewLine);
+                        tbRetorno.AppendText("              MtvDeslig: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].MtvDeslig + Environment.NewLine);
+                        tbRetorno.AppendText("              DtTerm: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].DtTerm + Environment.NewLine);
+                        tbRetorno.AppendText("              MtvDesligTSV: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].MtvDesligTSV + Environment.NewLine);
+
+                        for (_c = 0; _c < aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].CountInfoBaseFGTS(); _c++)
+                        {
+                            tbRetorno.AppendText("               InfoBaseFGTS: " + Environment.NewLine);
+                            for (_d = 0; _d < aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].InfoBaseFGTS[_c].CountBasePerApur(); _d++)
+                            {
+                                tbRetorno.AppendText("                BasePerApur: " + Environment.NewLine);
+                                tbRetorno.AppendText("                 tpValor: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].InfoBaseFGTS[_c].BasePerApur[_d].TpValor + Environment.NewLine);
+                                tbRetorno.AppendText("                 RemFGTS: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].InfoBaseFGTS[_c].BasePerApur[_d].RemFGTS + Environment.NewLine);
+                            }
+                            for (_d = 0; _d < aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].InfoBaseFGTS[_c].CountInfoBasePerAntE(); _d++)
+                            {
+                                tbRetorno.AppendText("                InfoBasePerAntE: " + Environment.NewLine);
+                                tbRetorno.AppendText("                 PerRef: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d].PerRef + Environment.NewLine);
+
+                                for (_e = 0; _e < aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d].CountBasePerAntE(); _e++)
+                                {
+                                    tbRetorno.AppendText("                 BasePerAntE: " + Environment.NewLine);
+                                    tbRetorno.AppendText("                  TpValorE: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d].BasePerAntE[_e].TpValorE + Environment.NewLine);
+                                    tbRetorno.AppendText("                  RemFGTSE: " + aObjeto.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d].BasePerAntE[_e].RemFGTSE + Environment.NewLine);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                for (_a = 0; _a < aObjeto.S5003.InfoFGTS.CountInfoDpsFGTS(); _a++)
+                {
+                    tbRetorno.AppendText("           InfoDpsFGTS: " + Environment.NewLine);
+                    for (_b = 0; _b < aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].CountInfoTrabDps(); _b++)
+                    {
+                        tbRetorno.AppendText("            InfoTrabDps: " + Environment.NewLine);
+                        tbRetorno.AppendText("             Matricula: " + aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].Matricula + Environment.NewLine);
+                        tbRetorno.AppendText("             codCateg: " + aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].CodCateg + Environment.NewLine);
+                        for (_c = 0; _c < aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].CountDpsPerApur(); _c++)
+                        {
+                            tbRetorno.AppendText("            DpsPerApur: " + Environment.NewLine);
+                            tbRetorno.AppendText("             TpDps: " + aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].DpsPerApur[_c].TpDps + Environment.NewLine);
+                            tbRetorno.AppendText("             DpsFGTS: " + aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].DpsPerApur[_c].DpsFGTS + Environment.NewLine);
+                        }
+                        for (_c = 0; _c < aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].CountInfoDpsPerAntE(); _c++)
+                        {
+                            tbRetorno.AppendText("            InfoDpsPerAntE: " + Environment.NewLine);
+                            tbRetorno.AppendText("             PerRef: " + aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].InfoDpsPerAntE[_c].PerRef + Environment.NewLine);
+                            for (_d = 0; _d < aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].InfoDpsPerAntE[_c].CountDpsPerAntE(); _d++)
+                            {
+                                tbRetorno.AppendText("             DpsPerAntE: " + Environment.NewLine);
+                                tbRetorno.AppendText("              TpDpsE: " + aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].InfoDpsPerAntE[_c].DpsPerAntE[_d].TpDpsE + Environment.NewLine);
+                                tbRetorno.AppendText("              DpsFGTSE: " + aObjeto.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b].InfoDpsPerAntE[_c].DpsPerAntE[_d].DpsFGTSE + Environment.NewLine);
+                            }
+                        }
+                    }
                 }
             }
 
@@ -448,7 +541,6 @@ namespace eSocialCSharp
                         tbRetorno.AppendText("        vrSuspCR: " + aObjeto.S5011.InfoCS.IdeEstab[_a].InfoCREstab[_b].VrSuspCR + Environment.NewLine);
                     }
                 }
-
             }
 
             //--------------------S5012--------------------//
@@ -470,7 +562,68 @@ namespace eSocialCSharp
                     tbRetorno.AppendText("        vrCR: " + aObjeto.S5012.InfoIrrf.InfoCRContrib[_a].VrCR + Environment.NewLine);
                 }
             }
-        }
 
+            //--------------------S5013--------------------//
+            if (aObjeto.S5013.IsEmpty == false)
+            {
+                tbRetorno.AppendText("        ### S5013 ###" + Environment.NewLine);
+                tbRetorno.AppendText("        Id: " + aObjeto.S5013.Id + Environment.NewLine);
+                // IdeEvento
+                tbRetorno.AppendText("        perApur: " + aObjeto.S5013.IdeEvento.PerApur + Environment.NewLine);
+                // IdeEmpregador
+                tbRetorno.AppendText("        tpInsc: " + aObjeto.S5013.IdeEmpregador.TpInsc + Environment.NewLine);
+                tbRetorno.AppendText("        nrInsc: " + aObjeto.S5013.IdeEmpregador.NrInsc + Environment.NewLine);
+                // infoFGTS
+                tbRetorno.AppendText("        nrRecArqBase: " + aObjeto.S5013.InfoFGTS.NrRecArqBase + Environment.NewLine);
+                tbRetorno.AppendText("        indExistInfo: " + aObjeto.S5013.InfoFGTS.IndExistInfo + Environment.NewLine);
+                // infoBaseFGTS
+                tbRetorno.AppendText("        infoBaseFGTS: " + Environment.NewLine);
+                // basePerApur
+                tbRetorno.AppendText("          basePerApur: <List>" + Environment.NewLine);
+                for (_a = 0; _a < aObjeto.S5013.InfoFGTS.InfoBaseFGTS.CountBasePerApur(); _a++)
+                {
+                    tbRetorno.AppendText("            tpValor: " + aObjeto.S5013.InfoFGTS.InfoBaseFGTS.BasePerApur[_a].TpValor + Environment.NewLine);
+                    tbRetorno.AppendText("            baseFGTS: " + aObjeto.S5013.InfoFGTS.InfoBaseFGTS.BasePerApur[_a].BaseFGTS + Environment.NewLine);
+                    tbRetorno.AppendText("            --" + Environment.NewLine);
+                }
+                // infoBaseFGTS
+                tbRetorno.AppendText("          infoBaseFGTS: <List>" + Environment.NewLine);
+                for (_a = 0; _a < aObjeto.S5013.InfoFGTS.InfoBaseFGTS.CountInfoBasePerAntE(); _a++)
+                {
+                    // InfoBasePerAntE
+                    tbRetorno.AppendText("            perRef: " + aObjeto.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE[_a].PerRef + Environment.NewLine);
+                    tbRetorno.AppendText("            basePerAntE: <List>" + Environment.NewLine);
+                    for (_b = 0; _b < aObjeto.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE[_a].CountBasePerAntE(); _b++)
+                    {
+                        tbRetorno.AppendText("              tpValorE: " + aObjeto.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE[_a].BasePerAntE[_b].TpValorE + Environment.NewLine);
+                        tbRetorno.AppendText("              baseFGTSE: " + aObjeto.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE[_a].BasePerAntE[_b].BaseFGTSE + Environment.NewLine);
+                        tbRetorno.AppendText("              --" + Environment.NewLine);
+                    }
+                }
+                // infoDpsFGTS
+                tbRetorno.AppendText("          infoDpsFGTS:" + Environment.NewLine);
+                // dpsPerApur
+                for (_a = 0; _a < aObjeto.S5013.InfoFGTS.InfoDpsFGTS.CountDpsPerApur(); _a++)
+                {
+                    tbRetorno.AppendText("            TpDps: " + aObjeto.S5013.InfoFGTS.InfoDpsFGTS.DpsPerApur[_a].TpDps + Environment.NewLine);
+                    tbRetorno.AppendText("            VrFGTS: " + aObjeto.S5013.InfoFGTS.InfoDpsFGTS.DpsPerApur[_a].VrFGTS + Environment.NewLine);
+                    tbRetorno.AppendText("            --" + Environment.NewLine);
+                }
+                // infoDpsPerAntE
+                tbRetorno.AppendText("          infoDpsPerAntE: <List>" + Environment.NewLine);
+                for (_a = 0; _a < aObjeto.S5013.InfoFGTS.InfoDpsFGTS.CountInfoDpsPerAntE(); _a++)
+                {
+                    tbRetorno.AppendText("            perRef: " + aObjeto.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a].PerRef + Environment.NewLine);
+                    // basePerAntE
+                    tbRetorno.AppendText("            basePerAntE: <List>" + Environment.NewLine);
+                    for (_b = 0; _b < aObjeto.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a].CountDpsPerAntE(); _b++)
+                    {
+                        tbRetorno.AppendText("              TpDpsE: " + aObjeto.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a].DpsPerAntE[_b].TpDpsE + Environment.NewLine);
+                        tbRetorno.AppendText("              vrFGTSE: " + aObjeto.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a].DpsPerAntE[_b].VrFGTSE + Environment.NewLine);
+                        tbRetorno.AppendText("              --" + Environment.NewLine);
+                    }
+                }
+            }
+        }
     }
 }

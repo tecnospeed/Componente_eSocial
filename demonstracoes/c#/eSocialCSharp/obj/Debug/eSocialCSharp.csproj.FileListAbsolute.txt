@@ -90,7 +90,8 @@ C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\obj\Debug\eSocialCSharp.exe
 C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\obj\Debug\eSocialCSharp.pdb
 C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\bin\Debug\eSocialCSharp.exe
 C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\bin\Debug\eSocialCSharp.pdb
-C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\obj\Debug\eSocialCSharp.csprojResolveAssemblyReference.cache
 C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\obj\Debug\eSocialCSharp.frmESocial.resources
 C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\obj\Debug\eSocialCSharp.Properties.Resources.resources
 C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\obj\Debug\eSocialCSharp.csproj.GenerateResource.Cache
+C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\obj\Debug\eSocialCSharp.csprojAssemblyReference.cache
+C:\Git\eSocial\demonstracoes\c#\eSocialCSharp\obj\Debug\eSocialCSharp.csproj.CoreCompileInputs.cache
