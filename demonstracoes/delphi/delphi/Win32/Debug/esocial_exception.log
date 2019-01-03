@@ -1,0 +1,6 @@
+[19/12/2018 10:50:34:585] 1440 - EspdESocialDataSetCampoNaoEncontradoException : Campo "indOpcCP_42" não encontrado
+[28/12/2018 11:33:55:423] 10444 - EspdESocialDataSetCampoNaoEncontradoException : Campo "indAquis_19" não encontrado
+[28/12/2018 11:34:36:718] 10444 - EspdESocialDataSetCampoNaoEncontradoException : Campo "indAquis_19" não encontrado
+[28/12/2018 11:35:56:401] 10444 - EspdESocialDataSetTX2ConteudoInvalidoException : Comando inválido: "INCLUIRINFOPROCJ_43"Linha 16
+[28/12/2018 11:36:59:932] 10444 - EspdESocialDataSetCampoNaoEncontradoException : Campo "indAquis_19" não encontrado
+[28/12/2018 11:39:31:784] 10444 - EspdESocialDataSetTX2ConteudoInvalidoException : Comando inválido: "INCLUIRINFOPROCJ_43"Linha 16

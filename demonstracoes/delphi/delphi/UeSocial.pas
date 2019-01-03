@@ -742,6 +742,7 @@ begin
           RetConsultaItem.S5012.InfoIrrf.infoCRContrib[_a].vrCR);
       end;
     end;
+
     if not RetConsultaItem.S5013.IsEmpty then
     begin
       mmoRetorno.Lines.Add('        ### S5013 ###');
