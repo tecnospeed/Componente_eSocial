@@ -913,11 +913,6 @@ begin
   cbCertificado.Items.Text := eSocial.ListarCertificados(#13#10);
   cbVersaoManual.ItemIndex := 0;
   cbCertificado.ItemIndex := 0;
-  edtCnpjSH.Text := '86837822000147';
-  edtTokenSH.Text := 'Hmf3xiDgPP6nC90MO7Yy64NhEytKoOVA7AkELTZI';
-  edtCnpjTransmissor.Text := '08187168000160';
-  edtCnpjEmpregador.Text := '08187168000160';
-  rg.ItemIndex := 0;
 end;
 
 procedure TfrmeSocial.FormDestroy(Sender: TObject);

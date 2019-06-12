@@ -241,6 +241,10 @@ object frmeSocial: TfrmeSocial
     object tsXmlEnvio: TTabSheet
       Caption = 'Xml de Envio'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object mmoXmlEnvio: TMemo
         Left = 6
         Top = 6
@@ -253,6 +257,10 @@ object frmeSocial: TfrmeSocial
     object tsXmlRetorno: TTabSheet
       Caption = 'Xml de Retorno'
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object mmoXmlRetorno: TMemo
         Left = 6
         Top = 6
