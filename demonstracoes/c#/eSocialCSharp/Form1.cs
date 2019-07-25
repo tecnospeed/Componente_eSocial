@@ -198,6 +198,12 @@ namespace eSocialCSharp
             eSocial.DiretorioEsquemas = txtEsquemas.Text;
             eSocial.DiretorioTemplates = txtTemplates.Text;
             eSocial.VersaoManual = cbVersaoManual.Text;
+
+            if (!String.IsNullOrEmpty(txtPincode.Text))
+            {
+                eSocial.TipoCertificado = TipoCertificadoKind.ckSmartCard;
+            }
+
             if (cbAmbiente.Text == "1 - Produção")
             {
                 eSocial.Ambiente = ESocialClientX.AmbienteKind.akProducao;
@@ -624,6 +630,13 @@ namespace eSocialCSharp
                     }
                 }
             }
+        }
+
+        private void BtnReconsultar_Click(object sender, EventArgs e)
+        {
+            eSocial.ReconsultarLoteSefaz(txtIdentificadorLote.Text);
+            tbRetorno.Text = "Enviado a consulta ao eSocial, faça novamente a consulta normal !!!";
+
         }
     }
 }
