@@ -40,6 +40,9 @@ type
     mmoRetorno: TMemo;
     mmoXmlEnvio: TMemo;
     mmoXmlRetorno: TMemo;
+    txtPincode: TEdit;
+    Button1: TButton;
+    Label4: TLabel;
     procedure FormCreate(Sender: TObject);
     procedure btnConfigurarClick(Sender: TObject);
     procedure btnTx2Click(Sender: TObject);
@@ -48,6 +51,7 @@ type
     procedure btnEnviarClick(Sender: TObject);
     procedure btnConsultarClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -71,6 +75,17 @@ procedure TfrmeSocial.btnConfigurarClick(Sender: TObject);
 begin
   eSocial.VersaoManual := cbVersaoManual.Text;
   eSocial.NomeCertificado := cbCertificado.Text;
+  if txtPincode.Text <> '' then
+    begin
+    eSocial.TipoCertificado := ckSmartCard;
+    eSocial.Pincode := txtPinCode.Text;
+
+    end
+   else
+    begin
+    eSocial.Pincode := '';
+    eSocial.TipoCertificado := ckLocalMachine;
+    end;
   // eSocial.CaminhoCertificado := 'Caminho do Certificado' Utilizado para passar o Caminho do .pfx do certificado.
   // eSocial.SenhaCertificado := 'Senha do certificado' Utilizado caso o Caminho Certificado seja preenchido.
   // eSocial.Pincode := 'Senha do certificado A3'; Senha do certificado A3 quando utilizado.
@@ -903,6 +918,12 @@ end;
 procedure TfrmeSocial.btnXMLClick(Sender: TObject);
 begin
   mmoRetorno.Text := eSocial.GerarXMLporTx2(mmoRetorno.Text);
+end;
+
+procedure TfrmeSocial.Button1Click(Sender: TObject);
+begin
+  eSocial.ReconsultarLoteSefaz(edtIdLote.Text);
+  mmoRetorno.Text := 'Consulta enviada com sucesso! Realize a consulta normal para que possa verificar o retorno do eSocial.';
 end;
 
 procedure TfrmeSocial.FormCreate(Sender: TObject);

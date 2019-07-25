@@ -2,7 +2,7 @@ object frmeSocial: TfrmeSocial
   Left = 686
   Top = 231
   Caption = 'frmeSocial'
-  ClientHeight = 421
+  ClientHeight = 461
   ClientWidth = 1134
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -43,6 +43,13 @@ object frmeSocial: TfrmeSocial
     Width = 33
     Height = 13
     Caption = 'Grupo:'
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 204
+    Width = 144
+    Height = 13
+    Caption = 'Pin Code (Para certificado A3)'
   end
   object edtCnpjSH: TLabeledEdit
     Left = 8
@@ -133,7 +140,7 @@ object frmeSocial: TfrmeSocial
   end
   object btnConfigurar: TButton
     Left = 8
-    Top = 210
+    Top = 250
     Width = 513
     Height = 25
     Caption = 'Configurar Componente'
@@ -142,7 +149,7 @@ object frmeSocial: TfrmeSocial
   end
   object btnTx2: TButton
     Left = 8
-    Top = 248
+    Top = 288
     Width = 113
     Height = 25
     Caption = 'Carregar Tx2'
@@ -151,7 +158,7 @@ object frmeSocial: TfrmeSocial
   end
   object btnXML: TButton
     Left = 127
-    Top = 248
+    Top = 288
     Width = 122
     Height = 25
     Caption = 'Gerar XML'
@@ -160,7 +167,7 @@ object frmeSocial: TfrmeSocial
   end
   object btnAssinar: TButton
     Left = 255
-    Top = 248
+    Top = 288
     Width = 131
     Height = 25
     Caption = 'Assinar'
@@ -169,7 +176,7 @@ object frmeSocial: TfrmeSocial
   end
   object btnEnviar: TButton
     Left = 392
-    Top = 248
+    Top = 288
     Width = 129
     Height = 25
     Caption = 'Enviar'
@@ -178,8 +185,8 @@ object frmeSocial: TfrmeSocial
   end
   object btnConsultar: TButton
     Left = 8
-    Top = 336
-    Width = 513
+    Top = 384
+    Width = 258
     Height = 25
     Caption = 'Consultar'
     TabOrder = 14
@@ -187,7 +194,7 @@ object frmeSocial: TfrmeSocial
   end
   object edtIdLote: TLabeledEdit
     Left = 8
-    Top = 380
+    Top = 429
     Width = 513
     Height = 21
     EditLabel.Width = 104
@@ -209,7 +216,7 @@ object frmeSocial: TfrmeSocial
   end
   object rg: TRadioGroup
     Left = 8
-    Top = 279
+    Top = 319
     Width = 513
     Height = 51
     Caption = 'Tipo de Consulta:'
@@ -224,7 +231,7 @@ object frmeSocial: TfrmeSocial
     Left = 527
     Top = 8
     Width = 599
-    Height = 405
+    Height = 449
     ActivePage = tsRetorno
     TabOrder = 18
     object tsRetorno: TTabSheet
@@ -233,7 +240,7 @@ object frmeSocial: TfrmeSocial
         Left = 3
         Top = 3
         Width = 585
-        Height = 371
+        Height = 415
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -244,7 +251,7 @@ object frmeSocial: TfrmeSocial
       ExplicitLeft = 0
       ExplicitTop = 0
       ExplicitWidth = 0
-      ExplicitHeight = 0
+      ExplicitHeight = 377
       object mmoXmlEnvio: TMemo
         Left = 6
         Top = 6
@@ -260,7 +267,7 @@ object frmeSocial: TfrmeSocial
       ExplicitLeft = 0
       ExplicitTop = 0
       ExplicitWidth = 0
-      ExplicitHeight = 0
+      ExplicitHeight = 377
       object mmoXmlRetorno: TMemo
         Left = 6
         Top = 6
@@ -270,5 +277,22 @@ object frmeSocial: TfrmeSocial
         TabOrder = 0
       end
     end
+  end
+  object txtPincode: TEdit
+    Left = 8
+    Top = 223
+    Width = 513
+    Height = 21
+    PasswordChar = '*'
+    TabOrder = 19
+  end
+  object Button1: TButton
+    Left = 272
+    Top = 384
+    Width = 249
+    Height = 25
+    Caption = 'For'#231'ar consulta no eSocial'
+    TabOrder = 20
+    OnClick = Button1Click
   end
 end

@@ -19,3 +19,11 @@
 [24/05/2019 16:59:14:828] 2212 - EspdESocialDataSetCampoNaoEncontradoException : Campo "tpInsc_14" não encontrado
 [28/05/2019 16:43:34:414] 16872 - EspdESocialDataSetCampoNaoEncontradoException : Campo "nrInsc_7" não encontrado
 [10/06/2019 09:33:17:241] 9536 - EspdESocialDataSetCampoNaoEncontradoException : Campo "indOptCP_68" não encontrado
+[25/07/2019 17:31:14:727] 1992 - EspdESocialSignatureException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
+[25/07/2019 17:31:14:805] 1992 - EspdESocialException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
+[25/07/2019 17:31:20:550] 1992 - EspdESocialSignatureException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
+[25/07/2019 17:31:20:550] 1992 - EspdESocialException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
+[25/07/2019 17:31:28:221] 1992 - EspdESocialSignatureException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
+[25/07/2019 17:31:28:221] 1992 - EspdESocialException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
+[25/07/2019 17:39:09:885] 1992 - EspdESocialSignatureException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
+[25/07/2019 17:39:09:886] 1992 - EspdESocialException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
