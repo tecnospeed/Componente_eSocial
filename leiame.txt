@@ -1,0 +1,481 @@
+﻿Componente eSocial
+
+Guia de Primeiros Passos:
+   https://atendimento.tecnospeed.com.br/hc/pt-br/sections/360003022054
+
+Dicionário de Dados:
+   https://atendimento.tecnospeed.com.br/hc/pt-br/sections/360002625094
+
+Demonstrações de Uso:
+   https://github.com/tecnospeed/Componente_eSocial
+
+==================================== LEIAME VS 3.1.15.6662 ================================================
+
+Novidades:
+1) #24347 - Criado opção para reconsultar o lote
+
+Correções:
+1) #24010 - Corrigido propriedade nome certificado
+2) #24457 - Corrigido propriedade PinCode
+
+==================================== LEIAME VS 2.1.14.6656 ================================================
+
+Novidades:
+1) #24312 - Compatibilização do componente com a NT 14/2019
+
+Correções:
+1) #24154 - Adicionado campo CNO no retorno do evento 5019
+
+==================================== LEIAME VS 2.1.13.6607 ================================================
+
+Novidades:
+1) #23930 - Compatibilização do componente com a NT 12/2019
+2) #23573 - Compatibilizado componente com Delphi Rio
+3) #23471 - Retornando informações da Receita diante ao um erro.
+4) #23929 - Disponibilizados os links para Guia de Primeiros Passos, Dicionário de Dados e Demonstrações de Uso, veja no início deste documento.
+            Atualizado os termos de uso do componente (EULA), sendo possível acessar pelo link http://eula.tecnospeed.com.br
+            Adicionada opção para configurar o path dos fontes do componente no Library Path do Delphi.
+
+Correções:
+1) #23644 - Corrigido listagem de certificados em C#
+2) #23566 - Corrigido Mapping do evento S-2245
+
+==================================== LEIAME VS 2.1.12.6508 ================================================
+
+Correções:
+1) #23438 - Corrigido geração do XML dentro da Tag <eventos>
+2) #23436 - Atualizado mapping do evento S2240
+3) #23337 - Corrigido retorno de undefined quando o TX2 é enviado com erro na estrutura
+4) #23573 - Compatibilizado componente com Delphi Rio (10.3)
+
+==================================== LEIAME VS 2.1.11.6401 ================================================
+
+Correções:
+
+1) #23248 - Corrigido mapeamento "evtCAT_Mapping"
+2) #23112 - Corrigido geração do XML do evento S-1250
+ 
+==================================== LEIAME VS 2.1.10.6080 ================================================
+
+Correções
+
+1) #22930 - Access violation no VB 2017
+2) #22890 - Mapeamento do evento S-5013
+3) #22809 - Parceamento do retorno do evento S-5003
+
+====================================  LEIAME VS $2.1.9.71287 ================================================
+
+Correções
+
+1) #22696 - Corrigindo campo vrCalcSest do evento S-5011
+
+Novidades
+
+1) #22585 e #22446 - Compatibilizando componente com a versão 2.5 do Esocial:
+	- Alterado TX2 conforme versão 2.5
+	- Adicionado os totalizadores S5003 e S50013
+
+Exemplo em Delphi S5003 :
+    if not RetConsultaItem.S5003.IsEmpty then
+        begin
+        mmoRetorno.Lines.Add('        ### S5003 ###');
+        mmoRetorno.Lines.Add('        Id: ' + RetConsultaItem.S5003.Id);
+        // IdeEvento
+        mmoRetorno.Lines.Add('        NrRecArqBase: ' +
+            RetConsultaItem.S5003.IdeEvento.NrRecArqBase);
+        mmoRetorno.Lines.Add('        perApur: ' +
+            RetConsultaItem.S5003.IdeEvento.perApur);
+
+        // IdeEmpregador
+        mmoRetorno.Lines.Add('        tpInsc: ' +
+            RetConsultaItem.S5003.IdeEmpregador.tpInsc);
+        mmoRetorno.Lines.Add('        nrInsc: ' +
+            RetConsultaItem.S5003.IdeEmpregador.nrInsc);
+
+        // ideTrabalhador
+
+        mmoRetorno.Lines.Add('        CpfTrab: ' +
+            RetConsultaItem.S5003.IdeTrabalador.cpfTrab);
+        mmoRetorno.Lines.Add('        NisTrab: ' +
+            RetConsultaItem.S5003.IdeTrabalador.NisTrab);
+
+        // InfoFGTS
+        mmoRetorno.Lines.Add('        InfoFGTS: ' +
+            RetConsultaItem.S5003.InfoFGTS.DtVenc);
+        mmoRetorno.Lines.Add('           CpfTrab: ' +
+            RetConsultaItem.S5003.InfoFGTS.DtVenc);
+
+        for _a := 0 to RetConsultaItem.S5003.InfoFGTS.CountIdeEstabLot - 1 do
+        begin
+            mmoRetorno.Lines.Add('           IdeEstabLot: ');
+            mmoRetorno.Lines.Add('            TpInsc: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].tpInsc);
+            mmoRetorno.Lines.Add('            NrInsc: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].nrInsc);
+            mmoRetorno.Lines.Add('            CodLotacao: ' +
+            RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].codLotacao);
+            for _b := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+            .CountInfoTrabFGTS - 1 do
+            begin
+            mmoRetorno.Lines.Add('            IdeEstabLot: ');
+            mmoRetorno.Lines.Add('              Matricula: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .Matricula);
+            mmoRetorno.Lines.Add('              CodCateg: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .codCateg);
+            mmoRetorno.Lines.Add('              DtAdm: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS
+                [_b].DtAdm);
+            mmoRetorno.Lines.Add('              DtDeslig: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .DtDeslig);
+            mmoRetorno.Lines.Add('              DtInicio: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .DtInicio);
+            mmoRetorno.Lines.Add('              MtvDeslig: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .MtvDeslig);
+            mmoRetorno.Lines.Add('              DtTerm: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS
+                [_b].DtTerm);
+            mmoRetorno.Lines.Add('              MtvDesligTSV: ' +
+                RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                .MtvDesligTSV);
+
+            for _c := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+                .InfoTrabFGTS[_b].CountInfoBaseFGTS - 1 do
+            begin
+                mmoRetorno.Lines.Add('               InfoBaseFGTS: ');
+                for _d := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+                .InfoTrabFGTS[_b].InfoBaseFGTS[_c].CountBasePerApur - 1 do
+                begin
+                mmoRetorno.Lines.Add('                BasePerApur: ');
+                mmoRetorno.Lines.Add('                 tpValor: ' +
+                    RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                    .InfoBaseFGTS[_c].BasePerApur[_d].tpValor);
+                mmoRetorno.Lines.Add('                 RemFGTS: ' +
+                    RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                    .InfoBaseFGTS[_c].BasePerApur[_d].RemFGTS);
+
+                end;
+                for _d := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+                .InfoTrabFGTS[_b].InfoBaseFGTS[_c].CountInfoBasePerAntE - 1 do
+                begin
+                mmoRetorno.Lines.Add('                InfoBasePerAntE: ');
+                mmoRetorno.Lines.Add('                 PerRef: ' +
+                    RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS[_b]
+                    .InfoBaseFGTS[_c].InfoBasePerAntE[_d].PerRef);
+
+                for _e := 0 to RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a]
+                    .InfoTrabFGTS[_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d]
+                    .CountBasePerAntE - 1 do
+                begin
+                    mmoRetorno.Lines.Add('                 BasePerAntE: ');
+                    mmoRetorno.Lines.Add('                  TpValorE: ' +
+                    RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS
+                    [_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d].BasePerAntE[_e]
+                    .TpValorE);
+
+                    mmoRetorno.Lines.Add('                  RemFGTSE: ' +
+                    RetConsultaItem.S5003.InfoFGTS.IdeEstabLot[_a].InfoTrabFGTS
+                    [_b].InfoBaseFGTS[_c].InfoBasePerAntE[_d].BasePerAntE[_e]
+                    .RemFGTSE);
+
+                end;
+
+                end;
+
+            end;
+
+            end;
+
+        end;
+
+        for _a := 0 to RetConsultaItem.S5003.InfoFGTS.CountInfoDpsFGTS - 1 do
+        begin
+            mmoRetorno.Lines.Add('           InfoDpsFGTS: ');
+            for _b := 0 to RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a]
+            .CountInfoTrabDps - 1 do
+            begin
+            mmoRetorno.Lines.Add('            InfoTrabDps: ');
+            mmoRetorno.Lines.Add('             Matricula: ' +
+                RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                .Matricula);
+            mmoRetorno.Lines.Add('             codCateg: ' +
+                RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                .codCateg);
+            for _c := 0 to RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a]
+                .InfoTrabDps[_b].CountDpsPerApur - 1 do
+            begin
+                mmoRetorno.Lines.Add('            DpsPerApur: ');
+                mmoRetorno.Lines.Add('             TpDps: ' +
+                RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                .DpsPerApur[_c].TpDps);
+                mmoRetorno.Lines.Add('             DpsFGTS: ' +
+                RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                .DpsPerApur[_c].DpsFGTS);
+            end;
+            for _c := 0 to RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a]
+                .InfoTrabDps[_b].CountInfoDpsPerAntE - 1 do
+            begin
+                mmoRetorno.Lines.Add('            InfoDpsPerAntE: ');
+                mmoRetorno.Lines.Add('             PerRef: ' +
+                RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                .InfoDpsPerAntE[_c].PerRef);
+
+                for _d := 0 to RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a]
+                .InfoTrabDps[_b].InfoDpsPerAntE[_c].CountDpsPerAntE - 1 do
+                begin
+                mmoRetorno.Lines.Add('             DpsPerAntE: ');
+                mmoRetorno.Lines.Add('              TpDpsE: ' +
+                    RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                    .InfoDpsPerAntE[_c].DpsPerAntE[_d].TpDpsE);
+                mmoRetorno.Lines.Add('              DpsFGTSE: ' +
+                    RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS[_a].InfoTrabDps[_b]
+                    .InfoDpsPerAntE[_c].DpsPerAntE[_d].DpsFGTSE);
+                end;
+
+            end;
+
+            end;
+
+        end;
+        end;
+end;
+
+Exemplo em Delphi S5013:
+if not RetConsultaItem.S5013.IsEmpty then
+    begin
+      mmoRetorno.Lines.Add('        ### S5013 ###');
+      mmoRetorno.Lines.Add('        Id: ' + RetConsultaItem.S5013.Id);
+      // IdeEvento
+      mmoRetorno.Lines.Add('        perApur: ' +
+        RetConsultaItem.S5013.IdeEvento.perApur);
+      // IdeEmpregador
+      mmoRetorno.Lines.Add('        tpInsc: ' +
+        RetConsultaItem.S5013.IdeEmpregador.tpInsc);
+      mmoRetorno.Lines.Add('        nrInsc: ' +
+        RetConsultaItem.S5013.IdeEmpregador.nrInsc);
+      // infoFGTS
+      mmoRetorno.Lines.Add('        nrRecArqBase: ' +
+        RetConsultaItem.S5013.InfoFGTS.NrRecArqBase);
+      mmoRetorno.Lines.Add('        indExistInfo: ' +
+        RetConsultaItem.S5013.InfoFGTS.indExistInfo);
+      // infoBaseFGTS
+      mmoRetorno.Lines.Add('        infoBaseFGTS: ');
+      // basePerApur
+      mmoRetorno.Lines.Add('          basePerApur: <List>');
+      for _a := 0 to RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.
+        CountBasePerApur - 1 do
+      begin
+        mmoRetorno.Lines.Add('            tpValor: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.BasePerApur[_a].tpValor);
+        mmoRetorno.Lines.Add('            baseFGTS: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.BasePerApur[_a].baseFGTS);
+        mmoRetorno.Lines.Add('            --');
+      end;
+      // infoBaseFGTS
+      mmoRetorno.Lines.Add('          infoBaseFGTS: <List>');
+      for _a := 0 to RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.
+        CountInfoBasePerAntE - 1 do
+      begin
+        // InfoBasePerAntE
+        mmoRetorno.Lines.Add('            perRef: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE
+          [_a].PerRef);
+        mmoRetorno.Lines.Add('            basePerAntE: <List>');
+        for _b := 0 to RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.
+          InfoBasePerAntE[_a].CountBasePerAntE - 1 do
+        begin
+          mmoRetorno.Lines.Add('              tpValorE: ' +
+            RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE[_a]
+            .BasePerAntE[_b].TpValorE);
+          mmoRetorno.Lines.Add('              baseFGTSE: ' +
+            RetConsultaItem.S5013.InfoFGTS.InfoBaseFGTS.InfoBasePerAntE[_a]
+            .BasePerAntE[_b].baseFGTSE);
+          mmoRetorno.Lines.Add('              --');
+        end;
+      end;
+      // infoDpsFGTS
+      mmoRetorno.Lines.Add('          infoDpsFGTS:');
+      // dpsPerApur
+      for _a := 0 to RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.
+        CountDpsPerApur - 1 do
+      begin
+        mmoRetorno.Lines.Add('            TpDps: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.DpsPerApur[_a].TpDps);
+        mmoRetorno.Lines.Add('            VrFGTS: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.DpsPerApur[_a].VrFGTS);
+        mmoRetorno.Lines.Add('            --');
+      end;
+      // infoDpsPerAntE
+      mmoRetorno.Lines.Add('          infoDpsPerAntE: <List>');
+      for _a := 0 to RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.
+        CountInfoDpsPerAntE - 1 do
+      begin
+        mmoRetorno.Lines.Add('            perRef: ' +
+          RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a].PerRef);
+        // basePerAntE
+        mmoRetorno.Lines.Add('            basePerAntE: <List>');
+        for _b := 0 to RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE
+          [_a].CountDpsPerAntE - 1 do
+        begin
+          mmoRetorno.Lines.Add('              TpDpsE: ' +
+            RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a]
+            .DpsPerAntE[_b].TpDpsE);
+          mmoRetorno.Lines.Add('              vrFGTSE: ' +
+            RetConsultaItem.S5013.InfoFGTS.InfoDpsFGTS.InfoDpsPerAntE[_a]
+            .DpsPerAntE[_b].VrFGTSE);
+          mmoRetorno.Lines.Add('              --');
+        end;
+      end;
+    end;
+
+
+====================================  LEIAME VS $2.1.7.5435  ================================================
+Correções:
+1) #21487 - Adicionado campo IdLote no retorno da consulta (ConsultarLoteEventos)
+*	Documentação:
+	https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005359394-Consultar-os-eventos
+
+Novidades:
+
+1) #21350 - Criado o método ConsultarIdEvento(aIdEvento) que serve para consultar um lote com o Id do evento 
+e método ConsultarEventoPorRecibo(aNumeroRecibo) que consulta o evento pelo número do recibo. Para ambos  retorno é igual ao ConsultarLoteEventos.
+
+* Documentação:
+	Consultando pelo Id do evento:
+	 https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360008510073
+	Consultando pelo número do recibo:
+	 https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360008510113
+
+====================================  LEIAME VS 2.1.7.3467 ===============================================
+Correções: 
+1) #21255 - Corrigido problemas com "Access Violation" na consulta e envio.
+
+2) #21465 - Corrigido incompatibilidade no uso dos componente Esocial e NF-e. 
+
+Novidades:
+1) #21315 - Adicionado tratamento de retornos contendo avisos da Receita.
+
+2) #21381- Adicionanda na API consulta  que retorna todos os lotes de eventos enviados em um determinado período.
+	Documentação: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360008189394-Consulta-de-Lotes-por-per%C3%ADodo
+
+3) #20996- Adicionada na API geração de XML sem assinatura.
+ 	Documentação: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360008391514-Gerar-XML
+
+4) #20987 - Adicionada na API consulta que retorna determinado evento de um lote.
+	Documentação: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360008534093-Consultar-Evento
+
+
+====================================  LEIAME VS 1.0.6.3457 =============================================== 
+Novidades:
+
+1) #20478 -Criado o método "ListarVersaoManual(aDelimitador)" que retorna a listagem das versões manuais disponíveis. 
+Ao instanciar o componente será setado automaticamente a versão vigente.
+NOTA: A propriedade "VersaoManual" que era tipada "TVersaoManualKind" (vm22,vm23, vm24) como número inteiro passa a ser do tipo texto "String".
+
+Exemplo em Delphi:
+  _ListaVersaoManual := TStringList.Create;
+  _ListaVersaoManual.Text := FESocial.ListarVersaoManual(#13#10);
+  FESocial.VersaoManual := _ListaVersaoManual[aIndiceDaVersao]		
+
+2) #20821 - Criada constante EsocialVersaoTLB (versão de compilação)
+
+3) #20661 - Criada propriedade "XmlEnviado" no componente  que retorna o xml enviado para receita.
+         ...
+          var
+            _RetConsulta: IspdRetConsultarLote;
+          begin
+            _RetConsulta := FESocial.ConsultarLoteEventos(mmoXML.Text);
+
+            mmoXML.Lines.Add('### CONSULTA PROTOCOLO ###');
+            mmoXML.Lines.Add('Número do Protocolo: ' + _RetConsulta.NumeroProtocolo);
+            mmoXML.Lines.Add('Mensagem de Retorno: ' + _RetConsulta.Mensagem);
+            mmoXML.Lines.Add('Status do Lote: ' + _RetConsulta.Status);
+            mmoXML.Lines.Add('XML de Retorno: ' + _RetConsulta.XmlRetorno);
+            mmoXML.Lines.Add('XML Enviado: ' + _RetConsulta.XmlEnviado);
+          end;
+          ...
+4) #20713 - Adicionada propriedade "IsEmpty" nos atributos 5001, 5002, 5011 e 5012.
+
+====================================  LEIAME VS 1.0.5.1080 ===============================================
+Correções:
+
+1) #20155 - Correção das informações do estabelecimento no retorno do evento S5011.
+
+2) #20134 - Compatibiliza ESocial com a versão 2.04.2. 
+
+3) #20637 - Criada nova propriedade JsonRetorno, parseando os eventos de retorno do arquivo XML para facilitar 
+a navegação em linguagens de programação que não conseguem carregar a tipagem do componente ActiveX.
+
+Ex: Visualizar exemplo criado em Visual FoxPro 9 utilizando biblioteca de terceiro:
+http://tsdn.tecnospeed.com.br/base-de-conhecimento/post/parser-do-json-de-retorno-do-e-social-em-visual-foxpro-9
+
+====================================  LEIAME VS 1.0.3.64609 ===============================================
+Correções:
+
+1) #19581 - Correção no parseamento dos eventos totalizadores.
+
+2) #19775 - Corrigida a propriedade Versão, agora traz a versão corretamente conforme a versão descrita no instalador.
+
+3) #19776 - Novos campos adicionados na consulta de protocolo: "TempoEstimadoConclusao", "Tipo" e "Localizacao".
+            Mais informações: http://docs.tecnospeed.com.br/esocial/documentacao/metodos/consultarloteeventos/
+
+4) #19814 - Adicionadas propriedadas para a configuração de serviço Proxy.
+          ...
+          FEsocial.ProxyServidor := '192.168.1.1:80';
+          FEsocial.ProxyUsuario := 'Usuario';
+          FEsocial.ProxySenha := 'SenhaBoa';
+          ...
+          Obs: Importante preencher a propriedade ProxyServidor com a Porta.
+
+          Mais informações: http://docs.tecnospeed.com.br/esocial/propriedades/
+
+5)#19947 - Compatibilizado componente com Delphi 10.2 Tokyo.
+
+6)#20017 - Corrigido diretório que grava log de erro.
+
+====================================  LEIAME VS 1.0.2.62688 ===============================================
+Novidades:
+
+1) #19239 - Adicionada interface no retorno da consulta para ocorrências em caso de rejeição no envio do lote.
+          ...
+          var
+            _RetConsulta: IspdRetConsultarLote;
+            _RetConsultaOcorrenciaEnvio: IspdRetConsultarLoteOcorrenciaEnvio;
+            _k: integer;
+          begin
+            _RetConsulta := FESocial.ConsultarLoteEventos('Número do protocolo retornado no envio');
+            for _k := 0 to _RetConsulta.CountOcorrencias - 1 do
+            begin
+              _RetConsultaOcorrenciaEnvio := _RetConsulta.Ocorrencias[_k];
+              mmoXML.Lines.Add('    Ocorrência ' + IntToStr(_k+1));
+              mmoXML.Lines.Add('    Codigo: ' + _RetConsultaOcorrenciaEnvio.Codigo);
+              mmoXML.Lines.Add('    Tipo: ' + _RetConsultaOcorrenciaEnvio.Tipo);
+              mmoXML.Lines.Add('    Localização: ' + _RetConsultaOcorrenciaEnvio.Localizacao);
+              mmoXML.Lines.Add('    Descrição: ' + _RetConsultaOcorrenciaEnvio.Descricao);
+            end;
+          end;
+          ...
+
+2) #19340 - Adicionada interface no retorno da consulta para o XML retornado pelo WebService.
+          ...
+          var
+            _RetConsulta: IspdRetConsultarLote;
+          begin
+            _RetConsulta := FESocial.ConsultarLoteEventos(mmoXML.Text);
+
+            mmoXML.Lines.Add('### CONSULTA PROTOCOLO ###');
+            mmoXML.Lines.Add('Número do Protocolo: ' + _RetConsulta.NumeroProtocolo);
+            mmoXML.Lines.Add('Mensagem de Retorno: ' + _RetConsulta.Mensagem);
+            mmoXML.Lines.Add('Status do Lote: ' + _RetConsulta.Status);
+            mmoXML.Lines.Add('XML de Retorno: ' + _RetConsulta.XmlRetorno);
+          end;
+          ...
+
+3) #19586 - Compatibilizado com a versão 2.4.1.
+====================================  LEIAME VS 1.0.1.61882 ===============================================
+
+Liberada primeira versão oficial do Componente eSocial
