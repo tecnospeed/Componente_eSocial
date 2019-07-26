@@ -202,7 +202,14 @@ namespace eSocialCSharp
             if (!String.IsNullOrEmpty(txtPincode.Text))
             {
                 eSocial.TipoCertificado = TipoCertificadoKind.ckSmartCard;
+                eSocial.Pincode = txtPincode.Text;
             }
+            else
+            {
+                eSocial.TipoCertificado = TipoCertificadoKind.ckLocalMachine;
+                eSocial.Pincode = null;
+            }
+
 
             if (cbAmbiente.Text == "1 - Produção")
             {
