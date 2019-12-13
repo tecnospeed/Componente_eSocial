@@ -753,6 +753,14 @@ Private Sub cmdConsultar_Click()
               tbRetorno.Text = tbRetorno.Text & "        vrCalcSenat: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrCalcSenat & vbNewLine
               tbRetorno.Text = tbRetorno.Text & "        vrSalFam: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.VrSalFam & vbNewLine
               tbRetorno.Text = tbRetorno.Text & "        vrSalMat: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.VrSalMat & vbNewLine
+              tbRetorno.Text = tbRetorno.Text & "        vrBcCp00VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp00VA & vbNewLine
+              tbRetorno.Text = tbRetorno.Text & "        vrBcCp15VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp15VA & vbNewLine
+              tbRetorno.Text = tbRetorno.Text & "        vrBcCp20VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp20VA & vbNewLine
+              tbRetorno.Text = tbRetorno.Text & "        vrBcCp25VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp25VA & vbNewLine
+              tbRetorno.Text = tbRetorno.Text & "        vrSuspBcCp00VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp00VA & vbNewLine
+              tbRetorno.Text = tbRetorno.Text & "        vrSuspBcCp15VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp15VA & vbNewLine
+              tbRetorno.Text = tbRetorno.Text & "        vrSuspBcCp20VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp20VA & vbNewLine
+              tbRetorno.Text = tbRetorno.Text & "        vrSuspBcCp25VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp25VA & vbNewLine
             Next c ' Fim do BasesRemun
     
             'BasesAvNPort

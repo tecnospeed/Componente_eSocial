@@ -506,6 +506,14 @@ namespace eSocialCSharp
                             tbRetorno.AppendText("        vrCalcSenat: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrCalcSenat + Environment.NewLine);
                             tbRetorno.AppendText("        vrSalFam: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.VrSalFam + Environment.NewLine);
                             tbRetorno.AppendText("        vrSalMat: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.VrSalMat + Environment.NewLine);
+                            tbRetorno.AppendText("        vrBcCp00VA: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrBcCp00VA + Environment.NewLine);
+                            tbRetorno.AppendText("        vrBcCp15VA: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrBcCp15VA + Environment.NewLine);
+                            tbRetorno.AppendText("        vrBcCp20VA: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrBcCp20VA + Environment.NewLine);
+                            tbRetorno.AppendText("        vrBcCp25VA: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrBcCp25VA + Environment.NewLine);
+                            tbRetorno.AppendText("        vrSuspBcCp00VA: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSuspBcCp00VA + Environment.NewLine);
+                            tbRetorno.AppendText("        vrSuspBcCp15VA: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSuspBcCp15VA + Environment.NewLine);
+                            tbRetorno.AppendText("        vrSuspBcCp20VA: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSuspBcCp20VA + Environment.NewLine);
+                            tbRetorno.AppendText("        vrSuspBcCp25VA: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSuspBcCp25VA + Environment.NewLine);
                         }
                         //BasesAvNPort
                         tbRetorno.AppendText("        vrBcCp00: " + aObjeto.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesAvNPort.VrBcCp00 + Environment.NewLine);

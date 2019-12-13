@@ -521,6 +521,14 @@ begin
             mmoXML.Lines.Add('        vrCalcSenat: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrCalcSenat);
             mmoXML.Lines.Add('        vrSalFam: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSalFam);
             mmoXML.Lines.Add('        vrSalMat: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSalMat);
+            mmoXML.Lines.Add('        vrBcCp00VA: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrBcCp00VA);
+            mmoXML.Lines.Add('        vrBcCp15VA: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrBcCp15VA);
+            mmoXML.Lines.Add('        vrBcCp20VA: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrBcCp20VA);
+            mmoXML.Lines.Add('        vrBcCp25VA: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrBcCp25VA);
+            mmoXML.Lines.Add('        vrSuspBcCp00VA: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSuspBcCp00VA);
+            mmoXML.Lines.Add('        vrSuspBcCp15VA: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSuspBcCp15VA);
+            mmoXML.Lines.Add('        vrSuspBcCp20VA: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSuspBcCp20VA);
+            mmoXML.Lines.Add('        vrSuspBcCp25VA: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesRemun[_c].BasesCp.vrSuspBcCp25VA);
           end;
           //BasesAvNPort
           mmoXML.Lines.Add('        vrBcCp00: ' + RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b].BasesAvNPort.vrBcCp00);

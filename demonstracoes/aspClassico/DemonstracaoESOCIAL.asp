@@ -286,6 +286,15 @@
                   response.Write("        vrCalcSenat: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrCalcSenat) %> <br> <%
                   response.Write("        vrSalFam: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSalFam) %> <br> <%
                   response.Write("        vrSalMat: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSalMat) %> <br> <%
+
+                  response.Write("        vrBcCp00VA: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp00VA) %> <br> <%
+                  response.Write("        vrBcCp15VA: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp15VA) %> <br> <%
+                  response.Write("        vrBcCp20VA: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp20VA) %> <br> <%
+                  response.Write("        vrBcCp25VA: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp25VA) %> <br> <%
+                  response.Write("        vrSuspBcCp00VA: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp00VA) %> <br> <%
+                  response.Write("        vrSuspBcCp15VA: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp15VA) %> <br> <%
+                  response.Write("        vrSuspBcCp20VA: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp20VA) %> <br> <%
+                  response.Write("        vrSuspBcCp25VA: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp25VA) %> <br> <%
                 Next
                 'BasesAvNPort
                 response.Write("        vrBcCp00: " + S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesAvNPort.vrBcCp00) %> <br> <%

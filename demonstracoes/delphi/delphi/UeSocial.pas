@@ -623,6 +623,30 @@ begin
             mmoRetorno.Lines.Add('        vrSalMat: ' +
               RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
               .BasesRemun[_c].BasesCp.vrSalMat);
+            mmoRetorno.Lines.Add('        vrBcCp00VA: ' +
+              RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
+              .BasesRemun[_c].BasesCp.vrBcCp00VA);
+            mmoRetorno.Lines.Add('        vrBcCp15VA: ' +
+                          RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
+                          .BasesRemun[_c].BasesCp.vrBcCp15VA);
+            mmoRetorno.Lines.Add('        vrBcCp20VA: ' +
+                          RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
+                          .BasesRemun[_c].BasesCp.vrBcCp20VA);
+            mmoRetorno.Lines.Add('        vrBcCp25VA: ' +
+                          RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
+                          .BasesRemun[_c].BasesCp.vrBcCp25VA);
+            mmoRetorno.Lines.Add('        vrSuspBcCp00VA: ' +
+                          RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
+                          .BasesRemun[_c].BasesCp.vrSuspBcCp00VA);
+            mmoRetorno.Lines.Add('        vrSuspBcCp15VA: ' +
+                          RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
+                          .BasesRemun[_c].BasesCp.vrSuspBcCp15VA);
+            mmoRetorno.Lines.Add('        vrSuspBcCp20VA: ' +
+                          RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
+                          .BasesRemun[_c].BasesCp.vrSuspBcCp20VA);
+            mmoRetorno.Lines.Add('        vrSuspBcCp25VA: ' +
+                          RetConsultaItem.S5011.InfoCS.IdeEstab[_a].IdeLotacao[_b]
+                          .BasesRemun[_c].BasesCp.vrSuspBcCp25VA);
           end;
           // BasesAvNPort
           mmoRetorno.Lines.Add('        vrBcCp00: ' +
