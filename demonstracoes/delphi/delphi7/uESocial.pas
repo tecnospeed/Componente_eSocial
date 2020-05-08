@@ -29,14 +29,23 @@ type
     btnConsultar: TButton;
     edtIdLote: TLabeledEdit;
     cbGrupo: TComboBox;
-    PageControl1: TPageControl;
+    pcPages: TPageControl;
     TabSheet1: TTabSheet;
     TabSheet2: TTabSheet;
-    TabSheet3: TTabSheet;
     mmoXML: TMemo;
     mmoXmlEnvio: TMemo;
-    mmoXmlRetorno: TMemo;
     rgTipoEnvio: TRadioGroup;
+    TabSheet4: TTabSheet;
+    mmTX2: TMemo;
+    rgTipoTX2: TRadioGroup;
+    openDlg: TOpenDialog;
+    Button1: TButton;
+    TabSheet5: TTabSheet;
+    mmXMLAssinado: TMemo;
+    TabSheet6: TTabSheet;
+    Retornado: TTabSheet;
+    mmEnviado: TMemo;
+    mmRetornado: TMemo;
     procedure FormCreate(Sender: TObject);
     procedure btnConfigurarClick(Sender: TObject);
     procedure btnTx2Click(Sender: TObject);
@@ -44,6 +53,8 @@ type
     procedure btnAssinarClick(Sender: TObject);
     procedure btnEnviarClick(Sender: TObject);
     procedure btnConsultarClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -92,55 +103,293 @@ begin
 end;
 
 procedure TfrmESocial.btnTx2Click(Sender: TObject);
+var
+  vTX2Aux: string;
+
+  procedure IncluirCamposPadroes;
+  begin
+    mmTX2.Lines.Add('tpAmb_4='+IntToStr(cbAmbiente.ItemIndex+1));
+    mmTX2.Lines.Add('procEmi_5=1');
+    mmTX2.Lines.Add('verProc_6=1.0');
+    mmTX2.Lines.Add('tpInsc_8=1');
+    mmTX2.Lines.Add('nrInsc_9=08187168');
+  end;
 begin
-  mmoXML.Clear;
-  mmoXML.Lines.Add('INCLUIRS1000');
-  if cbAmbiente.Text = '1 - Produção' then
-    mmoXML.Lines.Add('tpAmb_4=1');
-  if cbAmbiente.Text = '2 - Homologação' then
-    mmoXML.Lines.Add('tpAmb_4=2');
-  mmoXML.Lines.Add('procEmi_5=1');
-  mmoXML.Lines.Add('verProc_6=1.0');
-  mmoXML.Lines.Add('tpInsc_8=1');
-  mmoXML.Lines.Add('nrInsc_9=08187168');
-  mmoXML.Lines.Add('iniValid_13=2017-07');
-  mmoXML.Lines.Add('nmRazao_15=TECNOSPEED TECNOLOGIA DA INFORMACAO');
-  mmoXML.Lines.Add('classTrib_16=99');
-  mmoXML.Lines.Add('natJurid_17=2054');
-  mmoXML.Lines.Add('indCoop_18=0');
-  mmoXML.Lines.Add('indConstr_19=0');
-  mmoXML.Lines.Add('indDesFolha_20=0');
-  mmoXML.Lines.Add('indOptRegEletron_21=0');
-  mmoXML.Lines.Add('indEntEd_23=N');
-  mmoXML.Lines.Add('indEtt_24=N');
-  mmoXML.Lines.Add('nmCtt_36=Vítor Beal');
-  mmoXML.Lines.Add('cpfCtt_37=09336330926');
-  mmoXML.Lines.Add('foneCel_39=7867834687');
-  mmoXML.Lines.Add('foneFixo_38=4430379500');
-  mmoXML.Lines.Add('indSitPJ_63=0');
-  mmoXML.Lines.Add('SALVARS1000');
+  case rgTipoTX2.ItemIndex of
+     0://S1000
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1000');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('iniValid_13=2017-07');
+        mmTX2.Lines.Add('nmRazao_15=TECNOSPEED TECNOLOGIA DA INFORMACAO');
+        mmTX2.Lines.Add('classTrib_16=99');
+        mmTX2.Lines.Add('natJurid_17=2054');
+        mmTX2.Lines.Add('indCoop_18=0');
+        mmTX2.Lines.Add('indConstr_19=0');
+        mmTX2.Lines.Add('indDesFolha_20=0');
+        mmTX2.Lines.Add('indOptRegEletron_21=0');
+        mmTX2.Lines.Add('indEntEd_23=N');
+        mmTX2.Lines.Add('indEtt_24=N');
+        mmTX2.Lines.Add('nmCtt_36=Vítor Beal');
+        mmTX2.Lines.Add('cpfCtt_37=09336330926');
+        mmTX2.Lines.Add('foneCel_39=7867834687');
+        mmTX2.Lines.Add('foneFixo_38=4430379500');
+        mmTX2.Lines.Add('indSitPJ_63=0');
+        mmTX2.Lines.Add('SALVARS1000');
+     end;
+     1://S1005
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1005');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('tpInsc_13=1');
+        mmTX2.Lines.Add('nrInsc_14=48185812000185');
+        mmTX2.Lines.Add('iniValid_13=2017-07');
+        mmTX2.Lines.Add('fimValid_16=');
+        mmTX2.Lines.Add('cnaePrep_18=6202300');
+        mmTX2.Lines.Add('aliqRat_20=2');
+        mmTX2.Lines.Add('fap_21=2');
+        mmTX2.Lines.Add('aliqRatAjust_22=4');
+        mmTX2.Lines.Add('tpProc_24=');
+        mmTX2.Lines.Add('nrProc_25=');
+        mmTX2.Lines.Add('codSusp_26=');
+        mmTX2.Lines.Add('tpProc_28=');
+        mmTX2.Lines.Add('nrProc_29=');
+        mmTX2.Lines.Add('codSusp_30=');
+        mmTX2.Lines.Add('tpCaepf_32=');
+        mmTX2.Lines.Add('indSubstPatrObra_34=');
+        mmTX2.Lines.Add('regPt_36=3');
+        mmTX2.Lines.Add('contApr_38=0');
+        mmTX2.Lines.Add('nrProcJud_39=');
+        mmTX2.Lines.Add('contEntEd_40=');
+        mmTX2.Lines.Add('INCLUIRINFOENTEDUC_41');
+        mmTX2.Lines.Add('nrInsc_42=');
+        mmTX2.Lines.Add('SALVARINFOENTEDUC_41');
+        mmTX2.Lines.Add('contPCD_44=');
+        mmTX2.Lines.Add('nrProcJud_45=');
+        mmTX2.Lines.Add('SALVARS1005');
+     end;
+     2://S1010
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1010');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('codRubr_13=1234');
+        mmTX2.Lines.Add('ideTabRubr_14=12345');
+        mmTX2.Lines.Add('iniValid_13=2017-07');
+        mmTX2.Lines.Add('fimValid_16=');
+        mmTX2.Lines.Add('dscRubr_18=RUBRICA DE TESTES');
+        mmTX2.Lines.Add('natRubr_19=1000');
+        mmTX2.Lines.Add('tpRubr_20=3');
+        mmTX2.Lines.Add('codIncCP_21=00');
+        mmTX2.Lines.Add('codIncIRRF_22=00');
+        mmTX2.Lines.Add('codIncFGTS_23=00');
+        mmTX2.Lines.Add('codIncSIND_24=00');
+        mmTX2.Lines.Add('observacao_29=TESTE DE OBSERVAÇÃO');
+        mmTX2.Lines.Add('INCLUIRIDEPROCESSOCP_30');
+        mmTX2.Lines.Add('tpProc_31=');
+        mmTX2.Lines.Add('nrProc_32=');
+        mmTX2.Lines.Add('extDecisao_33=');
+        mmTX2.Lines.Add('codSusp_34=');
+        mmTX2.Lines.Add('SALVARIDEPROCESSOCP_30');
+        mmTX2.Lines.Add('INCLUIRIDEPROCESSOIRRF_35');
+        mmTX2.Lines.Add('nrProc_36=');
+        mmTX2.Lines.Add('codSusp_37=');
+        mmTX2.Lines.Add('SALVARIDEPROCESSOIRRF_35');
+        mmTX2.Lines.Add('INCLUIRIDEPROCESSOFGTS_38');
+        mmTX2.Lines.Add('nrProc_39=');
+        mmTX2.Lines.Add('SALVARIDEPROCESSOFGTS_38');
+        mmTX2.Lines.Add('INCLUIRIDEPROCESSOSIND_41');
+        mmTX2.Lines.Add('nrProc_42=');
+        mmTX2.Lines.Add('SALVARIDEPROCESSOSIND_41');
+        mmTX2.Lines.Add('SALVARS1010');
+     end;
+     3://S1020
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1020');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('codLotacao_13=1');
+        mmTX2.Lines.Add('iniValid_14=2017-07');
+        mmTX2.Lines.Add('fimValid_15=');
+        mmTX2.Lines.Add('tpLotacao_17=01');
+        mmTX2.Lines.Add('tpInsc_18=');
+        mmTX2.Lines.Add('nrInsc_19=');
+        mmTX2.Lines.Add('fpas_21=507');
+        mmTX2.Lines.Add('codTercs_22=0001');
+        mmTX2.Lines.Add('codTercsSusp_23=0067');
+        mmTX2.Lines.Add('tpInscContrat_30=');
+        mmTX2.Lines.Add('nrInscContrat_31=');
+        mmTX2.Lines.Add('tpInscProp_32=');
+        mmTX2.Lines.Add('nrInscProp_33=');
+        mmTX2.Lines.Add('INCLUIRPROCJUDTERCEIRO_25');
+        mmTX2.Lines.Add('codTerc_26=');
+        mmTX2.Lines.Add('nrProcJud_27=');
+        mmTX2.Lines.Add('codSusp_28=');
+        mmTX2.Lines.Add('SALVARPROCJUDTERCEIRO_25');
+        mmTX2.Lines.Add('SALVARS1020');
+     end;
+     4://S1030
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1030');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('codCargo_13=1');
+        mmTX2.Lines.Add('iniValid_14=2017-07');
+        mmTX2.Lines.Add('fimValid_15=');
+        mmTX2.Lines.Add('nmCargo_17=CARGO TESTE ANALISTA');
+        mmTX2.Lines.Add('codCBO_18=212405');
+        mmTX2.Lines.Add('acumCargo_20=1');
+        mmTX2.Lines.Add('contagemEsp_21=1');
+        mmTX2.Lines.Add('dedicExcl_22=N');
+        mmTX2.Lines.Add('nrLei_24=123');
+        mmTX2.Lines.Add('dtLei_25=1993-12-12');
+        mmTX2.Lines.Add('sitCargo_26=1');
+        mmTX2.Lines.Add('SALVARS1030');
+     end;
+     5://S1035
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1035');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('codCarreira_13=1');
+        mmTX2.Lines.Add('iniValid_14=2017-07');
+        mmTX2.Lines.Add('fimValid_15=');
+        mmTX2.Lines.Add('dscCarreira_17=CARREIRA DE DESENVOLVEDOR');
+        mmTX2.Lines.Add('leiCarr_18=');
+        mmTX2.Lines.Add('dtLeiCarr_19=2011-03-11');
+        mmTX2.Lines.Add('sitCarr_20=3');
+        mmTX2.Lines.Add('SALVARS1035');
+     end;
+     6://S1040
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1040');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('codFuncao_13=1');
+        mmTX2.Lines.Add('iniValid_14=2017-07');
+        mmTX2.Lines.Add('fimValid_15=');
+        mmTX2.Lines.Add('dscFuncao_17=FUNÇÃO TESTE');
+        mmTX2.Lines.Add('codCBO_18=212405');
+        mmTX2.Lines.Add('SALVARS1040');
+     end;
+     7://S1050
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1050');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('codHorContrat_13=1');
+        mmTX2.Lines.Add('iniValid_14=2017-07');
+        mmTX2.Lines.Add('fimValid_15=');
+        mmTX2.Lines.Add('hrEntr_17=0800');
+        mmTX2.Lines.Add('hrSaida_18=1700');
+        mmTX2.Lines.Add('durJornada_19=480');
+        mmTX2.Lines.Add('perHorFlexivel_20=S');
+        mmTX2.Lines.Add('INCLUIRHORARIOINTERVALO_21');
+        mmTX2.Lines.Add('tpInterv_22=1');
+        mmTX2.Lines.Add('durInterv_23=15');
+        mmTX2.Lines.Add('iniInterv_24=1700');
+        mmTX2.Lines.Add('termInterv_25=1715');
+        mmTX2.Lines.Add('SALVARHORARIOINTERVALO_21');
+        mmTX2.Lines.Add('SALVARS1050');
+     end;
+     8://S1060
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1060');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('codAmb_13=1');
+        mmTX2.Lines.Add('iniValid_14=2017-07');
+        mmTX2.Lines.Add('fimValid_15=');
+        mmTX2.Lines.Add('dscAmb_17=Trabalho');
+        mmTX2.Lines.Add('localAmb_18=1');
+        mmTX2.Lines.Add('tpInsc_19=1');
+        mmTX2.Lines.Add('nrInsc_20=63741729000139');
+        mmTX2.Lines.Add('INCLUIRFATORRISCO_21');
+        mmTX2.Lines.Add('codFatRis_22=');
+        mmTX2.Lines.Add('SALVARFATORRISCO_21');
+        mmTX2.Lines.Add('SALVARS1060');
+     end;
+     9://S1070
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1070');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('tpProc_13=1');
+        mmTX2.Lines.Add('nrProc_14=1');
+        mmTX2.Lines.Add('iniValid_15=2017-07');
+        mmTX2.Lines.Add('fimValid_16=');
+        mmTX2.Lines.Add('indAutoria_18=1');
+        mmTX2.Lines.Add('indMatProc_19=1');
+        mmTX2.Lines.Add('ufVara_21=');
+        mmTX2.Lines.Add('codMunic_22=');
+        mmTX2.Lines.Add('idVara_23=');
+        mmTX2.Lines.Add('observacao_29=');
+        mmTX2.Lines.Add('INCLUIRINFOSUSP_24');
+        mmTX2.Lines.Add('codSusp_25=1234');
+        mmTX2.Lines.Add('indSusp_26=03');
+        mmTX2.Lines.Add('dtDecisao_27=2017-08-08');
+        mmTX2.Lines.Add('indDeposito_28=S');
+        mmTX2.Lines.Add('SALVARINFOSUSP_24');
+        mmTX2.Lines.Add('SALVARS1070');
+     end;
+    10://S1080
+     begin
+        mmTX2.Clear;
+        mmTX2.Lines.Add('INCLUIRS1080');
+        IncluirCamposPadroes;
+        mmTX2.Lines.Add('cnpjOpPortuario_13=76062488000739');
+        mmTX2.Lines.Add('iniValid_14=2017-08');
+        mmTX2.Lines.Add('fimValid_15=');
+        mmTX2.Lines.Add('aliqRat_17=2');
+        mmTX2.Lines.Add('fap_18=2');
+        mmTX2.Lines.Add('aliqRatAjust_19=4');
+        mmTX2.Lines.Add('SALVARS1080');
+     end;
+    11://Carregar Arquivo
+    begin
+      openDlg.InitialDir := ExtractFilePath(ParamStr(0));
+      openDlg.Execute;
+
+      if openDlg.FileName <> '' then
+      begin
+        vTX2Aux := openDlg.FileName;
+        mmTX2.Lines.LoadFromFile(vTX2Aux);
+      end;
+    end;
+  end;
+
+  pcPages.ActivePageIndex := 0;
 end;
 
 procedure TfrmESocial.btnXMLClick(Sender: TObject);
 begin
-  mmoXML.Text := eSocial.GerarXMLporTx2(mmoXML.Text);
+  mmoXMLEnvio.Text := eSocial.GerarXMLporTx2(mmTX2.Text);
+
+  pcPages.ActivePageIndex := 1;
 end;
 
 procedure TfrmESocial.btnAssinarClick(Sender: TObject);
 begin
-  mmoXML.Text := eSocial.AssinarEvento(mmoXML.Text);
+  mmXMLAssinado.Text := eSocial.AssinarEvento(mmoXMLEnvio.Text);
+
+  pcPages.ActivePageIndex := 2;
 end;
 
 procedure TfrmESocial.btnEnviarClick(Sender: TObject);
 var
   RetEnvio: IspdRetEnviarLoteEventos;
 begin
-  RetEnvio := eSocial.EnviarLoteEventos(mmoXML.Text, StrToInt(cbGrupo.Text));
-  mmoXML.Lines.Clear;
+  RetEnvio := eSocial.EnviarLoteEventos(mmXMLAssinado.Text, StrToInt(cbGrupo.Text));
+  mmoXML.Lines.Add('#######################################################');
+  mmoXML.Lines.Add('#######################################################');
   mmoXML.Lines.Add('### INCLUIR EVENTO ###');
   mmoXML.Lines.Add('Identificador do Lote: ' + RetEnvio.IdLote);
   mmoXML.Lines.Add('Mensagem de Retorno: ' + RetEnvio.Mensagem);
   edtIdLote.Text := RetEnvio.IdLote;
+
+  pcPages.ActivePageIndex := 3;
 end;
 
 procedure TfrmESocial.btnConsultarClick(Sender: TObject);
@@ -157,7 +406,9 @@ begin
   RetConsulta := eSocial.ConsultarIdEvento(edtIdLote.Text)
   else if rgTipoEnvio.ItemIndex = 2 then
   RetConsulta := eSocial.ConsultarEventoPorRecibo(edtIdLote.Text);
-  mmoXML.Lines.Clear;
+  mmoXML.Lines.Add(' ');
+  mmoXML.Lines.Add('##################################################');
+  mmoXML.Lines.Add('##################################################');
   mmoXML.Lines.Add('### CONSULTA PROTOCOLO ###');
   mmoXML.Lines.Add('Número do Protocolo: ' + RetConsulta.NumeroProtocolo);
   mmoXML.Lines.Add('Mensagem de Retorno: ' + RetConsulta.Mensagem);
@@ -707,8 +958,27 @@ begin
     mmoXML.Lines.Add('    Localização: ' + RetConsultaOcorrenciaEnvio.Localizacao);
     mmoXML.Lines.Add('    Descrição: ' + RetConsultaOcorrenciaEnvio.Descricao);
   end;
-  mmoXmlEnvio.Text := RetConsulta.XmlEnviado;
-  mmoXmlRetorno.Text := RetConsulta.XmlRetorno;
+
+  mmEnviado.Text := RetConsulta.XmlEnviado;
+  mmRetornado.Text := RetConsulta.XmlRetorno;
+
+  pcPages.ActivePageIndex := 3;
+end;
+
+procedure TfrmESocial.Button1Click(Sender: TObject);
+begin
+  if edtIdLote.Text <> '' then
+    eSocial.ReconsultarLoteSefaz(edtIdLote.Text);
+
+  btnConsultar.OnClick(owner);
+end;
+
+procedure TfrmESocial.FormShow(Sender: TObject);
+begin
+  edtCnpjSH.Text          := '00000000000000';
+  edtTokenSH.Text         := '';
+  edtCnpjTransmissor.Text := '00000000000000';
+  edtCnpjEmpregador.Text  := '00000000000000';
 end;
 
 end.
