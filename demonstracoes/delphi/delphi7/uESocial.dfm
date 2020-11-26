@@ -1,8 +1,8 @@
 object frmESocial: TfrmESocial
-  Left = 409
-  Top = 267
+  Left = 383
+  Top = 191
   Width = 1081
-  Height = 485
+  Height = 565
   Caption = 'frmESocial'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -39,7 +39,7 @@ object frmESocial: TfrmESocial
   end
   object lbl1: TLabel
     Left = 376
-    Top = 403
+    Top = 441
     Width = 32
     Height = 13
     Caption = 'Grupo:'
@@ -191,7 +191,7 @@ object frmESocial: TfrmESocial
   end
   object edtIdLote: TLabeledEdit
     Left = 8
-    Top = 419
+    Top = 457
     Width = 362
     Height = 21
     EditLabel.Width = 100
@@ -201,7 +201,7 @@ object frmESocial: TfrmESocial
   end
   object cbGrupo: TComboBox
     Left = 376
-    Top = 419
+    Top = 457
     Width = 145
     Height = 21
     ItemHeight = 13
@@ -216,8 +216,8 @@ object frmESocial: TfrmESocial
     Left = 528
     Top = 6
     Width = 537
-    Height = 436
-    ActivePage = Retornado
+    Height = 507
+    ActivePage = TabSheet4
     TabOrder = 17
     object TabSheet4: TTabSheet
       Caption = 'TX2'
@@ -226,7 +226,7 @@ object frmESocial: TfrmESocial
         Left = 8
         Top = 6
         Width = 513
-        Height = 379
+        Height = 467
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -238,7 +238,7 @@ object frmESocial: TfrmESocial
         Left = 8
         Top = 6
         Width = 513
-        Height = 379
+        Height = 467
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -250,7 +250,7 @@ object frmESocial: TfrmESocial
         Left = 8
         Top = 6
         Width = 513
-        Height = 379
+        Height = 467
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -261,7 +261,7 @@ object frmESocial: TfrmESocial
         Left = 8
         Top = 6
         Width = 513
-        Height = 379
+        Height = 467
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -273,7 +273,7 @@ object frmESocial: TfrmESocial
         Left = 8
         Top = 6
         Width = 513
-        Height = 379
+        Height = 467
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -285,7 +285,7 @@ object frmESocial: TfrmESocial
         Left = 8
         Top = 6
         Width = 513
-        Height = 379
+        Height = 467
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -341,6 +341,40 @@ object frmESocial: TfrmESocial
     ParentFont = False
     TabOrder = 20
     OnClick = Button1Click
+  end
+  object edtIdEvento: TLabeledEdit
+    Left = 8
+    Top = 499
+    Width = 362
+    Height = 21
+    EditLabel.Width = 113
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Identificador do Evento:'
+    TabOrder = 21
+  end
+  object btnConsultarIdsEventoLote: TButton
+    Left = 7
+    Top = 410
+    Width = 290
+    Height = 25
+    Caption = 'Consultar Ids Evento Lote'
+    TabOrder = 22
+    OnClick = btnConsultarIdsEventoLoteClick
+  end
+  object btnBaixarXmlEvento: TButton
+    Left = 296
+    Top = 410
+    Width = 225
+    Height = 25
+    Caption = 'Baixar XML Evento'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 23
+    OnClick = btnBaixarXmlEventoClick
   end
   object openDlg: TOpenDialog
     Left = 520

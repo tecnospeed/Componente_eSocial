@@ -46,6 +46,9 @@ type
     Retornado: TTabSheet;
     mmEnviado: TMemo;
     mmRetornado: TMemo;
+    edtIdEvento: TLabeledEdit;
+    btnConsultarIdsEventoLote: TButton;
+    btnBaixarXmlEvento: TButton;
     procedure FormCreate(Sender: TObject);
     procedure btnConfigurarClick(Sender: TObject);
     procedure btnTx2Click(Sender: TObject);
@@ -55,6 +58,8 @@ type
     procedure btnConsultarClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure btnConsultarIdsEventoLoteClick(Sender: TObject);
+    procedure btnBaixarXmlEventoClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -979,6 +984,48 @@ begin
   edtTokenSH.Text         := '';
   edtCnpjTransmissor.Text := '00000000000000';
   edtCnpjEmpregador.Text  := '00000000000000';
+end;
+
+procedure TfrmESocial.btnConsultarIdsEventoLoteClick(Sender: TObject);
+var
+  RetConsultaIdsEventoLote: IspdRetConsultarIdsEventosLote;
+  RetConsultaIdsEventoLoteItem: IspdRetConsultarIdsEventosLoteItem;
+  _i: integer;
+begin
+  if edtIdLote.Text = '' then
+    ShowMessage('Por preencher o identificador do lote');
+
+  RetConsultaIdsEventoLote := eSocial.ConsultarIdsEventoLote(edtIdLote.Text);
+
+  mmoXML.Lines.Clear;
+  mmoXML.Lines.Add('### CONSULTA IDS EVENTOS LOTE ###');
+  mmoXML.Lines.Add('Número do Protocolo: ' + RetConsultaIdsEventoLote.NumeroProtocolo);
+  mmoXML.Lines.Add('Mensagem de Retorno: ' + RetConsultaIdsEventoLote.Mensagem);
+
+  mmoXML.Lines.Add('Id do Lote: ' + RetConsultaIdsEventoLote.IdLote);
+  for _i := 0 to RetConsultaIdsEventoLote.Count - 1 do
+  begin
+    RetConsultaIdsEventoLoteItem := RetConsultaIdsEventoLote.Eventos[_i];
+    mmoXML.Lines.Add('    Evento: ' + IntToStr(_i + 1));
+    mmoXML.Lines.Add('    Id Evento: ' + RetConsultaIdsEventoLoteItem.IdEvento);
+ end;
+ pcPages.ActivePageIndex := 3;
+end;
+
+procedure TfrmESocial.btnBaixarXmlEventoClick(Sender: TObject);
+var
+  RetBaixarXmlEventoLote: IspdRetBaixarXmlEventoLote;
+begin
+  if (edtIdLote.Text = '') or (edtIdEvento.Text = '') then
+    ShowMessage('Por favor preencher o identificador do lote e do evento.');
+
+  RetBaixarXmlEventoLote := eSocial.BaixarXmlEventoLote(edtIdLote.Text, edtIdEvento.Text);
+
+  mmoXML.Lines.Clear;
+  mmoXML.Lines.Add('### BAIXA XML EVENTO LOTE ###');
+  mmoXML.Lines.Add('Mensagem de Retorno: ' + RetBaixarXmlEventoLote.Mensagem);
+  mmoXML.Lines.Add('XML Evento: ' + RetBaixarXmlEventoLote.XmlEvento);
+  pcPages.ActivePageIndex := 3;
 end;
 
 end.
