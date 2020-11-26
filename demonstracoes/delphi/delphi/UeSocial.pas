@@ -43,6 +43,9 @@ type
     txtPincode: TEdit;
     Button1: TButton;
     Label4: TLabel;
+    edtIdEvento: TLabeledEdit;
+    btnConsultarIdsEventoLote: TButton;
+    btnBaixarXMLEvento: TButton;
     procedure FormCreate(Sender: TObject);
     procedure btnConfigurarClick(Sender: TObject);
     procedure btnTx2Click(Sender: TObject);
@@ -52,6 +55,8 @@ type
     procedure btnConsultarClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure Button1Click(Sender: TObject);
+    procedure btnConsultarIdsEventoLoteClick(Sender: TObject);
+    procedure btnBaixarXMLEventoClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -69,6 +74,21 @@ implementation
 procedure TfrmeSocial.btnAssinarClick(Sender: TObject);
 begin
   mmoRetorno.Text := eSocial.AssinarEvento(mmoRetorno.Text);
+end;
+
+procedure TfrmeSocial.btnBaixarXMLEventoClick(Sender: TObject);
+var
+  RetBaixarXmlEventoLote: IspdRetBaixarXmlEventoLote;
+begin
+  if (edtIdLote.Text = '') or (edtIdEvento.Text = '') then
+    ShowMessage('Por favor preencher o identificador do lote e do evento.');
+
+  RetBaixarXmlEventoLote := eSocial.BaixarXmlEventoLote(edtIdLote.Text, edtIdEvento.Text);
+
+  mmoRetorno.Lines.Clear;
+  mmoRetorno.Lines.Add('### BAIXA XML EVENTO LOTE ###');
+  mmoRetorno.Lines.Add('Mensagem de Retorno: ' + RetBaixarXmlEventoLote.Mensagem);
+  mmoRetorno.Lines.Add('XML Evento: ' + RetBaixarXmlEventoLote.XmlEvento);
 end;
 
 procedure TfrmeSocial.btnConfigurarClick(Sender: TObject);
@@ -894,6 +914,31 @@ begin
 
   mmoXmlEnvio.Text := RetConsulta.XmlEnviado;
   mmoXmlRetorno.Text := RetConsulta.XmlRetorno;
+end;
+
+procedure TfrmeSocial.btnConsultarIdsEventoLoteClick(Sender: TObject);
+var
+  RetConsultaIdsEventoLote: IspdRetConsultarIdsEventosLote;
+  RetConsultaIdsEventoLoteItem: IspdRetConsultarIdsEventosLoteItem;
+  _i: integer;
+begin
+  if edtIdLote.Text = '' then
+    ShowMessage('Por preencher o identificador do lote');
+
+  RetConsultaIdsEventoLote := eSocial.ConsultarIdsEventoLote(edtIdLote.Text);
+
+  mmoRetorno.Lines.Clear;
+  mmoRetorno.Lines.Add('### CONSULTA IDS EVENTOS LOTE ###');
+  mmoRetorno.Lines.Add('Número do Protocolo: ' + RetConsultaIdsEventoLote.NumeroProtocolo);
+  mmoRetorno.Lines.Add('Mensagem de Retorno: ' + RetConsultaIdsEventoLote.Mensagem);
+
+  mmoRetorno.Lines.Add('Id do Lote: ' + RetConsultaIdsEventoLote.IdLote);
+  for _i := 0 to RetConsultaIdsEventoLote.Count - 1 do
+  begin
+    RetConsultaIdsEventoLoteItem := RetConsultaIdsEventoLote.Eventos[_i];
+    mmoRetorno.Lines.Add('    Evento: ' + IntToStr(_i + 1));
+    mmoRetorno.Lines.Add('    Id Evento: ' + RetConsultaIdsEventoLoteItem.IdEvento);
+ end
 end;
 
 procedure TfrmeSocial.btnEnviarClick(Sender: TObject);

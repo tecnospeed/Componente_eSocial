@@ -2,7 +2,7 @@ object frmeSocial: TfrmeSocial
   Left = 686
   Top = 231
   Caption = 'frmeSocial'
-  ClientHeight = 461
+  ClientHeight = 547
   ClientWidth = 1134
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -194,7 +194,7 @@ object frmeSocial: TfrmeSocial
   end
   object edtIdLote: TLabeledEdit
     Left = 8
-    Top = 429
+    Top = 469
     Width = 513
     Height = 21
     EditLabel.Width = 104
@@ -231,16 +231,17 @@ object frmeSocial: TfrmeSocial
     Left = 527
     Top = 8
     Width = 599
-    Height = 449
+    Height = 531
     ActivePage = tsRetorno
     TabOrder = 18
     object tsRetorno: TTabSheet
       Caption = 'Retorno'
+      ExplicitHeight = 421
       object mmoRetorno: TMemo
         Left = 3
         Top = 3
         Width = 585
-        Height = 415
+        Height = 497
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -248,15 +249,12 @@ object frmeSocial: TfrmeSocial
     object tsXmlEnvio: TTabSheet
       Caption = 'Xml de Envio'
       ImageIndex = 1
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 377
+      ExplicitHeight = 421
       object mmoXmlEnvio: TMemo
         Left = 6
         Top = 6
         Width = 585
-        Height = 371
+        Height = 494
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -264,15 +262,12 @@ object frmeSocial: TfrmeSocial
     object tsXmlRetorno: TTabSheet
       Caption = 'Xml de Retorno'
       ImageIndex = 2
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 377
+      ExplicitHeight = 421
       object mmoXmlRetorno: TMemo
         Left = 6
         Top = 6
         Width = 585
-        Height = 371
+        Height = 494
         ScrollBars = ssVertical
         TabOrder = 0
       end
@@ -294,5 +289,33 @@ object frmeSocial: TfrmeSocial
     Caption = 'For'#231'ar consulta no eSocial'
     TabOrder = 20
     OnClick = Button1Click
+  end
+  object edtIdEvento: TLabeledEdit
+    Left = 8
+    Top = 518
+    Width = 513
+    Height = 21
+    EditLabel.Width = 117
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Identificador do Evento:'
+    TabOrder = 21
+  end
+  object btnConsultarIdsEventoLote: TButton
+    Left = 8
+    Top = 416
+    Width = 258
+    Height = 25
+    Caption = 'Consultar Ids Evento Lote'
+    TabOrder = 22
+    OnClick = btnConsultarIdsEventoLoteClick
+  end
+  object btnBaixarXMLEvento: TButton
+    Left = 272
+    Top = 416
+    Width = 249
+    Height = 25
+    Caption = 'Baixar XML Evento'
+    TabOrder = 23
+    OnClick = btnBaixarXMLEventoClick
   end
 end
