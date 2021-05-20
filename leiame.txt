@@ -9,6 +9,62 @@ Dicionário de Dados:
 Demonstrações de Uso:
    https://github.com/tecnospeed/Componente_eSocial
 
+==================================== esocial_4.1.23.6730 ================================================
+
+Novidades:
+#DC-1842 - Compatibilizando componente com a versão S-1.0 do ESocial.
+#DC-1324 - Disponibilizado novos métodos na interface da OCX: ConsultarIdsEventoLote e BaixarXmlEventoLote. 
+            Verifique a documentação: https://atendimento.tecnospeed.com.br/hc/pt-br/sections/360001152373
+
+# DC-2441 - Compatiblizado componente com a NT 21/2021.
+			
+==================================== LEIAME VS 3.1.21.6711 ================================================
+
+Novidades:
+#DC-230 - Nova arquitetura da gov exclusiva por produto.
+#DC-549 - Compatibilizado o componente com o novo Delphi 10.4 Sydney.
+
+==================================== LEIAME VS 3.1.20.6683 ================================================
+
+Novidades:
+#DC-96 - Compatibilização do componente com a NT 17/2019.
+#DC-149 - Criado log de erro de novos métodos e propriedades.
+
+==================================== LEIAME VS 2.1.19.6683 ================================================
+
+Novidades:
+#M_SPED-95 - Ajustado limite de caracteres dos campos metErg_83 e dscAtivDes_22.
+
+==================================== LEIAME VS 2.1.18.6680 ================================================
+
+Novidades:
+# - Nota técnica do E-Social 16/2019
+
+Correções:
+#DC-59 - Corrigido problema de duplicação do ID evento.
+
+==================================== LEIAME VS 2.1.17.6662 ================================================
+
+Novidades:
+# - Compatibilizado o componente com a NT 15/2019 revisada
+
+==================================== LEIAME VS 2.1.15.6662 ================================================
+
+Novidades:
+# - Criada opção para reconsultar o lote.
+
+==================================== LEIAME VS 3.1.18.6680 ================================================
+Novidades:
+1) Nota técnica do e-Social 16/2019
+
+Correções:
+# - Corrigida propriedade nome certificado.
+# - Corrigida propriedade PinCode.
+
+==================================== LEIAME VS 3.1.17.6673 ================================================
+Novidades:
+1) #    - Compatibilizado o componente com a NT 15/2019 revisada 
+
 ==================================== LEIAME VS 3.1.15.6662 ================================================
 
 Novidades:
