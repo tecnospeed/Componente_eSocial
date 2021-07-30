@@ -16,7 +16,7 @@ namespace eSocialCSharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmESocial());
+            Application.Run(new Form2());
         }
     }
 }

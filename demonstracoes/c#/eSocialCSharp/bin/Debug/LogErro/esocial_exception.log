@@ -1,0 +1,24 @@
+[16/07/2021 13:13:20:340] 19080 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador deve ser preenchida com 11 ou 14 dígitos. 
+[16/07/2021 13:13:38:525] 12480 - EspdESocialCheckParams : A propriedade CpfCnpjTransmissor deve ser preenchida com 11 ou 14 dígitos. 
+[21/07/2021 10:00:57:947] 11628 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador deve ser preenchida com 11 ou 14 dígitos. 
+[21/07/2021 10:50:05:940] 17284 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador deve ser preenchida com 11 ou 14 dígitos. 
+[23/07/2021 10:54:07:468] 4460 - EspdESocialDataSetCampoNaoEncontradoException : Campo "nmRazao_15" não encontrado
+[23/07/2021 10:57:20:708] 10924 - EspdESocialDataSetCampoNaoEncontradoException : Campo "nmRazao_15" não encontrado
+[23/07/2021 11:01:10:433] 9804 - EspdESocialDataSetCampoNaoEncontradoException : Campo "natJurid_17" não encontrado
+[23/07/2021 11:08:53:589] 9632 - EspdESocialException : Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 11:08:53:593] 9632 - EspdESocialException : Erro ao enviar lote de eventos: Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 11:09:45:945] 19396 - EspdESocialException : Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 11:09:45:946] 19396 - EspdESocialException : Erro ao enviar lote de eventos: Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 11:11:35:068] 8516 - EspdESocialException : Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 11:11:35:069] 8516 - EspdESocialException : Erro ao enviar lote de eventos: Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 15:17:40:509] 14296 - EspdESocialException : Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 15:17:40:513] 14296 - EspdESocialException : Erro ao enviar lote de eventos: Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 15:19:31:395] 5980 - EspdESocialException : Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/07/2021 15:19:31:397] 5980 - EspdESocialException : Erro ao enviar lote de eventos: Chave de acesso (Token) e CNPJ da Software House não conferem.
+[30/07/2021 09:12:36:619] 13396 - EspdESocialException : Chave de acesso (Token) e CNPJ da Software House não conferem.
+[30/07/2021 09:12:36:639] 13396 - EspdESocialException : Erro ao enviar lote de eventos: Chave de acesso (Token) e CNPJ da Software House não conferem.
+[30/07/2021 09:15:39:851] 15172 - EspdESocialException : Chave de acesso (Token) e CNPJ da Software House não conferem.
+[30/07/2021 09:15:39:855] 15172 - EspdESocialException : Erro ao enviar lote de eventos: Chave de acesso (Token) e CNPJ da Software House não conferem.
+[30/07/2021 09:32:15:308] 2548 - EspdESocialCheckParams : A propriedade "CpfCnpjEmpregador" deve ser configurada.
+[30/07/2021 09:32:15:311] 2548 - EspdESocialException : Erro ao consultar lote de eventos: A propriedade "CpfCnpjEmpregador" deve ser configurada.
+[30/07/2021 09:32:49:848] 14564 - EspdESocialCheckParams : O parâmetro aCpfCnpjSH deve possuir 11 ou 14 dígitos.

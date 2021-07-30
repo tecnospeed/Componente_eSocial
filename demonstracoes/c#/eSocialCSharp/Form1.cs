@@ -21,9 +21,13 @@ namespace eSocialCSharp
             InitializeComponent();
             string[] vetor, vetor2;
 
+           
+            eSocial.ConfigurarSoftwareHouse(txtCpfCnpjSH.Text, txtTokenSH.Text);
+
             this.Text = "eSocial - TecnoSpeed - " + eSocial.Versao;
             vetor = eSocial.ListarCertificados("|").Split('|');
             cbCertificado.Items.Clear();
+           
             for (int i = 0; i < vetor.Length - 1; i++)
             {
                 cbCertificado.Items.Add(vetor[i]);
@@ -38,8 +42,6 @@ namespace eSocialCSharp
             }
             cbVersaoManual.SelectedIndex = 0;
             cbAmbiente.SelectedIndex = 1;
-            txtEsquemas.Text = @"C:\Program Files\TecnoSpeed\eSocial\Arquivos\Esquemas\";
-            txtTemplates.Text = @"C:\Program Files\TecnoSpeed\eSocial\Arquivos\Templates\";
             rbIdLote.Checked = true;
         }
 
@@ -126,7 +128,7 @@ namespace eSocialCSharp
             tbRetorno.Text += "Identificador Lote: " + _RetEnvio.IdLote + Environment.NewLine;
             tbRetorno.Text += "Mensagem" + _RetEnvio.Mensagem + Environment.NewLine;
 
-            txtIdentificadorLote.Text = _RetEnvio.IdLote;
+            txtIdLote.Text = _RetEnvio.IdLote;
 
         }
 
@@ -139,13 +141,13 @@ namespace eSocialCSharp
             _RetConsulta = null;
             if (rbIdLote.Checked)
             {
-                _RetConsulta = eSocial.ConsultarLoteEventos(txtIdentificadorLote.Text);
+                _RetConsulta = eSocial.ConsultarLoteEventos(txtIdLote.Text);
             }else if (rbIdEvento.Checked)
             {
-                _RetConsulta = eSocial.ConsultarIdEvento(txtIdentificadorLote.Text);
+                _RetConsulta = eSocial.ConsultarIdEvento(txtIdLote.Text);
             } else if (rbNrRecibo.Checked)
             {
-                _RetConsulta = eSocial.ConsultarEventoPorRecibo(txtIdentificadorLote.Text);
+                _RetConsulta = eSocial.ConsultarEventoPorRecibo(txtIdLote.Text);
             }
 
             tbRetorno.Clear();
@@ -647,10 +649,23 @@ namespace eSocialCSharp
             }
         }
 
-        private void BtnReconsultar_Click(object sender, EventArgs e)
+        private void rbNrRecibo_CheckedChanged(object sender, EventArgs e)
         {
-            eSocial.ReconsultarLoteSefaz(txtIdentificadorLote.Text);
-            tbRetorno.Text = "Enviado a consulta ao eSocial, faça novamente a consulta normal !!!";
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReconsultar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

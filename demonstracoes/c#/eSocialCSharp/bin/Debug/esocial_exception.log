@@ -14,3 +14,5 @@
 [25/07/2019 16:50:17:139] 11724 - EspdESocialDataSetTX2ConteudoInvalidoException : TX2 inválido
 [26/07/2019 17:00:56:255] 516 - EspdESocialSignatureException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
 [26/07/2019 17:00:56:273] 516 - EspdESocialException : Falha durante o processo de assinatura. (EspdCertificateException: Tipo de parametro Inválido (PIN))
+[16/07/2021 13:08:08:399] 9212 - EspdESocialException : O CNPJ SoftwareHouse não foi configurado corretamente. Para isso utilize o método ConfigurarSoftwareHouse após instanciar o componente ou entre em contato com o suporte técnico.
+[16/07/2021 13:12:31:933] 13868 - EspdESocialException : O CNPJ SoftwareHouse não foi configurado corretamente. Para isso utilize o método ConfigurarSoftwareHouse após instanciar o componente ou entre em contato com o suporte técnico.
