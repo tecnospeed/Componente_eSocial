@@ -1,87 +1,434 @@
 VERSION 5.00
-Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "tabctl32.ocx"
+Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
 Begin VB.Form frmProjeto 
    Caption         =   "Demo eSocial"
-   ClientHeight    =   6645
+   ClientHeight    =   11655
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   16860
+   ClientWidth     =   8445
    LinkTopic       =   "Form1"
-   ScaleHeight     =   6645
-   ScaleWidth      =   16860
+   ScaleHeight     =   11655
+   ScaleWidth      =   8445
    StartUpPosition =   3  'Windows Default
-   Begin VB.TextBox txtPin 
-      Height          =   285
-      IMEMode         =   3  'DISABLE
-      Left            =   120
-      PasswordChar    =   "*"
-      TabIndex        =   37
-      Top             =   3240
-      Width           =   7695
-   End
-   Begin VB.CommandButton btnReconsulta 
-      Caption         =   "Forçar consulta Sefaz"
-      Height          =   375
-      Left            =   4200
-      TabIndex        =   36
-      Top             =   5520
-      Width           =   3615
-   End
-   Begin VB.Frame Frame1 
-      Caption         =   "Tipo de Consulta:"
-      Height          =   735
-      Left            =   120
-      TabIndex        =   32
-      Top             =   4680
-      Width           =   7695
-      Begin VB.OptionButton opEvento 
-         Caption         =   "Id do Evento"
-         Height          =   255
-         Left            =   3120
-         TabIndex        =   35
-         Top             =   360
-         Width           =   1695
+   Begin TabDlg.SSTab SSTab2 
+      Height          =   5535
+      Left            =   0
+      TabIndex        =   4
+      Top             =   120
+      Width           =   8415
+      _ExtentX        =   14843
+      _ExtentY        =   9763
+      _Version        =   393216
+      TabHeight       =   520
+      TabCaption(0)   =   "1- Dados"
+      TabPicture(0)   =   "frmProjeto.frx":0000
+      Tab(0).ControlEnabled=   -1  'True
+      Tab(0).Control(0)=   "Label1(9)"
+      Tab(0).Control(0).Enabled=   0   'False
+      Tab(0).Control(1)=   "Label1(8)"
+      Tab(0).Control(1).Enabled=   0   'False
+      Tab(0).Control(2)=   "Label1(7)"
+      Tab(0).Control(2).Enabled=   0   'False
+      Tab(0).Control(3)=   "Label1(6)"
+      Tab(0).Control(3).Enabled=   0   'False
+      Tab(0).Control(4)=   "Label1(5)"
+      Tab(0).Control(4).Enabled=   0   'False
+      Tab(0).Control(5)=   "Label1(3)"
+      Tab(0).Control(5).Enabled=   0   'False
+      Tab(0).Control(6)=   "Label1(1)"
+      Tab(0).Control(6).Enabled=   0   'False
+      Tab(0).Control(7)=   "Label2"
+      Tab(0).Control(7).Enabled=   0   'False
+      Tab(0).Control(8)=   "Label1(2)"
+      Tab(0).Control(8).Enabled=   0   'False
+      Tab(0).Control(9)=   "Label1(4)"
+      Tab(0).Control(9).Enabled=   0   'False
+      Tab(0).Control(10)=   "Label3"
+      Tab(0).Control(10).Enabled=   0   'False
+      Tab(0).Control(11)=   "txtEmpregador"
+      Tab(0).Control(11).Enabled=   0   'False
+      Tab(0).Control(12)=   "txtTransmissor"
+      Tab(0).Control(12).Enabled=   0   'False
+      Tab(0).Control(13)=   "cbAmbiente"
+      Tab(0).Control(13).Enabled=   0   'False
+      Tab(0).Control(14)=   "txtTokenSh"
+      Tab(0).Control(14).Enabled=   0   'False
+      Tab(0).Control(15)=   "txtCnpjSH"
+      Tab(0).Control(15).Enabled=   0   'False
+      Tab(0).Control(16)=   "txtTemplates"
+      Tab(0).Control(16).Enabled=   0   'False
+      Tab(0).Control(17)=   "txtEsquemas"
+      Tab(0).Control(17).Enabled=   0   'False
+      Tab(0).Control(18)=   "btnConfigurar"
+      Tab(0).Control(18).Enabled=   0   'False
+      Tab(0).Control(19)=   "cbVersao"
+      Tab(0).Control(19).Enabled=   0   'False
+      Tab(0).Control(20)=   "cbCertificado"
+      Tab(0).Control(20).Enabled=   0   'False
+      Tab(0).Control(21)=   "cbGrupo"
+      Tab(0).Control(21).Enabled=   0   'False
+      Tab(0).Control(22)=   "txtPincode"
+      Tab(0).Control(22).Enabled=   0   'False
+      Tab(0).ControlCount=   23
+      TabCaption(1)   =   "2 - Envio"
+      TabPicture(1)   =   "frmProjeto.frx":001C
+      Tab(1).ControlEnabled=   0   'False
+      Tab(1).Control(0)=   "btnGerarXML(0)"
+      Tab(1).Control(1)=   "btnAssinarXML(1)"
+      Tab(1).Control(2)=   "btnCarregaTX2"
+      Tab(1).Control(3)=   "cmdEnviar"
+      Tab(1).Control(4)=   "cmdConsultar"
+      Tab(1).Control(5)=   "txtIdLote"
+      Tab(1).Control(6)=   "Frame1"
+      Tab(1).Control(7)=   "Label1(0)"
+      Tab(1).ControlCount=   8
+      TabCaption(2)   =   "3 - Ajuda"
+      TabPicture(2)   =   "frmProjeto.frx":0038
+      Tab(2).ControlEnabled=   0   'False
+      Tab(2).Control(0)=   "Command1"
+      Tab(2).Control(0).Enabled=   0   'False
+      Tab(2).Control(1)=   "Command2"
+      Tab(2).Control(1).Enabled=   0   'False
+      Tab(2).Control(2)=   "Command3"
+      Tab(2).Control(2).Enabled=   0   'False
+      Tab(2).Control(3)=   "Command4"
+      Tab(2).Control(3).Enabled=   0   'False
+      Tab(2).ControlCount=   4
+      Begin VB.CommandButton Command4 
+         Caption         =   "Dicionário Tx2"
+         Height          =   375
+         Left            =   -73200
+         TabIndex        =   42
+         Top             =   3120
+         Width           =   5055
       End
-      Begin VB.OptionButton opNrRecibo 
-         Caption         =   "Nr. Recibo"
-         Height          =   255
+      Begin VB.CommandButton Command3 
+         Caption         =   "Métodos Componente"
+         Height          =   375
+         Left            =   -73200
+         TabIndex        =   41
+         Top             =   2520
+         Width           =   5055
+      End
+      Begin VB.CommandButton Command2 
+         Caption         =   "Propriedades Componente"
+         Height          =   375
+         Left            =   -73200
+         TabIndex        =   40
+         Top             =   1920
+         Width           =   5055
+      End
+      Begin VB.CommandButton Command1 
+         Caption         =   "Primeiros Passos"
+         Height          =   375
+         Left            =   -73200
+         TabIndex        =   39
+         Top             =   1320
+         Width           =   5055
+      End
+      Begin VB.TextBox txtPincode 
+         Height          =   285
+         Left            =   240
+         TabIndex        =   37
+         Top             =   3840
+         Width           =   7695
+      End
+      Begin VB.ComboBox cbGrupo 
+         Height          =   315
+         ItemData        =   "frmProjeto.frx":0054
          Left            =   5640
-         TabIndex        =   34
-         Top             =   360
-         Width           =   1695
+         List            =   "frmProjeto.frx":0061
+         TabIndex        =   35
+         Top             =   2040
+         Width           =   2295
       End
-      Begin VB.OptionButton opIdLote 
-         Caption         =   "Id de Lote"
-         Height          =   255
-         Left            =   360
+      Begin VB.CommandButton btnGerarXML 
+         Caption         =   "Gerar XML"
+         Height          =   375
+         Index           =   0
+         Left            =   -72840
          TabIndex        =   33
-         Top             =   360
-         Width           =   1695
+         Top             =   600
+         Width           =   1815
+      End
+      Begin VB.CommandButton btnAssinarXML 
+         Caption         =   "Assinar"
+         Height          =   375
+         Index           =   1
+         Left            =   -70920
+         TabIndex        =   32
+         Top             =   600
+         Width           =   1815
+      End
+      Begin VB.CommandButton btnCarregaTX2 
+         Caption         =   "Carrega TX2"
+         Height          =   375
+         Left            =   -74760
+         TabIndex        =   31
+         Top             =   600
+         Width           =   1815
+      End
+      Begin VB.CommandButton cmdEnviar 
+         Caption         =   "Enviar"
+         Height          =   375
+         Left            =   -69000
+         TabIndex        =   30
+         Top             =   600
+         Width           =   1935
+      End
+      Begin VB.CommandButton cmdConsultar 
+         Caption         =   "Consultar"
+         Height          =   375
+         Left            =   -74760
+         TabIndex        =   29
+         Top             =   1920
+         Width           =   7695
+      End
+      Begin VB.TextBox txtIdLote 
+         Height          =   285
+         Left            =   -74760
+         TabIndex        =   28
+         Top             =   2640
+         Width           =   7695
+      End
+      Begin VB.Frame Frame1 
+         Caption         =   "Tipo de Consulta:"
+         Height          =   735
+         Left            =   -74760
+         TabIndex        =   24
+         Top             =   1080
+         Width           =   7695
+         Begin VB.OptionButton opEvento 
+            Caption         =   "Id do Evento"
+            Height          =   255
+            Left            =   3120
+            TabIndex        =   27
+            Top             =   360
+            Width           =   1695
+         End
+         Begin VB.OptionButton opNrRecibo 
+            Caption         =   "Nr. Recibo"
+            Height          =   255
+            Left            =   5640
+            TabIndex        =   26
+            Top             =   360
+            Width           =   1695
+         End
+         Begin VB.OptionButton opIdLote 
+            Caption         =   "Id de Lote"
+            Height          =   255
+            Left            =   360
+            TabIndex        =   25
+            Top             =   360
+            Width           =   1695
+         End
+      End
+      Begin VB.ComboBox cbCertificado 
+         Height          =   315
+         ItemData        =   "frmProjeto.frx":006E
+         Left            =   240
+         List            =   "frmProjeto.frx":0070
+         TabIndex        =   14
+         Text            =   $"frmProjeto.frx":0072
+         Top             =   2040
+         Width           =   5295
+      End
+      Begin VB.ComboBox cbVersao 
+         Height          =   315
+         Left            =   5640
+         TabIndex        =   13
+         Top             =   1440
+         Width           =   2295
+      End
+      Begin VB.CommandButton btnConfigurar 
+         Caption         =   "Configurar"
+         Height          =   375
+         Left            =   5640
+         TabIndex        =   12
+         Top             =   4320
+         Width           =   2295
+      End
+      Begin VB.TextBox txtEsquemas 
+         Height          =   285
+         Left            =   240
+         TabIndex        =   11
+         Top             =   3240
+         Width           =   7695
+      End
+      Begin VB.TextBox txtTemplates 
+         Height          =   285
+         Left            =   240
+         TabIndex        =   10
+         Top             =   2640
+         Width           =   7695
+      End
+      Begin VB.TextBox txtCnpjSH 
+         Height          =   285
+         Left            =   240
+         TabIndex        =   9
+         Top             =   840
+         Width           =   2655
+      End
+      Begin VB.TextBox txtTokenSh 
+         Height          =   285
+         Left            =   3000
+         TabIndex        =   8
+         Top             =   840
+         Width           =   2535
+      End
+      Begin VB.ComboBox cbAmbiente 
+         Height          =   315
+         ItemData        =   "frmProjeto.frx":0113
+         Left            =   5640
+         List            =   "frmProjeto.frx":011D
+         TabIndex        =   7
+         Top             =   840
+         Width           =   2295
+      End
+      Begin VB.TextBox txtTransmissor 
+         Height          =   285
+         Left            =   240
+         TabIndex        =   6
+         Top             =   1440
+         Width           =   2655
+      End
+      Begin VB.TextBox txtEmpregador 
+         Height          =   285
+         Left            =   3000
+         TabIndex        =   5
+         Top             =   1440
+         Width           =   2535
+      End
+      Begin VB.Label Label3 
+         Caption         =   "Pincode (Para certificado A3)"
+         Height          =   255
+         Left            =   240
+         TabIndex        =   38
+         Top             =   3600
+         Width           =   2295
+      End
+      Begin VB.Label Label1 
+         Caption         =   "Grupo:"
+         Height          =   255
+         Index           =   4
+         Left            =   5640
+         TabIndex        =   36
+         Top             =   1800
+         Width           =   2535
+      End
+      Begin VB.Label Label1 
+         Caption         =   "Identificador Lote"
+         Height          =   255
+         Index           =   0
+         Left            =   -74760
+         TabIndex        =   34
+         Top             =   2400
+         Width           =   2535
+      End
+      Begin VB.Label Label1 
+         Caption         =   "Versão Manual:"
+         Height          =   255
+         Index           =   2
+         Left            =   5640
+         TabIndex        =   23
+         Top             =   1200
+         Width           =   2535
+      End
+      Begin VB.Label Label2 
+         Caption         =   "Certificado:"
+         Height          =   255
+         Left            =   240
+         TabIndex        =   22
+         Top             =   1800
+         Width           =   975
+      End
+      Begin VB.Label Label1 
+         Caption         =   "Caminho Esquemas:"
+         Height          =   255
+         Index           =   1
+         Left            =   240
+         TabIndex        =   21
+         Top             =   3000
+         Width           =   2535
+      End
+      Begin VB.Label Label1 
+         Caption         =   "Caminho Templates:"
+         Height          =   255
+         Index           =   3
+         Left            =   240
+         TabIndex        =   20
+         Top             =   2400
+         Width           =   2535
+      End
+      Begin VB.Label Label1 
+         Caption         =   "CPF / CNPJ SoftWare House:"
+         Height          =   255
+         Index           =   5
+         Left            =   240
+         TabIndex        =   19
+         Top             =   600
+         Width           =   2535
+      End
+      Begin VB.Label Label1 
+         Caption         =   "Token SoftWare House:"
+         Height          =   255
+         Index           =   6
+         Left            =   3000
+         TabIndex        =   18
+         Top             =   600
+         Width           =   2535
+      End
+      Begin VB.Label Label1 
+         Caption         =   "Ambiente:"
+         Height          =   255
+         Index           =   7
+         Left            =   5640
+         TabIndex        =   17
+         Top             =   600
+         Width           =   2535
+      End
+      Begin VB.Label Label1 
+         Caption         =   "CNPJ Transmissor:"
+         Height          =   255
+         Index           =   8
+         Left            =   240
+         TabIndex        =   16
+         Top             =   1200
+         Width           =   2535
+      End
+      Begin VB.Label Label1 
+         Caption         =   "CNPJ Empregador:"
+         Height          =   255
+         Index           =   9
+         Left            =   3000
+         TabIndex        =   15
+         Top             =   1200
+         Width           =   2535
       End
    End
    Begin TabDlg.SSTab SSTab1 
-      Height          =   6495
-      Left            =   7920
-      TabIndex        =   28
-      Top             =   120
-      Width           =   8775
-      _ExtentX        =   15478
-      _ExtentY        =   11456
+      Height          =   5895
+      Left            =   0
+      TabIndex        =   0
+      Top             =   5760
+      Width           =   8415
+      _ExtentX        =   14843
+      _ExtentY        =   10398
       _Version        =   393216
       TabHeight       =   520
       TabCaption(0)   =   "Retorno"
-      TabPicture(0)   =   "frmProjeto.frx":0000
+      TabPicture(0)   =   "frmProjeto.frx":0140
       Tab(0).ControlEnabled=   -1  'True
       Tab(0).Control(0)=   "tbRetorno"
       Tab(0).Control(0).Enabled=   0   'False
       Tab(0).ControlCount=   1
       TabCaption(1)   =   "Xml de Envio"
-      TabPicture(1)   =   "frmProjeto.frx":001C
+      TabPicture(1)   =   "frmProjeto.frx":015C
       Tab(1).ControlEnabled=   0   'False
       Tab(1).Control(0)=   "tbXmlEnvio"
       Tab(1).ControlCount=   1
       TabCaption(2)   =   "Xml de Retorno"
-      TabPicture(2)   =   "frmProjeto.frx":0038
+      TabPicture(2)   =   "frmProjeto.frx":0178
       Tab(2).ControlEnabled=   0   'False
       Tab(2).Control(0)=   "tbXmlRetorno"
       Tab(2).ControlCount=   1
@@ -90,268 +437,28 @@ Begin VB.Form frmProjeto
          Left            =   -74880
          MultiLine       =   -1  'True
          ScrollBars      =   2  'Vertical
-         TabIndex        =   31
-         Top             =   360
-         Width           =   8535
+         TabIndex        =   3
+         Top             =   480
+         Width           =   8175
       End
       Begin VB.TextBox tbXmlEnvio 
          Height          =   5295
          Left            =   -74880
          MultiLine       =   -1  'True
          ScrollBars      =   2  'Vertical
-         TabIndex        =   30
-         Top             =   360
-         Width           =   8535
+         TabIndex        =   2
+         Top             =   480
+         Width           =   8175
       End
       Begin VB.TextBox tbRetorno 
-         Height          =   6015
+         Height          =   5295
          Left            =   120
          MultiLine       =   -1  'True
          ScrollBars      =   2  'Vertical
-         TabIndex        =   29
-         Top             =   360
-         Width           =   8535
+         TabIndex        =   1
+         Top             =   480
+         Width           =   8175
       End
-   End
-   Begin VB.TextBox txtEmpregador 
-      Height          =   285
-      Left            =   2880
-      TabIndex        =   26
-      Top             =   840
-      Width           =   2535
-   End
-   Begin VB.TextBox txtTransmissor 
-      Height          =   285
-      Left            =   120
-      TabIndex        =   24
-      Top             =   840
-      Width           =   2655
-   End
-   Begin VB.ComboBox cbAmbiente 
-      Height          =   315
-      ItemData        =   "frmProjeto.frx":0054
-      Left            =   5520
-      List            =   "frmProjeto.frx":005E
-      TabIndex        =   22
-      Top             =   240
-      Width           =   2295
-   End
-   Begin VB.TextBox txtTokenSh 
-      Height          =   285
-      Left            =   2880
-      TabIndex        =   20
-      Top             =   240
-      Width           =   2535
-   End
-   Begin VB.TextBox txtCnpjSH 
-      Height          =   285
-      Left            =   120
-      TabIndex        =   18
-      Top             =   240
-      Width           =   2655
-   End
-   Begin VB.ComboBox cbGrupo 
-      Height          =   315
-      ItemData        =   "frmProjeto.frx":0081
-      Left            =   5400
-      List            =   "frmProjeto.frx":008E
-      TabIndex        =   16
-      Top             =   6240
-      Width           =   2415
-   End
-   Begin VB.TextBox txtTemplates 
-      Height          =   285
-      Left            =   120
-      TabIndex        =   14
-      Top             =   2040
-      Width           =   7695
-   End
-   Begin VB.TextBox txtEsquemas 
-      Height          =   285
-      Left            =   120
-      TabIndex        =   12
-      Top             =   2640
-      Width           =   7695
-   End
-   Begin VB.CommandButton btnConfigurar 
-      Caption         =   "Configurar"
-      Height          =   375
-      Left            =   120
-      TabIndex        =   10
-      Top             =   3720
-      Width           =   7695
-   End
-   Begin VB.ComboBox cbVersao 
-      Height          =   315
-      Left            =   5520
-      TabIndex        =   8
-      Top             =   840
-      Width           =   2295
-   End
-   Begin VB.TextBox txtIdLote 
-      Height          =   285
-      Left            =   120
-      TabIndex        =   6
-      Top             =   6240
-      Width           =   5055
-   End
-   Begin VB.CommandButton cmdConsultar 
-      Caption         =   "Consultar"
-      Height          =   375
-      Left            =   120
-      TabIndex        =   5
-      Top             =   5520
-      Width           =   3975
-   End
-   Begin VB.CommandButton cmdEnviar 
-      Caption         =   "Enviar"
-      Height          =   375
-      Left            =   5880
-      TabIndex        =   4
-      Top             =   4200
-      Width           =   1935
-   End
-   Begin VB.CommandButton btnCarregaTX2 
-      Caption         =   "Carrega TX2"
-      Height          =   375
-      Left            =   120
-      TabIndex        =   3
-      Top             =   4200
-      Width           =   1815
-   End
-   Begin VB.CommandButton btnAssinarXML 
-      Caption         =   "Assinar"
-      Height          =   375
-      Index           =   1
-      Left            =   3960
-      TabIndex        =   2
-      Top             =   4200
-      Width           =   1815
-   End
-   Begin VB.CommandButton btnGerarXML 
-      Caption         =   "Gerar XML"
-      Height          =   375
-      Index           =   0
-      Left            =   2040
-      TabIndex        =   1
-      Top             =   4200
-      Width           =   1815
-   End
-   Begin VB.ComboBox cbCertificado 
-      Height          =   315
-      ItemData        =   "frmProjeto.frx":009B
-      Left            =   120
-      List            =   "frmProjeto.frx":009D
-      TabIndex        =   0
-      Text            =   $"frmProjeto.frx":009F
-      Top             =   1440
-      Width           =   7695
-   End
-   Begin VB.Label Label3 
-      Caption         =   "Pin Code (Utilizado para A3)"
-      Height          =   255
-      Left            =   120
-      TabIndex        =   38
-      Top             =   3000
-      Width           =   2415
-   End
-   Begin VB.Label Label1 
-      Caption         =   "CNPJ Empregador:"
-      Height          =   255
-      Index           =   9
-      Left            =   2880
-      TabIndex        =   27
-      Top             =   600
-      Width           =   2535
-   End
-   Begin VB.Label Label1 
-      Caption         =   "CNPJ Transmissor:"
-      Height          =   255
-      Index           =   8
-      Left            =   120
-      TabIndex        =   25
-      Top             =   600
-      Width           =   2535
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Ambiente:"
-      Height          =   255
-      Index           =   7
-      Left            =   5520
-      TabIndex        =   23
-      Top             =   0
-      Width           =   2535
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Token SoftWare House:"
-      Height          =   255
-      Index           =   6
-      Left            =   2880
-      TabIndex        =   21
-      Top             =   0
-      Width           =   2535
-   End
-   Begin VB.Label Label1 
-      Caption         =   "CPF / CNPJ SoftWare House:"
-      Height          =   255
-      Index           =   5
-      Left            =   120
-      TabIndex        =   19
-      Top             =   0
-      Width           =   2535
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Grupo:"
-      Height          =   255
-      Index           =   4
-      Left            =   5400
-      TabIndex        =   17
-      Top             =   6000
-      Width           =   2535
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Caminho Templates:"
-      Height          =   255
-      Index           =   3
-      Left            =   120
-      TabIndex        =   15
-      Top             =   1800
-      Width           =   2535
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Caminho Esquemas:"
-      Height          =   255
-      Index           =   1
-      Left            =   120
-      TabIndex        =   13
-      Top             =   2400
-      Width           =   2535
-   End
-   Begin VB.Label Label2 
-      Caption         =   "Certificado:"
-      Height          =   255
-      Left            =   120
-      TabIndex        =   11
-      Top             =   1200
-      Width           =   975
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Versão Manual:"
-      Height          =   255
-      Index           =   2
-      Left            =   5520
-      TabIndex        =   9
-      Top             =   600
-      Width           =   2535
-   End
-   Begin VB.Label Label1 
-      Caption         =   "Identificador Lote"
-      Height          =   255
-      Index           =   0
-      Left            =   120
-      TabIndex        =   7
-      Top             =   6000
-      Width           =   2535
    End
 End
 Attribute VB_Name = "frmProjeto"
@@ -359,13 +466,19 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Declare Function ShellExecute Lib "shell32.dll" Alias "ShellExecuteA" (ByVal hwnd As Long, ByVal lpOperation As String, ByVal lpFile As String, ByVal lpParameters As String, ByVal lpDirectory As String, ByVal nShowCmd As Long) As Long
 Public eSocial As ESocialClientX.spdESocialClientX
 
 
 
+
+
+
 Private Sub btnAssinarXML_Click(Index As Integer)
-    tbRetorno.Text = eSocial.AssinarEvento(tbRetorno.Text)
+    tbRetorno = eSocial.AssinarEvento(tbRetorno.Text)
 End Sub
+
+
 
 Private Sub btnCarregaTX2_Click()
     tbRetorno.Text = "INCLUIRS1000" & vbNewLine & Chr(10)
@@ -404,22 +517,32 @@ Private Sub btnCarregaTX2_Click()
 End Sub
 
 Private Sub btnConfigurar_Click()
+eSocial.NomeCertificado = cbCertificado.Text
 
-If txtPin <> "" Then
-    eSocial.Pincode = txtPin.Text
-    eSocial.TipoCertificado = ckSmartCard
+If cbVersao.Text <> "" Then
+eSocial.VersaoManual = cbVersao.Text
 Else
-    eSocial.Pincode = ""
-    eSocial.TipoCertificado = ckLocalMachine
+MsgBox "Por favor, selecione uma Versao Manual"
 End If
 
-eSocial.NomeCertificado = cbCertificado.Text
-eSocial.VersaoManual = cbVersao.Text
+
 eSocial.DiretorioTemplates = txtTemplates.Text
 eSocial.DiretorioEsquemas = txtEsquemas.Text
-eSocial.ConfigurarSoftwareHouse txtCnpjSH.Text, txtTokenSh.Text
 eSocial.CpfCnpjEmpregador = txtEmpregador.Text
 eSocial.CpfCnpjTransmissor = txtTransmissor.Text
+
+If txtTokenSh.Text <> "" Then
+eSocial.ConfigurarSoftwareHouse txtCnpjSH.Text, txtTokenSh.Text
+Else
+MsgBox "Por favor, preencher o campo Token SoftwareHouse"
+txtTokenSh.SetFocus
+End If
+
+eSocial.Pincode = txtPincode.Text
+
+
+
+
 If cbAmbiente.Text = "1 - Produção" Then
     eSocial.Ambiente = akProducao
 End If
@@ -433,11 +556,6 @@ Private Sub btnGerarXML_Click(Index As Integer)
     tbRetorno.Text = eSocial.GerarXMLporTx2(tbRetorno.Text)
 End Sub
 
-
-Private Sub btnReconsulta_Click()
-    eSocial.ReconsultarLoteSefaz (txtIdLote.Text)
-     tbRetorno.Text = "Consulta realizada com sucesse! Realize a consulta normal para verificar o retorno da receita"
-End Sub
 
 Private Sub cmdConsultar_Click()
     Dim RetConsulta As spdRetConsultarLote
@@ -586,7 +704,7 @@ Private Sub cmdConsultar_Click()
     End If 'Fim do IF do S5002
     
     '--------------------S5003--------------------
-    If (RetConsultaItem.S5003.IsEmpty = False) Then
+    If (True) Then
         tbRetorno.Text = tbRetorno.Text & "         ### S5003 ###" & vbNewLine
         tbRetorno.Text = tbRetorno.Text & "         Id: " & RetConsultaItem.S5003.Id & vbNewLine
         ' IdeEvento
@@ -753,14 +871,6 @@ Private Sub cmdConsultar_Click()
               tbRetorno.Text = tbRetorno.Text & "        vrCalcSenat: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrCalcSenat & vbNewLine
               tbRetorno.Text = tbRetorno.Text & "        vrSalFam: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.VrSalFam & vbNewLine
               tbRetorno.Text = tbRetorno.Text & "        vrSalMat: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.VrSalMat & vbNewLine
-              tbRetorno.Text = tbRetorno.Text & "        vrBcCp00VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp00VA & vbNewLine
-              tbRetorno.Text = tbRetorno.Text & "        vrBcCp15VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp15VA & vbNewLine
-              tbRetorno.Text = tbRetorno.Text & "        vrBcCp20VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp20VA & vbNewLine
-              tbRetorno.Text = tbRetorno.Text & "        vrBcCp25VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrBcCp25VA & vbNewLine
-              tbRetorno.Text = tbRetorno.Text & "        vrSuspBcCp00VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp00VA & vbNewLine
-              tbRetorno.Text = tbRetorno.Text & "        vrSuspBcCp15VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp15VA & vbNewLine
-              tbRetorno.Text = tbRetorno.Text & "        vrSuspBcCp20VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp20VA & vbNewLine
-              tbRetorno.Text = tbRetorno.Text & "        vrSuspBcCp25VA: " + RetConsultaItem.S5011.InfoCS.IdeEstab(a).IdeLotacao(b).BasesRemun(c).BasesCp.vrSuspBcCp25VA & vbNewLine
             Next c ' Fim do BasesRemun
     
             'BasesAvNPort
@@ -923,14 +1033,35 @@ Private Sub cmdEnviar_Click()
     txtIdLote.Text = RetEnvio.IdLote
 End Sub
 
+Private Sub Command1_Click()
+Dim ret&
+ret = ShellExecute(Me.hwnd, "OPen", "https://atendimento.tecnospeed.com.br/hc/pt-br/articles/4404184018839-Guia-Geral-Componente-eSocial", "", "", 1)
+End Sub
+
+Private Sub Command2_Click()
+Dim ret&
+ret = ShellExecute(Me.hwnd, "OPen", "https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193-Propriedades-do-componente", "", "", 1)
+End Sub
+
+Private Sub Command3_Click()
+ret = ShellExecute(Me.hwnd, "OPen", "https://atendimento.tecnospeed.com.br/hc/pt-br/articles/4405767728279-Componente-eSocial-Lista-de-M%C3%A9todos", "", "", 1)
+End Sub
+
+Private Sub Command4_Click()
+ret = ShellExecute(Me.hwnd, "OPen", "https://atendimento.tecnospeed.com.br/hc/pt-br/sections/360002625094-Dicion%C3%A1rio-de-dados-2-5", "", "", 1)
+End Sub
+
 Private Sub Form_Load()
 Set eSocial = New ESocialClientX.spdESocialClientX
+eSocial.ConfigurarSoftwareHouse "08187168000160", "00000000000000000000000000"
 Dim vetor As Variant
 Dim i As Integer
 Dim versao As Variant
 Dim j As Integer
 
-versao = Split(eSocial.ListarVersaoManual("|"), "|")
+
+
+ versao = Split(eSocial.ListarVersaoManual("|"), "|")
 cbVersao.Clear
 
 For i = LBound(versao) To UBound(versao)
@@ -948,19 +1079,15 @@ txtTemplates.Text = "C:\Program Files\TecnoSpeed\eSocial\Arquivos\Templates\"
 
 
 eSocial.Ambiente = akPreProducaoReais
-'eSocial.ProxyServidor =
-'eSocial.ProxySenha =
-'eSocial.ProxyUsuario =
 cbCertificado.ListIndex = 0
 cbVersao.ListIndex = 1
 cbAmbiente.ListIndex = 1
 cbGrupo.ListIndex = 0
 opIdLote.Value = True
-txtCnpjSH.Text = "00614027000174"
-txtTokenSh.Text = "qZDdoL2nx4XzvCqeLCi14iTDrgO21sW2N11yFSRc"
+txtCnpjSH.Text = "08187168000160"
 txtEmpregador.Text = "08187168000160"
 txtTransmissor.Text = "08187168000160"
-txtIdLote.Text = "f0fc5719-8b95-4291-9544-b14bf87216d0"
+' txtIdLote.Text = "f0fc5719-8b95-4291-9544-b14bf87216d0"
 
 End Sub
 

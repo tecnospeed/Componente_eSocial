@@ -1,0 +1,11 @@
+[28/07/2021 16:39:28:076] 6984 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador está vazia.
+[28/07/2021 16:40:17:496] 6984 - EspdESocialException : Valor inválido para a propriedade VersaoManual!
+[28/07/2021 16:40:34:108] 6984 - EspdESocialCheckParams : O parâmetro aCpfCnpjSH deve possuir 11 ou 14 dígitos.
+[05/08/2021 16:23:22:197] 15456 - EspdESocialCheckParams : A propriedade CpfCnpjEmpregador está vazia.
+[05/08/2021 16:23:51:869] 15456 - EspdESocialException : Valor inválido para a propriedade VersaoManual!
+[05/08/2021 16:24:02:334] 15456 - EspdESocialCheckParams : O parâmetro aCpfCnpjSH deve possuir 11 ou 14 dígitos.
+[05/08/2021 16:24:14:721] 15456 - EspdESocialCheckParams : O parâmetro aCpfCnpjSH deve possuir 11 ou 14 dígitos.
+[05/08/2021 16:24:26:317] 15456 - EspdESocialCheckParams : O parâmetro aCpfCnpjSH deve possuir 11 ou 14 dígitos.
+[05/08/2021 16:24:40:948] 15456 - EspdESocialException : Valor inválido para a propriedade VersaoManual!
+[05/08/2021 16:25:01:600] 15456 - EspdESocialException : Valor inválido para a propriedade VersaoManual!
+[05/08/2021 16:25:28:620] 15456 - EspdESocialCheckParams : O parâmetro aCpfCnpjSH deve possuir 11 ou 14 dígitos.
