@@ -22,3 +22,6 @@
 [30/07/2021 09:32:15:308] 2548 - EspdESocialCheckParams : A propriedade "CpfCnpjEmpregador" deve ser configurada.
 [30/07/2021 09:32:15:311] 2548 - EspdESocialException : Erro ao consultar lote de eventos: A propriedade "CpfCnpjEmpregador" deve ser configurada.
 [30/07/2021 09:32:49:848] 14564 - EspdESocialCheckParams : O parâmetro aCpfCnpjSH deve possuir 11 ou 14 dígitos.
+[23/08/2021 11:10:56:483] 1580 - EspdESocialCheckParams : O parâmetro aCpfCnpjSH deve possuir 11 ou 14 dígitos.
+[23/08/2021 11:11:29:632] 1580 - EspdESocialException : Chave de acesso (Token) e CNPJ da Software House não conferem.
+[23/08/2021 11:11:29:635] 1580 - EspdESocialException : Erro ao enviar lote de eventos: Chave de acesso (Token) e CNPJ da Software House não conferem.

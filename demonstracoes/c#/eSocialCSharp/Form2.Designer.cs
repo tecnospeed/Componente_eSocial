@@ -35,9 +35,10 @@ namespace eSocialCSharp
             // 
             // btnESocial
             // 
-            this.btnESocial.Location = new System.Drawing.Point(36, 27);
+            this.btnESocial.Location = new System.Drawing.Point(27, 22);
+            this.btnESocial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnESocial.Name = "btnESocial";
-            this.btnESocial.Size = new System.Drawing.Size(220, 45);
+            this.btnESocial.Size = new System.Drawing.Size(165, 37);
             this.btnESocial.TabIndex = 0;
             this.btnESocial.Text = "eSocial 2.5";
             this.btnESocial.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@ namespace eSocialCSharp
             // 
             // btnESocialS
             // 
-            this.btnESocialS.Location = new System.Drawing.Point(36, 102);
+            this.btnESocialS.Location = new System.Drawing.Point(27, 83);
+            this.btnESocialS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnESocialS.Name = "btnESocialS";
-            this.btnESocialS.Size = new System.Drawing.Size(220, 45);
+            this.btnESocialS.Size = new System.Drawing.Size(165, 37);
             this.btnESocialS.TabIndex = 1;
             this.btnESocialS.Text = "eSocial Simplificado 1.0";
             this.btnESocialS.UseVisualStyleBackColor = true;
@@ -55,12 +57,14 @@ namespace eSocialCSharp
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 189);
+            this.ClientSize = new System.Drawing.Size(219, 154);
             this.Controls.Add(this.btnESocialS);
             this.Controls.Add(this.btnESocial);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.ResumeLayout(false);
 

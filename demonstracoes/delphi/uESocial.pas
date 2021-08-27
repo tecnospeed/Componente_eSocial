@@ -75,6 +75,7 @@ implementation
 procedure TfrmESocial.FormCreate(Sender: TObject);
 begin
   eSocial := TspdESocialClientX.Create(nil);
+  frmESocial.Caption := 'eSocial - TecnoSpeed - ' + eSocial.Versao;
 end;
 
 procedure TfrmESocial.btnConfigurarClick(Sender: TObject);
@@ -83,7 +84,7 @@ begin
     eSocial.ConfigurarSoftwareHouse('26960238000152', '9b2cb6adda781866c81f3be257b57bc9')
   else
     Showmessage('Favor preencher o CNPJ da SoftwareHouse');
-  frmESocial.Caption := 'eSocial - TecnoSpeed - ' + eSocial.Versao;
+
   cbVersaoManual.Items.Text := eSocial.ListarVersaoManual(#13#10);
   cbCertificado.Items.Text := eSocial.ListarCertificados(#13#10);
   cbVersaoManual.ItemIndex := 0;

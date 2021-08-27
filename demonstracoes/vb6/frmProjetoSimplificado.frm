@@ -1,6 +1,6 @@
 VERSION 5.00
 Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
-Begin VB.Form frmProjeto 
+Begin VB.Form frmProjetoSimplificado 
    Caption         =   "Demo eSocial"
    ClientHeight    =   11655
    ClientLeft      =   120
@@ -21,7 +21,7 @@ Begin VB.Form frmProjeto
       _Version        =   393216
       TabHeight       =   520
       TabCaption(0)   =   "1- Dados"
-      TabPicture(0)   =   "frmProjeto.frx":0000
+      TabPicture(0)   =   "frmProjetoSimplificado.frx":0000
       Tab(0).ControlEnabled=   -1  'True
       Tab(0).Control(0)=   "Label1(9)"
       Tab(0).Control(0).Enabled=   0   'False
@@ -71,7 +71,7 @@ Begin VB.Form frmProjeto
       Tab(0).Control(22).Enabled=   0   'False
       Tab(0).ControlCount=   23
       TabCaption(1)   =   "2 - Envio"
-      TabPicture(1)   =   "frmProjeto.frx":001C
+      TabPicture(1)   =   "frmProjetoSimplificado.frx":001C
       Tab(1).ControlEnabled=   0   'False
       Tab(1).Control(0)=   "Label1(0)"
       Tab(1).Control(1)=   "Frame1"
@@ -83,6 +83,7 @@ Begin VB.Form frmProjeto
       Tab(1).Control(7)=   "btnGerarXML(0)"
       Tab(1).ControlCount=   8
       TabCaption(2)   =   "3 - Ajuda"
+      TabPicture(2)   =   "frmProjetoSimplificado.frx":0038
       Tab(2).ControlEnabled=   0   'False
       Tab(2).Control(0)=   "Command4"
       Tab(2).Control(1)=   "Command3"
@@ -130,9 +131,9 @@ Begin VB.Form frmProjeto
       End
       Begin VB.ComboBox cbGrupo 
          Height          =   315
-         ItemData        =   "frmProjeto.frx":0038
+         ItemData        =   "frmProjetoSimplificado.frx":0054
          Left            =   5640
-         List            =   "frmProjeto.frx":0045
+         List            =   "frmProjetoSimplificado.frx":0061
          TabIndex        =   35
          Top             =   2040
          Width           =   2295
@@ -220,16 +221,17 @@ Begin VB.Form frmProjeto
       End
       Begin VB.ComboBox cbCertificado 
          Height          =   315
+         ItemData        =   "frmProjetoSimplificado.frx":0071
          Left            =   240
+         List            =   "frmProjetoSimplificado.frx":0073
          TabIndex        =   14
+         Text            =   $"frmProjetoSimplificado.frx":0075
          Top             =   2040
          Width           =   5295
       End
       Begin VB.ComboBox cbVersao 
          Height          =   315
-         ItemData        =   "frmProjeto.frx":0055
          Left            =   5640
-         List            =   "frmProjeto.frx":0057
          TabIndex        =   13
          Top             =   1440
          Width           =   2295
@@ -272,9 +274,9 @@ Begin VB.Form frmProjeto
       End
       Begin VB.ComboBox cbAmbiente 
          Height          =   315
-         ItemData        =   "frmProjeto.frx":0059
+         ItemData        =   "frmProjetoSimplificado.frx":0116
          Left            =   5640
-         List            =   "frmProjeto.frx":0063
+         List            =   "frmProjetoSimplificado.frx":0120
          TabIndex        =   7
          Top             =   840
          Width           =   2295
@@ -411,15 +413,18 @@ Begin VB.Form frmProjeto
       _Version        =   393216
       TabHeight       =   520
       TabCaption(0)   =   "Retorno"
+      TabPicture(0)   =   "frmProjetoSimplificado.frx":0143
       Tab(0).ControlEnabled=   -1  'True
       Tab(0).Control(0)=   "tbRetorno"
       Tab(0).Control(0).Enabled=   0   'False
       Tab(0).ControlCount=   1
       TabCaption(1)   =   "Xml de Envio"
+      TabPicture(1)   =   "frmProjetoSimplificado.frx":015F
       Tab(1).ControlEnabled=   0   'False
       Tab(1).Control(0)=   "tbXmlEnvio"
       Tab(1).ControlCount=   1
       TabCaption(2)   =   "Xml de Retorno"
+      TabPicture(2)   =   "frmProjetoSimplificado.frx":017B
       Tab(2).ControlEnabled=   0   'False
       Tab(2).Control(0)=   "tbXmlRetorno"
       Tab(2).ControlCount=   1
@@ -452,15 +457,13 @@ Begin VB.Form frmProjeto
       End
    End
 End
-Attribute VB_Name = "frmProjeto"
+Attribute VB_Name = "frmProjetoSimplificado"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Declare Function ShellExecute Lib "shell32.dll" Alias "ShellExecuteA" (ByVal hwnd As Long, ByVal lpOperation As String, ByVal lpFile As String, ByVal lpParameters As String, ByVal lpDirectory As String, ByVal nShowCmd As Long) As Long
-Private eSocial As ESocialClientX.spdESocialClientX
-
-
+Public eSocial As ESocialSClientX.spdESocialSClientX
 
 
 
@@ -483,28 +486,13 @@ Private Sub btnCarregaTX2_Click()
     tbRetorno.Text = tbRetorno.Text & "procEmi_5=1" & vbNewLine & Chr(10)
     tbRetorno.Text = tbRetorno.Text & "verProc_6=1.0" & vbNewLine & Chr(10)
     tbRetorno.Text = tbRetorno.Text & "tpInsc_8=1" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "nrInsc_9=13930441" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "iniValid_13=2017-07" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "nmRazao_15=TECNOSPEED TECNOLOGIA DA INFORMACAO" & vbNewLine & Chr(10)
+    tbRetorno.Text = tbRetorno.Text & "nrInsc_9=08187168" & vbNewLine & Chr(10)
+    tbRetorno.Text = tbRetorno.Text & "iniValid_13=2021-08" & vbNewLine & Chr(10)
     tbRetorno.Text = tbRetorno.Text & "classTrib_16=99" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "natJurid_17=2054" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "indCoop_18=8" & vbNewLine & Chr(10)
+    tbRetorno.Text = tbRetorno.Text & "indCoop_18=0" & vbNewLine & Chr(10)
     tbRetorno.Text = tbRetorno.Text & "indConstr_19=0" & vbNewLine & Chr(10)
     tbRetorno.Text = tbRetorno.Text & "indDesFolha_20=0" & vbNewLine & Chr(10)
     tbRetorno.Text = tbRetorno.Text & "indOptRegEletron_21=0" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "indEntEd_23=N" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "indEtt_24=N" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "nmCtt_36=Jo�o da Silva" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "cpfCtt_37=52406715167" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "foneCel_39=7867834687" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "foneFixo_38=4430379500" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "indSitPJ_63=0" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "INCLUIRSOFTWAREHOUSE_55" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "cnpjSoftHouse_56=13930441000134" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "nmRazao_57=Empresa de Teste" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "nmCont_58=Nome do Contato" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "telefone_59=4430303030" & vbNewLine & Chr(10)
-    tbRetorno.Text = tbRetorno.Text & "SALVARSOFTWAREHOUSE_55" & vbNewLine & Chr(10)
     tbRetorno.Text = tbRetorno.Text & "SALVARS1000"
 End Sub
 
@@ -550,11 +538,11 @@ End Sub
 
 
 Private Sub cmdConsultar_Click()
-    Dim RetConsulta As spdRetConsultarLote
-    Dim RetConsultaItem As spdRetConsultarLoteItem
-    Dim RetConsultaOcorrencia As spdRetConsultarLoteOcorrencia
-    Dim RetConsultaOcorrenciaEnvio As spdRetConsultarLoteOcorrenciaEnvio
-    Dim RetS5001 As spdS5001
+    Dim RetConsulta As spdSRetConsultarLote
+    Dim RetConsultaItem As spdSRetConsultarLoteItem
+    Dim RetConsultaOcorrencia As spdSRetConsultarLoteOcorrencia
+    Dim RetConsultaOcorrenciaEnvio As spdSRetConsultarLoteOcorrenciaEnvio
+    Dim RetS5001 As spdSS5001
     Dim i, j, k, a, b, c, d, e, resposta As Integer
     
     If opIdLote.Value Then
@@ -705,47 +693,9 @@ Private Sub cmdConsultar_Click()
         ' IdeEmpregador
         tbRetorno.Text = tbRetorno.Text & "         tpInsc: " & RetConsultaItem.S5003.IdeEmpregador.TpInsc & vbNewLine
         tbRetorno.Text = tbRetorno.Text & "         nrInsc: " & RetConsultaItem.S5003.IdeEmpregador.NrInsc & vbNewLine
-        ' ideTrabalhador
-        tbRetorno.Text = tbRetorno.Text & "         CpfTrab: " & RetConsultaItem.S5003.IdeTrabalador.CpfTrab & vbNewLine
-        tbRetorno.Text = tbRetorno.Text & "         NisTrab: " & RetConsultaItem.S5003.IdeTrabalador.NisTrab & vbNewLine
-        ' InfoFGTS
-        tbRetorno.Text = tbRetorno.Text & "         InfoFGTS: " & RetConsultaItem.S5003.InfoFGTS.DtVenc & vbNewLine
-        tbRetorno.Text = tbRetorno.Text & "            CpfTrab: " & RetConsultaItem.S5003.InfoFGTS.DtVenc & vbNewLine
-        For a = 0 To RetConsultaItem.S5003.InfoFGTS.CountIdeEstabLot - 1
-            tbRetorno.Text = tbRetorno.Text & "            IdeEstabLot: " & vbNewLine
-            tbRetorno.Text = tbRetorno.Text & "             TpInsc: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).TpInsc & vbNewLine
-            tbRetorno.Text = tbRetorno.Text & "             NrInsc: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).NrInsc & vbNewLine
-            tbRetorno.Text = tbRetorno.Text & "             CodLotacao: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).CodLotacao & vbNewLine
-            For b = 0 To RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).CountInfoTrabFGTS - 1
-                tbRetorno.Text = tbRetorno.Text & "             IdeEstabLot: " & vbNewLine
-                tbRetorno.Text = tbRetorno.Text & "               Matricula: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).Matricula & vbNewLine
-                tbRetorno.Text = tbRetorno.Text & "               CodCateg: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).CodCateg & vbNewLine
-                tbRetorno.Text = tbRetorno.Text & "               DtAdm: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).DtAdm & vbNewLine
-                tbRetorno.Text = tbRetorno.Text & "               DtDeslig: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).DtDeslig & vbNewLine
-                tbRetorno.Text = tbRetorno.Text & "               DtInicio: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).DtInicio & vbNewLine
-                tbRetorno.Text = tbRetorno.Text & "               MtvDeslig: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).MtvDeslig & vbNewLine
-                tbRetorno.Text = tbRetorno.Text & "               DtTerm: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).DtTerm & vbNewLine
-                tbRetorno.Text = tbRetorno.Text & "               MtvDesligTSV: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).MtvDesligTSV & vbNewLine
-                For c = 0 To RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).CountInfoBaseFGTS - 1
-                    tbRetorno.Text = tbRetorno.Text & "                InfoBaseFGTS: " & vbNewLine
-                    For d = 0 To RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).InfoBaseFGTS(c).CountBasePerApur - 1
-                        tbRetorno.Text = tbRetorno.Text & "                 BasePerApur: " & vbNewLine
-                        tbRetorno.Text = tbRetorno.Text & "                  tpValor: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).InfoBaseFGTS(c).BasePerApur(d).TpValor & vbNewLine
-                        tbRetorno.Text = tbRetorno.Text & "                  RemFGTS: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).InfoBaseFGTS(c).BasePerApur(d).RemFGTS & vbNewLine
-                    Next d
-                    For d = 0 To RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).InfoBaseFGTS(c).CountInfoBasePerAntE - 1
-                        tbRetorno.Text = tbRetorno.Text & "                 InfoBasePerAntE: " & vbNewLine
-                        tbRetorno.Text = tbRetorno.Text & "                  PerRef: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).InfoBaseFGTS(c).InfoBasePerAntE(d).PerRef & vbNewLine
-                        For e = 0 To RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).InfoBaseFGTS(c).InfoBasePerAntE(d).CountBasePerAntE - 1
-                            tbRetorno.Text = tbRetorno.Text & "                  BasePerAntE: " & vbNewLine
-                            tbRetorno.Text = tbRetorno.Text & "                   TpValorE: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).InfoBaseFGTS(c).InfoBasePerAntE(d).BasePerAntE(e).TpValorE & vbNewLine
-                            tbRetorno.Text = tbRetorno.Text & "                   RemFGTSE: " & RetConsultaItem.S5003.InfoFGTS.IdeEstabLot(a).InfoTrabFGTS(b).InfoBaseFGTS(c).InfoBasePerAntE(d).BasePerAntE(e).RemFGTSE & vbNewLine
-                        Next e
-                    Next d
-                Next c
-            Next b
-        Next a
-        For a = 0 To RetConsultaItem.S5003.InfoFGTS.CountInfoDpsFGTS - 1
+
+    
+        For a = 0 To RetConsultaItem.S5003.InfoFGTS.CountIdeEstab - 1
             tbRetorno.Text = tbRetorno.Text & "            InfoDpsFGTS: " & vbNewLine
             For b = 0 To RetConsultaItem.S5003.InfoFGTS.InfoDpsFGTS(a).CountInfoTrabDps - 1
                 tbRetorno.Text = tbRetorno.Text & "             InfoTrabDps: " & vbNewLine
@@ -921,30 +871,7 @@ Private Sub cmdConsultar_Click()
         
     End If 'Fim do IF do S5011
 
-    If (RetConsultaItem.S5012.IsEmpty = False) Then
-    '--------------------S5012--------------------
-        tbRetorno.Text = tbRetorno.Text & "        ### S5012 ###" & vbNewLine
-        tbRetorno.Text = tbRetorno.Text & "        Id: " & RetConsultaItem.S5012.Id & vbNewLine
-    
-        'IdeEvento
-        tbRetorno.Text = tbRetorno.Text & "        perApur: " & RetConsultaItem.S5012.IdeEvento.PerApur & vbNewLine
-    
-        'IdeEmpregador
-        tbRetorno.Text = tbRetorno.Text & "        tpInsc: " & RetConsultaItem.S5012.IdeEmpregador.TpInsc & vbNewLine
-        tbRetorno.Text = tbRetorno.Text & "        tpInsc: " & RetConsultaItem.S5012.IdeEmpregador.TpInsc & vbNewLine
-    
-        'InfoIrrf
-        tbRetorno.Text = tbRetorno.Text & "        nrRecArqBase: " & RetConsultaItem.S5012.InfoIrrf.NrRecArqBase & vbNewLine
-        tbRetorno.Text = tbRetorno.Text & "        indExistInfo: " & RetConsultaItem.S5012.InfoIrrf.IndExistInfo & vbNewLine
         
-        'InfoCRContrib
-        For a = 0 To RetConsultaItem.S5012.InfoIrrf.CountInfoCRContrib - 1
-          tbRetorno.Text = tbRetorno.Text & "        tpCR: " + RetConsultaItem.S5012.InfoIrrf.InfoCRContrib(a).TpCR & vbNewLine
-          tbRetorno.Text = tbRetorno.Text & "        vrCR: " + RetConsultaItem.S5012.InfoIrrf.InfoCRContrib(a).VrCR & vbNewLine
-        Next a 'Fim do if do InfoCRContrib
-        
-    End If 'Fim do IF do S5012
-    
     
     '--------------------S5013--------------------
     If (RetConsultaItem.S5013.IsEmpty = False) Then
@@ -1014,7 +941,8 @@ End Sub
 
 
 Private Sub cmdEnviar_Click()
-    Dim RetEnvio As spdRetEnviarLoteEventos
+    Dim RetEnvio As spdSRetEnviarLoteEventos
+    
     
     Set RetEnvio = eSocial.EnviarLoteEventos(tbRetorno.Text, CInt(cbGrupo.Text))
     
@@ -1044,10 +972,9 @@ ret = ShellExecute(Me.hwnd, "OPen", "https://atendimento.tecnospeed.com.br/hc/pt
 End Sub
 
 Private Sub Form_Load()
-Set eSocial = New ESocialClientX.spdESocialClientX
+Set eSocial = New ESocialSClientX.spdESocialSClientX
 eSocial.ConfigurarSoftwareHouse "08187168000160", "00000000000000000000000000"
-
-frmProjeto.Caption = "eSocial - TecnoSpeed - " + eSocial.versao
+frmProjetoSimplificado.Caption = "eSocial - TecnoSpeed - " + eSocial.versao
 
 Dim vetor As Variant
 Dim i As Integer
@@ -1076,7 +1003,7 @@ txtTemplates.Text = "C:\Program Files\TecnoSpeed\eSocial\Arquivos\Templates\"
 eSocial.Ambiente = akPreProducaoReais
 cbCertificado.ListIndex = 0
 cbVersao.ListIndex = 0
-cbAmbiente.ListIndex = 0
+cbAmbiente.ListIndex = 1
 cbGrupo.ListIndex = 0
 opIdLote.Value = True
 txtCnpjSH.Text = "08187168000160"

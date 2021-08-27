@@ -236,5 +236,6 @@ namespace eSocialCSharp
             pStart.StartInfo = new System.Diagnostics.ProcessStartInfo("https://atendimento.tecnospeed.com.br/hc/pt-br/sections/1500001504902-Dicion%C3%A1rio-de-dados-S-1-0");
             pStart.Start();
         }
+
     }
 }

@@ -98,7 +98,7 @@ end;
 
 procedure TfrmeSocialS1.FormShow(Sender: TObject);
 begin
-  frmeSocial.Caption := 'eSocial - TecnoSpeed - ' + eSocial.Versao;
+  frmeSocialS1.Caption := 'eSocial - TecnoSpeed - ' + eSocial.Versao;
 
   eSocial.ConfigurarSoftwareHouse(edtCnpjSH.Text, edtTokenSH.Text);
 

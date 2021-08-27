@@ -668,5 +668,49 @@ namespace eSocialCSharp
         {
 
         }
+
+        private void btnMetodos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPropiedades_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPassos_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process pStart = new System.Diagnostics.Process();
+            pStart.StartInfo = new System.Diagnostics.ProcessStartInfo("https://atendimento.tecnospeed.com.br/hc/pt-br/articles/4404184018839-Guia-Geral-Componente-eSocial");
+            pStart.Start();
+        }
+
+        private void btnPropriedade2_Click(object sender, EventArgs e)
+        {
+
+            System.Diagnostics.Process pStart = new System.Diagnostics.Process();
+            pStart.StartInfo = new System.Diagnostics.ProcessStartInfo("https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193-Componente-eSocial-Propriedades");
+            pStart.Start();
+        }
+
+        private void btnMetodos2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process pStart = new System.Diagnostics.Process();
+            pStart.StartInfo = new System.Diagnostics.ProcessStartInfo("https://atendimento.tecnospeed.com.br/hc/pt-br/sections/360001152373-Componente-eSocial-M%C3%A9todos");
+            pStart.Start();
+        }
+
+        private void btnDicionario2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process pStart = new System.Diagnostics.Process();
+            pStart.StartInfo = new System.Diagnostics.ProcessStartInfo("https://atendimento.tecnospeed.com.br/hc/pt-br/sections/360002625094-Dicion%C3%A1rio-de-dados-2-5");
+            pStart.Start();
+        }
     }
 }
