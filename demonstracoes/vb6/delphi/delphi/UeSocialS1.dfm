@@ -136,6 +136,7 @@ object frmeSocialS1: TfrmeSocialS1
         Top = 19
         Width = 145
         Height = 21
+        ItemHeight = 13
         TabOrder = 2
         Text = '2 - Homologa'#231#227'o'
         Items.Strings = (
@@ -147,6 +148,7 @@ object frmeSocialS1: TfrmeSocialS1
         Top = 59
         Width = 145
         Height = 21
+        ItemHeight = 13
         TabOrder = 3
       end
       object edtCnpjTransmissor: TLabeledEdit
@@ -176,6 +178,7 @@ object frmeSocialS1: TfrmeSocialS1
         Top = 99
         Width = 362
         Height = 21
+        ItemHeight = 13
         TabOrder = 6
       end
       object edtTemplates: TLabeledEdit
@@ -214,6 +217,7 @@ object frmeSocialS1: TfrmeSocialS1
         Top = 99
         Width = 145
         Height = 21
+        ItemHeight = 13
         TabOrder = 10
         Text = '1'
         Items.Strings = (

@@ -1009,7 +1009,6 @@ opIdLote.Value = True
 txtCnpjSH.Text = "08187168000160"
 txtEmpregador.Text = "08187168000160"
 txtTransmissor.Text = "08187168000160"
-' txtIdLote.Text = "f0fc5719-8b95-4291-9544-b14bf87216d0"
 
 End Sub
 

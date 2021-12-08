@@ -1,10 +1,10 @@
 object frmESocial: TfrmESocial
   Left = 603
   Top = 146
+  Width = 554
+  Height = 729
   AutoSize = True
   Caption = 'frmESocial'
-  ClientHeight = 690
-  ClientWidth = 538
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,6 +14,7 @@ object frmESocial: TfrmESocial
   OldCreateOrder = False
   Position = poScreenCenter
   OnCreate = FormCreate
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object pcPages: TPageControl
@@ -21,7 +22,7 @@ object frmESocial: TfrmESocial
     Top = 272
     Width = 537
     Height = 418
-    ActivePage = TabSheet2
+    ActivePage = TabSheet4
     TabOrder = 0
     object TabSheet4: TTabSheet
       Caption = 'TX2'
@@ -100,7 +101,7 @@ object frmESocial: TfrmESocial
     Top = 0
     Width = 538
     Height = 273
-    ActivePage = TabSheet7
+    ActivePage = TabSheet3
     TabOrder = 1
     object TabSheet3: TTabSheet
       Caption = '1 - Dados'
@@ -134,7 +135,6 @@ object frmESocial: TfrmESocial
         EditLabel.Height = 13
         EditLabel.Caption = 'CPF / CNPJ SoftWare House:'
         TabOrder = 0
-        Text = '08187168000160'
       end
       object edtTokenSH: TLabeledEdit
         Left = 196
@@ -151,6 +151,7 @@ object frmESocial: TfrmESocial
         Top = 20
         Width = 132
         Height = 21
+        ItemHeight = 13
         ItemIndex = 1
         TabOrder = 2
         Text = '2 - Homologa'#231#227'o'
@@ -163,6 +164,7 @@ object frmESocial: TfrmESocial
         Top = 60
         Width = 132
         Height = 21
+        ItemHeight = 13
         TabOrder = 3
       end
       object edtCnpjTransmissor: TLabeledEdit
@@ -174,7 +176,6 @@ object frmESocial: TfrmESocial
         EditLabel.Height = 13
         EditLabel.Caption = 'CNPJ Transmissor:'
         TabOrder = 4
-        Text = '08187168000160'
       end
       object edtCnpjEmpregador: TLabeledEdit
         Left = 196
@@ -185,13 +186,13 @@ object frmESocial: TfrmESocial
         EditLabel.Height = 13
         EditLabel.Caption = 'CNPJ Empregador:'
         TabOrder = 5
-        Text = '08187168000160'
       end
       object cbCertificado: TComboBox
         Left = 1
         Top = 100
         Width = 528
         Height = 21
+        ItemHeight = 13
         TabOrder = 6
       end
       object edtTemplates: TLabeledEdit
@@ -302,6 +303,7 @@ object frmESocial: TfrmESocial
         Top = 218
         Width = 112
         Height = 21
+        ItemHeight = 13
         TabOrder = 6
         Text = '1'
         Items.Strings = (

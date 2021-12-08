@@ -57,6 +57,7 @@ type
     procedure btnEnviarClick(Sender: TObject);
     procedure btnConsultarClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -73,22 +74,30 @@ implementation
 
 procedure TfrmESocial.FormCreate(Sender: TObject);
 begin
-
   eSocial := TspdESocialClientX.Create(nil);
-
-  eSocial.ConfigurarSoftwareHouse(edtCnpjSH.Text,edtTokenSH.Text);
-
   frmESocial.Caption := 'eSocial - TecnoSpeed - ' + eSocial.Versao;
+end;
 
-  cbVersaoManual.Items.Text:= '2.5.00';
-  cbVersaoManual.ItemIndex:= 0;
+procedure TfrmESocial.btnConfigurarClick(Sender: TObject);
+begin
+  if edtCnpjSH.Text <> '' then
+    eSocial.ConfigurarSoftwareHouse('26960238000152', '9b2cb6adda781866c81f3be257b57bc9')
+  else
+    Showmessage('Favor preencher o CNPJ da SoftwareHouse');
 
+  cbVersaoManual.Items.Text := eSocial.ListarVersaoManual(#13#10);
   cbCertificado.Items.Text := eSocial.ListarCertificados(#13#10);
+  cbVersaoManual.ItemIndex := 0;
   cbCertificado.ItemIndex := 0;
-  eSocial.NomeCertificado := cbCertificado.Text;
-
   rgTipoEnvio.ItemIndex := 0;
-
+  eSocial.VersaoManual := cbVersaoManual.Text;
+  eSocial.NomeCertificado := cbCertificado.Text;
+//  eSocial.CaminhoCertificado := 'Caminho do Certificado' Utilizado para passar o Caminho do .pfx do certificado.
+//  eSocial.SenhaCertificado := 'Senha do certificado' Utilizado caso o Caminho Certificado seja preenchido.
+//  eSocial.Pincode := 'Senha do certificado A3'; Senha do certificado A3 quando utilizado.
+//  eSocial.ProxyServidor := 'Servidor com porta';  Utilizado quando existe proxy na rede a ser utilizada
+//  eSocial.ProxyUsuario := 'Usuario do Proxy'; Utilizado quando existe proxy na rede a ser utilizada
+//  eSocial.ProxySenha := 'Senha do Proxy';  Utilizado quando existe proxy na rede a ser utilizada
   eSocial.DiretorioTemplates := edtTemplates.Text;
   eSocial.DiretorioEsquemas := edtEsquemas.Text;
   eSocial.CpfCnpjTransmissor := edtCnpjTransmissor.Text;
@@ -99,35 +108,6 @@ begin
   if cbAmbiente.Text = '2 - Homologação' then
     eSocial.Ambiente := akPreProducaoReais;
   mmoXML.Text := eSocial.GetVencimentoCertificado;
-
-end;
-
-procedure TfrmESocial.btnConfigurarClick(Sender: TObject);
-begin
-  cbVersaoManual.ItemIndex:= 0;
-
-  eSocial.DiretorioTemplates := edtTemplates.Text;
-  eSocial.DiretorioEsquemas := edtEsquemas.Text;
-  eSocial.CpfCnpjTransmissor := edtCnpjTransmissor.Text;
-  eSocial.CpfCnpjEmpregador := edtCnpjEmpregador.Text;
-
-  eSocial.ConfigurarSoftwareHouse(edtCnpjSH.Text,edtTokenSH.Text);
-
-  if cbAmbiente.Text = '1 - Produção' then
-    eSocial.Ambiente := akProducao;
-  if cbAmbiente.Text = '2 - Homologação' then
-    eSocial.Ambiente := akPreProducaoReais;
-
-
-  mmoXML.Text := eSocial.GetVencimentoCertificado;
-
-//  eSocial.CaminhoCertificado := 'Caminho do Certificado' Utilizado para passar o Caminho do .pfx do certificado.
-//  eSocial.SenhaCertificado := 'Senha do certificado' Utilizado caso o Caminho Certificado seja preenchido.
-//  eSocial.Pincode := 'Senha do certificado A3'; Senha do certificado A3 quando utilizado.
-//  eSocial.ProxyServidor := 'Servidor com porta';  Utilizado quando existe proxy na rede a ser utilizada
-//  eSocial.ProxyUsuario := 'Usuario do Proxy'; Utilizado quando existe proxy na rede a ser utilizada
-//  eSocial.ProxySenha := 'Senha do Proxy';  Utilizado quando existe proxy na rede a ser utilizada
-
 end;
 
 procedure TfrmESocial.btnTx2Click(Sender: TObject);
@@ -428,22 +408,12 @@ var
   RetConsultaOcorrenciaEnvio: IspdRetConsultarLoteOcorrenciaEnvio;
   _i, _j, _k, _a, _b, _c, _d, _e: integer;
 begin
-  if edtIdLote.Text = '' then
-  begin
-    ShowMessage('Deve ser informado um indentificador');
-    edtIdLote.SetFocus;
-    abort
-  end
-  else
-  begin
-   if rgTipoEnvio.ItemIndex = 0 then
-    RetConsulta := eSocial.ConsultarLoteEventos(edtIdLote.Text)
-    else if rgTipoEnvio.ItemIndex = 1 then
-    RetConsulta := eSocial.ConsultarIdEvento(edtIdLote.Text)
-    else if rgTipoEnvio.ItemIndex = 2 then
-    RetConsulta := eSocial.ConsultarEventoPorRecibo(edtIdLote.Text);
-  end;
-
+  if rgTipoEnvio.ItemIndex = 0 then
+  RetConsulta := eSocial.ConsultarLoteEventos(edtIdLote.Text)
+  else if rgTipoEnvio.ItemIndex = 1 then
+  RetConsulta := eSocial.ConsultarIdEvento(edtIdLote.Text)
+  else if rgTipoEnvio.ItemIndex = 2 then
+  RetConsulta := eSocial.ConsultarEventoPorRecibo(edtIdLote.Text);
   mmoXML.Lines.Add(' ');
   mmoXML.Lines.Add('##################################################');
   mmoXML.Lines.Add('##################################################');
@@ -1010,5 +980,14 @@ begin
 
   btnConsultar.OnClick(owner);
 end;
+
+procedure TfrmESocial.FormShow(Sender: TObject);
+begin
+  edtCnpjSH.Text          := '00000000000000';
+  edtTokenSH.Text         := '';
+  edtCnpjTransmissor.Text := '00000000000000';
+  edtCnpjEmpregador.Text  := '00000000000000';
+end;
+
 
 end.
