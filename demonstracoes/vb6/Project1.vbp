@@ -1,7 +1,7 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{197412DD-00C5-4A63-BD37-9ABBB449CA27}#1.0#0#..\..\..\..\..\..\..\Windows\SysWow64\ESocialClientX.ocx#ESocialClientX
-Reference=*\G{2D5C2BFB-9FC5-4481-8EFD-BA7D1F3A5563}#1.0#0#..\..\..\..\..\..\..\Windows\SysWow64\ESocialSClientX.ocx#ESocialSClientX
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{197412DD-00C5-4A63-BD37-9ABBB449CA27}#1.0#0#..\..\..\..\..\Windows\SysWow64\ESocialClientX.ocx#ESocialClientX
+Reference=*\G{2D5C2BFB-9FC5-4481-8EFD-BA7D1F3A5563}#1.0#0#..\..\..\..\..\Windows\SysWow64\ESocialSClientX.ocx#ESocialSClientX
 Object={BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0; TABCTL32.OCX
 Form=frmProjetoSimplificado.frm
 Form=frmProjeto.frm

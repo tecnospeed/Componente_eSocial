@@ -45,31 +45,33 @@ Begin VB.Form frmProjeto
       Tab(0).Control(9).Enabled=   0   'False
       Tab(0).Control(10)=   "Label3"
       Tab(0).Control(10).Enabled=   0   'False
-      Tab(0).Control(11)=   "txtEmpregador"
+      Tab(0).Control(11)=   "lbAviso"
       Tab(0).Control(11).Enabled=   0   'False
-      Tab(0).Control(12)=   "txtTransmissor"
+      Tab(0).Control(12)=   "txtEmpregador"
       Tab(0).Control(12).Enabled=   0   'False
-      Tab(0).Control(13)=   "cbAmbiente"
+      Tab(0).Control(13)=   "txtTransmissor"
       Tab(0).Control(13).Enabled=   0   'False
-      Tab(0).Control(14)=   "txtTokenSh"
+      Tab(0).Control(14)=   "cbAmbiente"
       Tab(0).Control(14).Enabled=   0   'False
-      Tab(0).Control(15)=   "txtCnpjSH"
+      Tab(0).Control(15)=   "txtTokenSh"
       Tab(0).Control(15).Enabled=   0   'False
-      Tab(0).Control(16)=   "txtTemplates"
+      Tab(0).Control(16)=   "txtCnpjSH"
       Tab(0).Control(16).Enabled=   0   'False
-      Tab(0).Control(17)=   "txtEsquemas"
+      Tab(0).Control(17)=   "txtTemplates"
       Tab(0).Control(17).Enabled=   0   'False
-      Tab(0).Control(18)=   "btnConfigurar"
+      Tab(0).Control(18)=   "txtEsquemas"
       Tab(0).Control(18).Enabled=   0   'False
-      Tab(0).Control(19)=   "cbVersao"
+      Tab(0).Control(19)=   "btnConfigurar"
       Tab(0).Control(19).Enabled=   0   'False
-      Tab(0).Control(20)=   "cbCertificado"
+      Tab(0).Control(20)=   "cbVersao"
       Tab(0).Control(20).Enabled=   0   'False
-      Tab(0).Control(21)=   "cbGrupo"
+      Tab(0).Control(21)=   "cbCertificado"
       Tab(0).Control(21).Enabled=   0   'False
-      Tab(0).Control(22)=   "txtPincode"
+      Tab(0).Control(22)=   "cbGrupo"
       Tab(0).Control(22).Enabled=   0   'False
-      Tab(0).ControlCount=   23
+      Tab(0).Control(23)=   "txtPincode"
+      Tab(0).Control(23).Enabled=   0   'False
+      Tab(0).ControlCount=   24
       TabCaption(1)   =   "2 - Envio"
       TabPicture(1)   =   "frmProjeto.frx":001C
       Tab(1).ControlEnabled=   0   'False
@@ -292,6 +294,24 @@ Begin VB.Form frmProjeto
          TabIndex        =   5
          Top             =   1440
          Width           =   2535
+      End
+      Begin VB.Label lbAviso 
+         Caption         =   $"frmProjeto.frx":0086
+         BeginProperty Font 
+            Name            =   "MS Sans Serif"
+            Size            =   8.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   &H000000FF&
+         Height          =   495
+         Left            =   240
+         TabIndex        =   43
+         Top             =   4920
+         Width           =   7695
       End
       Begin VB.Label Label3 
          Caption         =   "Pincode (Para certificado A3)"
