@@ -1,0 +1,17 @@
+program pESocial;
+
+uses
+  Forms,
+  uESocial in 'uESocial.pas' {frmESocial},
+  UeSocialS1 in 'UeSocialS1.pas' {frmeSocialS1},
+  UMenu in 'UMenu.pas' {frmPrincipal};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmESocial, frmESocial);
+  Application.CreateForm(TfrmeSocialS1, frmeSocialS1);
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.Run;
+end.
