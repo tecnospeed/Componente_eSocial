@@ -4,6 +4,7 @@
 
 - DSP4G-492 - criada propriedade [DiretorioLog](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193-Propriedades-Componente-eSocial-)
 - DSP4G-376 - Rota de remoção de certificado
+- DSP4G-500 - ESOCIAL API MELHORIA ROTA - CONSULTA LOTES POR PERIODO
 - DSP4G-971 - API eSocial: Atualizar lib Tecnolicense para a versão 2.0.21
 - DSP4G-1070 - rota logout management api
 - DSP4G-1077 - PORTAL ESOCIAL - INCLUSÃO EMPREGADOR - ERRO AO INCLUIR EMPREGADOR COM NOME JÁ EXISTENTE
