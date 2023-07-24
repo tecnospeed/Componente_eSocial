@@ -1,4 +1,10 @@
-﻿## [6.1.37.5211]
+﻿## [6.1.37.5216]
+
+**Correções**
+* DSML-751 - Correção da duplicidade ao consultar o evento S5013;
+* DSML-784 - Correção ao converter Tx2 em XML, aumentado o limite dos eventos S2200 e S2206;
+
+## [6.1.37.5211]
 
 **Novidades**
 
@@ -41,6 +47,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
