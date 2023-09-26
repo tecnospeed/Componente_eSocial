@@ -1,14 +1,14 @@
 ﻿## [5.1.37.5218]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* DSML-690 - Orreção na falha de formato do recibo;
 
-## [6.1.37.5216]
+## [4.1.37.5216]
 
 **Correções**
 * DSML-751 - Correção da duplicidade ao consultar o evento S5013;
 * DSML-784 - Correção ao converter Tx2 em XML, aumentado o limite dos eventos S2200 e S2206;
 
-## [6.1.37.5211]
+## [4.1.37.5211]
 
 **Novidades**
 
@@ -21,21 +21,21 @@
 **Correções**
 eSocial: API - Retorno indevido da rota Consultar empregador
 
-## [6.1.36.5204]
+## [4.1.36.5204]
 
 
 
 **Novidades**
 * DSP4G-788 - Compatibilizado com atualizações do componente indy
 
-## [6.1.36.5202]
+## [4.1.36.5202]
 
 **Novidades**
 
 * Compatibilizado o Componente com a nova versão simplificada S-1.1.
 
 
-## [6.1.36.5201]
+## [4.1.36.5201]
 
 **Novidades**
 
@@ -47,7 +47,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 
 
-## [6.1.36.5189]
+## [4.1.36.5189]
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
