@@ -1,6 +1,16 @@
 ﻿## [5.1.37.5218]
 
 * DSML-690 - Orreção na falha de formato do recibo;
+**Novidades**
+* DSP4G-1131 PDCA -  Apresentar status "Em processamento" portal eSocial TecnoSpeed
+* DSP4G-1148 GUI eSocial: Resize linha de acordo com o tamanho da tela
+* DSP4G-1150 Gui eSocial: Pesquisa por empregador ao selecionar na pré listagem não filtra especifico
+* DSP4G-1154 Gui esocial: Remover do filtro "evento" os eventos de retorno - versão S1.1.0.0
+* DSP4G-1182 PDCA - Portal eSocial: Melhoria no status de retorno "301"
+* DSP4G-1121 API eSocial: Rota para integrar arquivos JSON
+  
+**Correções**
+* DSP4G-1149 Gui eSocial: Encontrando mais dados ao filtrar por certificado os empregadores
 
 ## [4.1.37.5216]
 
