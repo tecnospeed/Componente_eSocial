@@ -1,6 +1,5 @@
 ﻿## [5.1.37.5218]
 
-* DSML-690 - Orreção na falha de formato do recibo;
 **Novidades**
 * DSP4G-1131 PDCA -  Apresentar status "Em processamento" portal eSocial TecnoSpeed
 * DSP4G-1148 GUI eSocial: Resize linha de acordo com o tamanho da tela
@@ -10,6 +9,7 @@
 * DSP4G-1121 API eSocial: Rota para integrar arquivos JSON
   
 **Correções**
+* DSML-690 - Orreção na falha de formato do recibo;
 * DSP4G-1149 Gui eSocial: Encontrando mais dados ao filtrar por certificado os empregadores
 
 ## [4.1.37.5216]
