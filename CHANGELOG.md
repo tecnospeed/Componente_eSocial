@@ -1,6 +1,7 @@
 ﻿## [5.1.37.5218]
 
 **Novidades**
+
 * DSP4G-1131 PDCA -  Apresentar status "Em processamento" portal eSocial TecnoSpeed
 * DSP4G-1148 GUI eSocial: Resize linha de acordo com o tamanho da tela
 * DSP4G-1150 Gui eSocial: Pesquisa por empregador ao selecionar na pré listagem não filtra especifico
