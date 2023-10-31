@@ -1,8 +1,5 @@
-﻿## [5.1.38.5225]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
-
-## [5.1.38.5224]
+## [5.1.38.5225]
 
 **Novidades**
 
