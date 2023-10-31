@@ -1,6 +1,36 @@
 ﻿## [5.1.38.5224]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Novidades**
+
+**DSML-766** - Compatibilização do evento [S-1210](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17713597875095) - Pagamentos de Rendimentos do Trabalho, com a versão S-1.2 do eSocial;
+
+**DSML-905** - Compatibilização do evento [S-2501](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17828999831319) - Informações de Tributos Decorrentes de Processo Trabalhista, com a versão S-1.2 do eSocial;
+
+**DSML-762** - Novo evento [S-8200](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18003040468631) -  Anotação Judicial do Vínculo, versão S-1.2 do eSocial;
+
+**DSML-863** - Novo evento [S-5503](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18297859728791) -   Informações do FGTS por Trabalhador em Processo Trabalhista;
+
+**DSML-907** - Compatibilização com a versão S-1.2 do eSocial, eventos:
+-  [S-2200](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17873519057943) - Condições Ambientais do Trabalho - Agentes Nocivos;
+- [S-2405](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17881322653463) - Cadastro de Beneficiário - Entes Públicos - Alteração;
+- [S-2500](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17884643920151) - Processo Trabalhista;
+- [S-2299](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17988932221207) - Desligamento;
+
+**DSML-906** - Compatibilização com a versão S-1.2 do eSocial, eventos:
+-  [S-2240](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17885147585175) - Cadastramento Inicial do Vínculo e Admissão/Ingresso de Trabalhador;
+- [S-2205](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17994486383639) - Alteração de Dados Cadastrais do Trabalhador;
+- [S-2300](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17996045362327) - Trabalhador Sem Vínculo de Emprego/Estatutário - Início;
+- [S-2306](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18002650538647) - Trabalhador Sem Vínculo de Emprego/Estatutário - Alteração Contratual;
+
+**DSML-941** - Compatibilização com a versão S-1.2 do eSocial, eventos:
+-  [S-5002](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18362400502295) - Imposto de Renda Retido na Fonte por Trabalhador;
+- [S-5012](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18381989881879) - Imposto de Renda Retido na Fonte Consolidado por Contribuinte;
+
+**Correções**
+
+**DSML-784** - Correção ao converter Tx2 em XML, aumentado o limite dos eventos S2200 e S2206;
+
+**DSML-916** - Correção ao consultar o retorno do evento S5003, limpeza da lista InfoBasePerApur antes de clonar;
 
 ## [5.1.37.5218]
 
