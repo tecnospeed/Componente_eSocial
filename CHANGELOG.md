@@ -1,6 +1,6 @@
 ﻿## [5.1.38.5229]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* Hotfix referente a versão 5.1.38.5225
 
 
 ## [5.1.38.5225]
