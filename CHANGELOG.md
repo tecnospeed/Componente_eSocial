@@ -1,4 +1,11 @@
-﻿## [5.1.39.5230]
+﻿## [5.1.39.5234]
+
+**Novidades**
+
+- DSML-1054 - Implementado novo método [GerarXMLporJson](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18076783306135) para geração de XML a partir de JSON na versão S.01.02.00;
+- DSP4G - 1372 - adequado envio arquivo Json para eventos de tabela com ação Incluir, Alterar e Excluir;
+
+## [5.1.39.5230]
 
 **Novidade**
 DSML-1033 - Atualizado pacotes de XSD no eSOcial
@@ -106,6 +113,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
