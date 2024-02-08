@@ -1,4 +1,10 @@
-﻿## [5.1.39.5234]
+﻿## [5.1.39.5236]
+
+**Correções**
+
+- DSML-1138 - Hotfix - Correção do tamanho máximo de caracteres do campo TX2 dscAtivDes_22 no XML.
+
+## [5.1.39.5234]
 
 **Novidades**
 
@@ -113,6 +119,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
