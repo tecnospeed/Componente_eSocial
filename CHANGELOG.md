@@ -1,4 +1,10 @@
-﻿## [5.0.40.5264]
+﻿## [5.1.40.5265]
+
+**Correções**
+
+DSML-1172 - Hotfix - Correção no retorno do evento S-5013 que estava vindo duplicado
+
+## [5.0.40.5264]
 
 **Correção**
 
@@ -170,6 +176,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
