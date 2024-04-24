@@ -1,4 +1,10 @@
-﻿## [5.1.40.5265]
+﻿## [5.1.41.5267]
+
+**Novidades**
+
+- DSML-1032 - Compatibilização do evento [S-8200](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18003040468631-S-8200-Anota%C3%A7%C3%A3o-Judicial-do-V%C3%ADnculo) - Anotação Judicial do Vínculo, com a [Nota Técnica S-1.2 nº 01/2023](https://blog.tecnospeed.com.br/esocial-nota-tecnica-s-1-2-no-01-2023-ajustes-dos-leiautes/);
+
+## [5.1.40.5265]
 
 **Correções**
 
@@ -176,6 +182,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
