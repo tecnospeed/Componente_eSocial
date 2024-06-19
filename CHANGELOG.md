@@ -1,4 +1,10 @@
-﻿## [5.1.41.5267]
+﻿## [5.1.42.5268]
+
+**Novidades**
+
+DSML-1264 - Criação do evento [S-2221](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/23697045998231-S-2221-Exame-Toxicol%C3%B3gico-do-Motorista-Profissional-Empregado) - Exame Toxicológico do Motorista Profissional Empregado, [Nota Técnica S-1.2 nº 03/2024](https://blog.tecnospeed.com.br/esocial-nota-tecnica-s-1-2-exame-toxicologico/);
+
+## [5.1.41.5267]
 
 **Novidades**
 
@@ -182,6 +188,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
