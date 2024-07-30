@@ -1,6 +1,10 @@
 ﻿## [5.1.42.5270]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Novidades**
+
+- DSML-1305 - Esocial: [Nota técnica 04/2024](https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/nota-tecnica-s-1-2-04-2024-20062024.pdf) - Atualização Worker
+
+- DSML-1304 - Compatibilizando eSocial para suportar o novo grupo eConsignado [Nota técnica 04/2024](https://www.gov.br/esocial/pt-br/documentacao-tecnica/manuais/nota-tecnica-s-1-2-04-2024-20062024.pdf)
 
 ## [5.1.42.5268]
 
