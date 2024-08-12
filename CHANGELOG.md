@@ -1,6 +1,6 @@
 ﻿## [5.1.42.5271]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* DSML-1363 - Ajustado o Componente e-Social para aceitar a tag dscJorn com 999 caracteres conforme previsto MOC.
 
 ## [5.1.42.5270]
 
