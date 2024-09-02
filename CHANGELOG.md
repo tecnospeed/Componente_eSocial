@@ -53,12 +53,12 @@ DSML-1172 - Hotfix - Correção no retorno do evento S-5013 que estava vindo dup
 - DSML-863 - Novo evento [S-5503](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18297859728791) -   Informações do FGTS por Trabalhador em Processo Trabalhista;
 
 - DSML-907- Compatibilização com a versão S-1.2 do eSocial, eventos:
--  [S-2200](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17873519057943) - Condições Ambientais do Trabalho - Agentes Nocivos;
+-  [S-2200](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17873519057943) - Cadastramento Inicial do Vínculo e Admissão/Ingresso de Trabalhador;
 - [S-2405](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17881322653463) - Cadastro de Beneficiário - Entes Públicos - Alteração;
 - [S-2500](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17884643920151) - Processo Trabalhista;
 - [S-2299](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17988932221207) - Desligamento;
 - DSML-906 - Compatibilização com a versão S-1.2 do eSocial, eventos:
--  [S-2240](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17885147585175) - Cadastramento Inicial do Vínculo e Admissão/Ingresso de Trabalhador;
+-  [S-2240](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17885147585175) - Condições Ambientais do Trabalho - Agentes Nocivos;
 - [S-2205](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17994486383639) - Alteração de Dados Cadastrais do Trabalhador;
 - [S-2300](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/17996045362327) - Trabalhador Sem Vínculo de Emprego/Estatutário - Início;
 - [S-2306](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/18002650538647) - Trabalhador Sem Vínculo de Emprego/Estatutário - Alteração Contratual;
