@@ -1,4 +1,12 @@
-﻿## [5.1.42.5271]
+﻿## [5.1.43.5275]
+
+**Novidades**
+
+* DSML-1304 - Implementação da Norma Técnica 04/2024 - Evento S-5003
+
+* DSML-1406 - Implementação da propriedade EmitirOrgaoPublico para que seja possível gerar um ID com os 14 dígitos do CNPJ do emissor.
+
+## [5.1.42.5271]
 
 * DSML-1363 - Ajustado o Componente e-Social para aceitar a tag dscJorn com 999 caracteres conforme previsto MOC.
 
@@ -200,6 +208,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
