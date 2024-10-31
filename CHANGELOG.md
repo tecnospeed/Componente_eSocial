@@ -1,4 +1,9 @@
-﻿## [5.1.44.5280]
+﻿## [5.1.44.5282]
+
+**Correção**
+* DSML-1466 - hotfix - Corrigida propriedade emitirorgaopublico não estava no ridl da ocx causando erro "membro não encontrado" quando acessava a propriedade
+
+## [5.1.44.5280]
 
 **Novidades**
 
@@ -214,6 +219,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
