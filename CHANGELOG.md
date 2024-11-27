@@ -1,6 +1,8 @@
 ﻿## [5.1.44.5291]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* DSML-1454 -  Compatibilizado com [NT 02/2024](https://blog.tecnospeed.com.br/esocial-nota-tecnica-02-2024/) 
+
+* DSML-1447 - Compatibilizado com [NT 05/2024](https://blog.tecnospeed.com.br/esocial-nota-tecnica-s-1-2-no-05-2024/)
 
 ## [5.1.44.5282]
 
