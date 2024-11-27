@@ -1,4 +1,9 @@
 ﻿## [5.1.44.5291]
+**Correção**
+
+* DSML-1484 - BUG - Componente - eSocial - Interno - ID quando a inscrição é CPF gerando incorretamente
+
+**Novidades**
 
 * DSML-1454 -  Compatibilizado com [NT 02/2024](https://blog.tecnospeed.com.br/esocial-nota-tecnica-02-2024/) 
 
