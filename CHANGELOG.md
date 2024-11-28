@@ -1,8 +1,5 @@
-﻿## [5.1.45.5293]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
-
-## [5.0.45.5292]
+## [5.1.45.5293]
 
 **Correções**
 
