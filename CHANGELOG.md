@@ -4,7 +4,7 @@
 
 * DSML-1493 - BUG - Componente - eSocial - Interno - Erro na consulta do S1299 na versão 1.3 do eSocial!
 
-*DSML-1490 - BUG - Componente - eSocial - [Interno/Externo] - Evento de alteração S-1010 eSocial 1.3 com campos faltantes
+* DSML-1490 - BUG - Componente - eSocial - [Interno/Externo] - Evento de alteração S-1010 eSocial 1.3 com campos faltantes
 Plano de Recuperação
 
 
