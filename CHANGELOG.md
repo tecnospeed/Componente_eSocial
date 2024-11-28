@@ -1,4 +1,15 @@
-﻿## [5.1.44.5291]
+﻿## [5.0.45.5292]
+
+**Correções**
+
+* DSML-1493 - BUG - Componente - eSocial - Interno - Erro na consulta do S1299 na versão 1.3 do eSocial!
+
+*DSML-1490 - BUG - Componente - eSocial - [Interno/Externo] - Evento de alteração S-1010 eSocial 1.3 com campos faltantes
+Plano de Recuperação
+
+
+
+## [5.1.44.5291]
 **Correção**
 
 * DSML-1484 - BUG - Componente - eSocial - Interno - ID quando a inscrição é CPF gerando incorretamente
@@ -230,6 +241,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
