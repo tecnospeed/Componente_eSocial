@@ -1,7 +1,7 @@
 ﻿## [5.1.46.98]
  **Novidades**
 
-* DSML-1602 - compatibilizado com [NT 03/2025](https://tecnospeed.atlassian.net/browse/DSML-1602#:~:text=DSML%2D1602%20%2D%20compatibilizado%20com%20NT%2003/2025)
+* DSML-1602 - compatibilizado com [NT 03/2025](https://blog.tecnospeed.com.br/nota-tecnica-s-1-3-03-2025-leiaute-do-esocial/)
 
 
 ## [5.1.45.5293]
