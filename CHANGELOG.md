@@ -1,10 +1,7 @@
 ﻿## [5.1.46.98]
+ **Novidades**
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
-
-## [5.1.45.5295]
-
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* DSML-1602 - compatibilizado com [NT 03/2025](https://tecnospeed.atlassian.net/browse/DSML-1602#:~:text=DSML%2D1602%20%2D%20compatibilizado%20com%20NT%2003/2025)
 
 
 ## [5.1.45.5293]
