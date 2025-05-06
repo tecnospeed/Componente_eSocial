@@ -1,4 +1,8 @@
-﻿## [5.1.46.98]
+﻿## [5.1.47.100]
+
+25.05.05 | DSML-1724 - Ajustando a procedure Set5003 (Evento do FGTS) para pegar os campos corretamenteAjustando a procedure Set5003 (Evento do FGTS) para pegar os campos corretamente
+
+## [5.1.46.98]
  **Novidades**
 
 * DSML-1602 - compatibilizado com [NT 03/2025](https://blog.tecnospeed.com.br/nota-tecnica-s-1-3-03-2025-leiaute-do-esocial/)
@@ -247,6 +251,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
