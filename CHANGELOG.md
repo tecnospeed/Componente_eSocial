@@ -1,4 +1,11 @@
-﻿## [5.1.47.100]
+﻿## [5.1.48.101]
+
+25.05.15 | Comp - eSocial | DSML-1717 - atualização xsd NT 03/2025 rev.03/04/2025
+25.05.15 | Comp - eSocial | DSML-1700 - Ajuste na exibição do status da tela de evento, para que eventos com retorno que permita tentativas de reenvio, fique como rejeitado, para que habilite o botão de reprocessar da grid
+25.05.15 | Comp - eSocial | DSML-1675 - Vinculação de empregador e grupo com validações indevidas
+25.05.15 | Comp - eSocial | DSML-1615 - Alteração na mensagem de Lotes/Eventos não encontrados devido a migração de dados anteriores a 2020 para o Online Archive.
+
+## [5.1.47.100]
 
 25.05.05 | DSML-1724 - Ajustando a procedure Set5003 (Evento do FGTS) para pegar os campos corretamenteAjustando a procedure Set5003 (Evento do FGTS) para pegar os campos corretamente
 
@@ -251,6 +258,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
