@@ -1,4 +1,8 @@
-﻿## [5.1.48.101]
+﻿## [6.1.0.1]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [5.1.48.101]
 
 25.05.15 | Comp - eSocial | DSML-1717 - atualização xsd NT 03/2025 rev.03/04/2025
 25.05.15 | Comp - eSocial | DSML-1700 - Ajuste na exibição do status da tela de evento, para que eventos com retorno que permita tentativas de reenvio, fique como rejeitado, para que habilite o botão de reprocessar da grid
@@ -258,6 +262,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
