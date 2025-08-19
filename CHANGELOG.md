@@ -1,6 +1,6 @@
 ﻿## [6.1.0.1]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* DSML-1865 Foi compatibilizado o componente eSocial e a API com a [NT 04/2025](https://blog.tecnospeed.com.br/esocial-nota-tecnica-s-1-3-04-2025-ajustes-nos-leiautes/).
 
 ## [5.1.48.101]
 
