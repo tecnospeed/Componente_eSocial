@@ -1,4 +1,10 @@
-﻿## [6.1.0.1]
+﻿## [6.1.0.2]
+
+**Novidades**
+
+* [DSML-1943](https://tecnospeed.atlassian.net/browse/DSML-1943) - Compatibilizando o componente eSocial com a [**Nota Técnica S-1.3 05/2025**](https://blog.tecnospeed.com.br/esocial-nota-tecnica-s-1-3-05-2025-ajustes-nos-leiautes/)
+
+## [6.1.0.1]
 
 * DSML-1865 Foi compatibilizado o componente eSocial e a API com a [NT 04/2025](https://blog.tecnospeed.com.br/esocial-nota-tecnica-s-1-3-04-2025-ajustes-nos-leiautes/).
 
@@ -262,6 +268,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
