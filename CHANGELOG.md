@@ -1,4 +1,14 @@
-﻿## [6.1.0.3]
+﻿## [6.1.0.49]
+
+**Novidades**
+
+* [DSML-1984](https://tecnospeed.atlassian.net/browse/DSML-1984) - Compatibilizando o componente com Delphi 13
+
+**Correções**
+
+* [DSML-2032](https://tecnospeed.atlassian.net/browse/DSML-2032) - Ajustando retorno para o grupo infoIRComplem
+
+## [6.1.0.3]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -272,6 +282,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
