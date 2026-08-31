@@ -1,4 +1,8 @@
-﻿## [6.1.0.51]
+﻿## [6.1.0.59]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [6.1.0.51]
 
 **Novidades**
 
@@ -290,6 +294,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
