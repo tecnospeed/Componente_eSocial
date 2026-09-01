@@ -1,6 +1,7 @@
-﻿## [6.1.0.59]
+## [6.1.0.59]
+**Novidades**
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* [ODSML-29370](http://odoo.tecnospeed.local/odoo/project/40/tasks/29370) - Compatibilizando o componente eSocial com o CNPJ alfanumerico
 
 ## [6.1.0.51]
 
