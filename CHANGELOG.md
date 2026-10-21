@@ -1,4 +1,15 @@
-﻿## [7.1.0.5]
+﻿## [7.1.0.9]
+
+**Novidades**
+
+* [ODSML-34683](http://odoo.tecnospeed.local/odoo/project/40/tasks/34683) - Compatibilizando o componente eSocial com à[ Nota Técnica S-1.3 nº 07/2026](https://blog.tecnospeed.com.br/esocial-nota-tecnica-s-1-3-07-2026/)
+
+**Correções**
+
+* [ODSML-14359](http://odoo.tecnospeed.local/odoo/project/40/tasks/14359) - Ajustando escape de caracteres especiais nas gerações de XML.
+* [ODSML-35721](http://odoo.tecnospeed.local/odoo/project/40/tasks/35721) - Corrige travamento na conversão TX2 para XML com
+
+## [7.1.0.5]
 
 Correções
 
@@ -301,6 +312,7 @@ eSocial: API - Retorno indevido da rota Consultar empregador
 
 * DSP4G-90 - criado prioridade [ListValidCertificates](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360005419193), quando ativado listará no metodo [ListarCertificado ](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360006419813)somente certificados que não estejam vencidos
 * DSP4G-396 - Adicionado ao pacote de instalação do componente o arquivo "IDs_LIBs_eSocial.ini" contendo os ID´s das OCXs.
+
 
 
 
